@@ -1,0 +1,17 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# Environment / secrets
+.env
+.env.*
+config.local.php
+
+# Build / cache
+/cache/
+*.cache

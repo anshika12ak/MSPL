@@ -1,0 +1,294 @@
+/* ── Base ── */
+.footer {
+  background: linear-gradient(180deg, #ffffff 0%, #f8f9fa 100%);
+  padding: 64px 0 32px;
+  border-top: 1px solid rgba(0,0,0,0.05);
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+  color: #0f172a;
+  font-weight: bold;
+}
+
+.footer p, .footer span, .footer a, .footer div, .footer h4 {
+  color: #0f172a !important;
+  font-weight: bold !important;
+}
+.ringText { fill: #0f172a !important; }
+.badgeCenter { background: #1D4E9E !important; }
+.badgeCenter svg { color: #ffffff !important; }
+
+/* ── Top Row ── */
+.topRow {
+  padding-bottom: 8px;
+}
+
+/* ── Brand ── */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  margin-bottom: 24px;
+}
+
+.logoImg {
+  height: 75px;
+  width: auto;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.logoName {
+  font-size: 0.82rem;
+  font-weight: bold;
+  color: #0f172a;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+}
+
+.logoTagline {
+  font-size: 0.6rem;
+  color: #64748b;
+  font-weight: 500;
+  margin-top: 2px;
+}
+
+/* ── Social Buttons ── */
+.socials {
+  display: flex;
+  gap: 10px;
+}
+
+.socialBtn {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid rgba(0,0,0,0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #64748b;
+  text-decoration: none;
+  transition: border-color 0.2s, color 0.2s, background 0.2s;
+}
+
+.socialBtn:hover {
+  border-color: #22a84b;
+  color: #22a84b;
+  background: rgba(34,168,75,0.1);
+}
+
+.socialBtn svg {
+  width: 26px !important;
+  height: 26px !important;
+}
+
+/* ── Service List ── */
+.serviceList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.serviceLink {
+  font-size: 0.96rem;
+  color: #64748b;
+  text-decoration: none;
+  transition: color 0.2s;
+  line-height: 1.3;
+}
+
+.serviceLink:hover {
+  color: #22a84b;
+}
+
+/* ── Get In Touch ── */
+.touchHeading {
+  font-size: 0.95rem;
+  font-weight: 900;
+  color: #0f172a;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.touchPhone,
+.touchEmail {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  color: #64748b;
+  text-decoration: none;
+  margin-bottom: 10px;
+  transition: color 0.2s;
+}
+
+.touchPhone:hover,
+.touchEmail:hover {
+  color: #22a84b;
+}
+
+/* ── Rotating Badge ── */
+.rotatingBadge {
+  position: relative;
+  width: 110px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.rotatingRing {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  animation: spinRing 10s linear infinite;
+}
+
+.ringText {
+  font-size: 11.5px;
+  fill: rgba(0,0,0,0.55);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.badgeCenter {
+  position: relative;
+  z-index: 1;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: #22a84b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: background 0.22s, transform 0.22s;
+}
+
+.rotatingBadge:hover .badgeCenter {
+  background: #1b8c3d;
+  transform: scale(1.1);
+}
+
+@keyframes spinRing {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+/* ── Dividers ── */
+.divider {
+  height: 1px;
+  background: rgba(0,0,0,0.08);
+  margin: 48px 0 32px;
+}
+
+.dividerThin {
+  height: 1px;
+  background: rgba(0,0,0,0.06);
+  margin: 24px 0 20px;
+}
+
+/* ── Middle Nav ── */
+.midNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px 32px;
+}
+
+.midNavLink {
+  font-size: 0.85rem;
+  color: #64748b;
+  text-decoration: none;
+  transition: color 0.2s;
+  white-space: nowrap;
+}
+
+.midNavLink:hover {
+  color: #1D4E9E;
+}
+
+/* ── Bottom ── */
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.legalLinks {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.legalLink {
+  font-size: 0.76rem;
+  color: #64748b;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.legalLink:hover {
+  color: #1D4E9E;
+}
+
+.legalSep {
+  color: rgba(0,0,0,0.2);
+  margin: 0 4px;
+  font-size: 0.76rem;
+}
+
+.copyright {
+  font-size: 0.76rem;
+  color: #64748b;
+}
+
+.copyright span {
+  color: #22a84b;
+}
+
+/* ── Responsive ── */
+@media (max-width: 991px) {
+  .rotatingBadge {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .midNav {
+    gap: 8px 16px;
+  }
+
+  .midNavLink {
+    font-size: 0.78rem;
+  }
+
+  .bottom {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .rotatingBadge {
+    display: none;
+  }
+
+  .touchPhone,
+  .touchEmail {
+    font-size: 0.82rem;
+    word-break: break-all;
+  }
+}
