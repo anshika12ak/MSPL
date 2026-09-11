@@ -164,6 +164,7 @@ $industry_data = [
     </style>
     <meta name="description" content="Custom real estate software for property management, CRM, and online listings.">
     <meta name="keywords" content="real estate software, property management">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="canonical" href="https://www.mithilasoftech.com/industry/real-estate" />
 </head>
 <body>

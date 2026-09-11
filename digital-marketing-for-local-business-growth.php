@@ -68,6 +68,7 @@ $all_blogs = [
     <title><?php echo $title; ?></title>
     <meta name="description" content="Discover how digital marketing helps local businesses attract more customers, improve online visibility, and increase sales in 2026. Learn expert strategies from Mithila Softech.">
     <meta name="keywords" content="Digital marketing services,Local business marketing, SEO services for businesses, Social media marketing company, Website development company, Online business growth, Local SEO services, Digital marketing agency India, Lead generation services">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="assets/image/favicon.jpg" type="image/jpeg">

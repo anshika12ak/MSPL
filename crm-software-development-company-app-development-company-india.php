@@ -51,6 +51,7 @@ $all_blogs = [
     <title><?php echo e($title); ?></title>
     <meta name="description" content="Discover how partnering with a CRM software development company and an app development company India can improve customer relationships, boost engagement, and accelerate business growth.">
     <meta name="keywords" content="CRM software development company, App development company India">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="canonical" href="https://www.mithilasoftech.com/crm-software-development-company-app-development-company-india">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

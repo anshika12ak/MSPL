@@ -44,6 +44,7 @@ $all_blogs = [
     <title><?php echo $title; ?></title>
     <meta name="description" content="Discover how AI development services help businesses automate operations, improve customer experiences, and drive growth. Learn how Mithila Softech builds AI-powered business solutions.">
     <meta name="keywords" content="AI development services, Artificial Intelligence, Business Automation">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="assets/image/favicon.jpg" type="image/jpeg">

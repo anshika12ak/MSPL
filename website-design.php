@@ -168,6 +168,7 @@ $title = 'Website Design & Development | Mithila Softech';
     </style>
     <meta name="description" content="Professional website development services with responsive design and SEO optimization.">
     <meta name="keywords" content="web development India, website design">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="canonical" href="https://www.mithilasoftech.com/services/web-development" />
 </head>
 <body>

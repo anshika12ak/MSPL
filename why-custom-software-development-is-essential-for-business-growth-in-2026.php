@@ -64,6 +64,7 @@ $all_blogs = [
     <title><?php echo $title; ?></title>
     <meta name="description" content="Discover why custom software development is essential for business growth in 2026. Learn how scalable software solutions improve efficiency, automation, customer experience, and productivity.">
     <meta name="keywords" content="Custom software development, software development company India, business software solutions, custom business software, business automation software, enterprise software development, scalable software solutions, digital business growth.">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="assets/image/favicon.jpg" type="image/jpeg">

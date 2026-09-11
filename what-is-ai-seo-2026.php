@@ -35,6 +35,7 @@ $recent_blogs = [
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
 <title><?= e($title) ?></title>
 <meta name="description" content="Learn what AI SEO is, how it works, and why it is essential in 2026. Discover how AI SEO services improve rankings, traffic, and visibility across Google and AI search engines.">
 <meta name="keywords" content="AI SEO, AI SEO services, SEO services for small business, generative engine optimization, GEO optimization services, AEO services, AI search optimization, SEO in 2026">

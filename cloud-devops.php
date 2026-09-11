@@ -135,6 +135,7 @@ $title = 'Cloud & DevOps Solutions | Mithila Softech';
     </style>
     <meta name="description" content="Improve scalability with cloud computing and DevOps solutions for faster deployment.">
     <meta name="keywords" content="cloud services India, DevOps solutions">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="canonical" href="https://www.mithilasoftech.com/services/cloud-devops" />
 </head>
 <body>

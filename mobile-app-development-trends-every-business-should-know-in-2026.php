@@ -64,6 +64,7 @@ $all_blogs = [
     <title><?php echo $title; ?></title>
     <meta name="description" content="Discover the latest mobile app development trends in 2026 including AI apps, cross-platform development, super apps, IoT integration, and business app solutions for digital growth.">
     <meta name="keywords" content="Mobile app development trends 2026, App development company India, Mobile app development services, Business mobile app solutions, AI mobile applications, Cross-platform app development, Android app development, iOS app development, Custom mobile app development, Software development company India">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="assets/image/favicon.jpg" type="image/jpeg">

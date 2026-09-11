@@ -167,6 +167,7 @@ $industry_data = [
     </style>
     <meta name="description" content="Innovative IT solutions for media and entertainment businesses to manage and distribute content.">
     <meta name="keywords" content="media software, entertainment tech">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="canonical" href="https://www.mithilasoftech.com/industry/media-entertainment" />
 </head>
 <body>

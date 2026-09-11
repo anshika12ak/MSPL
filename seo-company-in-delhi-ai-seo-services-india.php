@@ -70,6 +70,7 @@ $all_blogs = [
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <title><?php echo $title; ?></title>
     <meta name="description" content="Looking for the best SEO company in India? Mithila Softech offers AI SEO services, digital marketing solutions, and affordable SEO services for small businesses in Delhi and across India.">
     <meta name="keywords" content="SEO company in Delhi, Best SEO company in India, Digital marketing company in Delhi, SEO services for small business, AI SEO services, affordable SEO company Delhi, website ranking services India, local SEO services Delhi, AI based SEO company, digital marketing agency India">

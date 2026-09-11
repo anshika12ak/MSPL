@@ -52,6 +52,7 @@ $all_blogs = [
     <title><?php echo e($title); ?></title>
     <meta name="description" content="Discover the difference between traditional SEO and AI SEO services. Learn which strategy delivers better rankings, leads, and visibility for small businesses and why combining SEO and AEO is becoming essential.">
     <meta name="keywords" content="AI SEO services, SEO services for small business, SEO company in UK, Best SEO company in UK, Digital marketing company in UK, AEO services">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="canonical" href="https://www.mithilasoftech.com/seo-vs-ai-seo-services-for-small-businesses">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

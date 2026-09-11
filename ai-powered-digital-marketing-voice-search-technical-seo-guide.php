@@ -34,6 +34,7 @@ $recent_blogs = [
 <title><?= e($title) ?></title>
 <meta name="description" content="Discover how AI Powered Digital Marketing helps businesses increase visibility, generate quality leads, improve customer engagement, and boost ROI. Learn the importance of Voice Search Optimization Services, Technical SEO Agency expertise, and AI Content Optimization.">
 <meta name="keywords" content="AI Powered Digital Marketing, Voice Search Optimization Services, Technical SEO Agency, AI Content Optimization">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
 <link rel="canonical" href="https://www.mithilasoftech.com/ai-powered-digital-marketing-voice-search-technical-seo-guide">
 <link rel="shortcut icon" href="assets/image/favicon.jpg" type="image/jpeg">
 <link rel="stylesheet" href="assets/css/style.css?v=20260622">

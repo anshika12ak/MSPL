@@ -273,6 +273,7 @@ $testimonials = [
     </style>
     <meta name="description" content="Learn about Mithila Softech, a trusted IT company offering CRM, ERP, and innovative software solutions for global businesses.">
     <meta name="keywords" content="about software company, IT services India, ERP CRM">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="canonical" href="https://www.mithilasoftech.com/about" />
 </head>
 <body>

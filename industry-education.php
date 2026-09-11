@@ -171,6 +171,7 @@ f         .feature-card:hover::before, .process-card:hover::before, .why-item:ho
     </style>
     <meta name="description" content="Smart education and eLearning software solutions for schools, colleges, and institutes.">
     <meta name="keywords" content="edtech solutions, education software">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="canonical" href="https://www.mithilasoftech.com/industry/education" />
 </head>
 <body>

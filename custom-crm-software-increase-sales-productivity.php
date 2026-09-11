@@ -43,6 +43,7 @@ $all_blogs = [
     <title><?php echo e($title); ?></title>
     <meta name="description" content="Discover how custom CRM software helps businesses improve sales, streamline workflows, strengthen customer relationships, and boost team productivity. Learn why investing in custom software development services is a smart decision for growing businesses.">
     <meta name="keywords" content="custom software development services, CRM software development">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="canonical" href="https://www.mithilasoftech.com/custom-crm-software-increase-sales-productivity">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

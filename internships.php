@@ -20,6 +20,7 @@ $tracks = [
   <title>Internships at Mithila Softech | IT Training Programs</title>
   <meta name="description" content="Apply for internships and gain real-world experience in IT and software development.">
   <meta name="keywords" content="IT internships India">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

@@ -685,6 +685,7 @@ if ($search_query !== '') {
     </style>
     <meta name="description" content="Explore blogs on software development, digital marketing, and IT trends to grow your business online.">
     <meta name="keywords" content="IT blog, tech blog, marketing insights">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="canonical" href="https://www.mithilasoftech.com/blog" />
 </head>
 <body>

@@ -35,6 +35,7 @@ $recent_blogs = [
 <title><?= e($title) ?></title>
 <meta name="description" content="Looking for the best software development services in UK? Discover key factors, benefits, and how custom software solutions can help businesses achieve digital transformation and growth.">
 <meta name="keywords" content="Best software development services in UK, Custom software development UK, Software development company UK, Business software solutions, Enterprise software development, Software development company India">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
 <link rel="canonical" href="https://www.mithilasoftech.com/best-software-development-services-in-uk">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

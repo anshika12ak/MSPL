@@ -44,6 +44,7 @@ $all_blogs = [
     <title><?php echo $title; ?></title>
     <meta name="description" content="Discover the top 10 custom software development companies in 2026. Compare their expertise, services, and find the right technology partner for your business growth.">
     <meta name="keywords" content="Top Custom Software Development Companies, Custom Software Development Services, Best Software Development Company, Software Development Company 2026, Enterprise Software Development, Custom Software Solutions, Web Application Development, Mobile App Development, Mithila Softech">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="assets/image/favicon.jpg" type="image/jpeg">

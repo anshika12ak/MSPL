@@ -34,6 +34,7 @@ $recent_blogs = [
 <title><?= e($title) ?></title>
 <meta name="description" content="Discover how AI integration services help businesses automate operations, improve customer experience, and increase productivity. Learn how Mithila Softech develops custom AI-powered business solutions.">
 <meta name="keywords" content="AI integration services, Custom AI development company, AI software development services, Business process automation, AI solutions for businesses, Enterprise AI solutions, AI-powered business applications, AI chatbot development">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
 <link rel="canonical" href="https://www.mithilasoftech.com/ai-integration-services-for-businesses">
 <link rel="shortcut icon" href="assets/image/favicon.jpg" type="image/jpeg">
 <link rel="stylesheet" href="assets/css/style.css?v=20260718">

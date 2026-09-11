@@ -276,6 +276,7 @@ $industries = [
     }
   </style>
     <meta name="keywords" content="industry software, IT solutions sectors">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="canonical" href="https://www.mithilasoftech.com/industry" />
 </head>
 <body>

@@ -52,6 +52,7 @@ $all_blogs = [
     <title><?php echo e($title); ?></title>
     <meta name="description" content="Learn how businesses can increase visibility, leads, and revenue through technical SEO, AI-driven marketing, voice search optimization, featured snippets, and content enhancement strategies.">
     <meta name="keywords" content="Technical SEO agency, AI powered digital marketing, Voice search optimization services, Featured snippet optimization, AI content optimization, Answer Engine Optimization">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="canonical" href="https://www.mithilasoftech.com/business-growth-through-modern-search-optimization">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

@@ -52,6 +52,7 @@ $all_blogs = [
     <title><?php echo e($title); ?></title>
     <meta name="description" content="Discover how a logistics company improved workflow automation, customer management, operational visibility, and digital growth using custom ERP, CRM, mobile app, and website development solutions.">
     <meta name="keywords" content="Custom software development services, ERP software development company, CRM software development company, App development company, Website development services">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="canonical" href="https://www.mithilasoftech.com/custom-software-development-logistics-business-case-study">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

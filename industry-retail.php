@@ -165,6 +165,7 @@ $industry_data = [
     </style>
     <meta name="description" content="Build powerful retail and eCommerce platforms with secure and scalable solutions.">
     <meta name="keywords" content="ecommerce development, retail software">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="canonical" href="https://www.mithilasoftech.com/industry/retail-ecommerce" />
 </head>
 <body>

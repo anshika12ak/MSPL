@@ -44,6 +44,7 @@ $all_blogs = [
     <title><?php echo $title; ?></title>
     <meta name="description" content="Looking for a reliable ERP software development company? Discover how Mithila Softech delivers custom ERP solutions that streamline business operations, improve productivity, and accelerate growth.">
     <meta name="keywords" content="ERP software development company, custom ERP software development, ERP software solutions, enterprise resource planning software, ERP development services, business automation software">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="assets/image/favicon.jpg" type="image/jpeg">

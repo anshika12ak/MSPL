@@ -50,6 +50,7 @@ $all_blogs = [
     <title><?php echo $title; ?></title>
     <meta name="description" content="Explore how Nike became a global digital marketing leader through SEO, social media, influencer marketing, and data-driven campaigns. Learn key online growth strategies.">
     <meta name="keywords" content="Nike digital marketing case study, online brand growth strategy, social media marketing success, influencer marketing case study, SEO success story, digital transformation case study, performance marketing strategies, eCommerce marketing growth, digital branding examples, online business growth">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="assets/image/favicon.jpg" type="image/jpeg">

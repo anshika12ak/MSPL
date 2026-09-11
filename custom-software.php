@@ -158,6 +158,7 @@ $title = 'Custom IT Solutions | Mithila Softech';
     </style>
     <meta name="description" content="Tailored IT solutions to meet unique business needs with scalable software systems.">
     <meta name="keywords" content="custom software development">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="canonical" href="https://www.mithilasoftech.com/services/custom-it-solutions" />
 </head>
 <body>

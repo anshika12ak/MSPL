@@ -199,6 +199,7 @@ $industry_data = [
 
     <meta name="description" content="Advanced healthcare software solutions for hospitals, clinics, and medical businesses.">
     <meta name="keywords" content="healthcare IT, hospital software">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="canonical" href="https://www.mithilasoftech.com/industry/healthcare" />
 </head>
 <body>

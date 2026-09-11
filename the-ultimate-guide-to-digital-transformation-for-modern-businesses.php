@@ -64,6 +64,7 @@ $all_blogs = [
     <title><?php echo $title; ?></title>
     <meta name="description" content="Learn how digital transformation helps modern businesses improve efficiency, automate operations, enhance customer experience, and drive growth using modern digital solutions and custom software.">
     <meta name="keywords" content="Digital transformation for businesses, digital transformation services, business automation solutions, software development company India, custom software development, digital business solutions, cloud business solutions, AI business automation.">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="assets/image/favicon.jpg" type="image/jpeg">

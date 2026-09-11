@@ -44,6 +44,7 @@ $all_blogs = [
     <title><?php echo $title; ?></title>
     <meta name="description" content="<?php echo $hero_subtext; ?>">
     <meta name="keywords" content="SEO marketing campaign, Technical SEO agency, AI powered digital marketing, Voice search optimization services, Featured snippet optimization, AI content optimization, SEO services, Search engine optimization, Digital marketing company, Technical SEO, On-page SEO">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="assets/image/favicon.jpg" type="image/jpeg">

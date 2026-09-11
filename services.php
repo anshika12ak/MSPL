@@ -253,6 +253,7 @@ $services = [
     </style>
     <meta name="description" content="Comprehensive IT services including software development, web, mobile apps &amp; marketing.">
     <meta name="keywords" content="IT services India, software services">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="canonical" href="https://www.mithilasoftech.com/services" />
 </head>
 <body>

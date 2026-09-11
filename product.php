@@ -91,6 +91,7 @@ $fallbackImg = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' wid
     .reveal.in-view { opacity: 1; transform: translateY(0); }
   </style>
     <meta name="keywords" content="software products, business solutions">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="canonical" href="https://www.mithilasoftech.com/product" />
 </head>
 <body>

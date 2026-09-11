@@ -35,6 +35,7 @@ $recent_blogs = $recent_blogs ?? [
     <title><?php echo e($title); ?></title>
     <meta name="description" content="<?php echo e($meta_description); ?>">
     <meta name="keywords" content="<?php echo e($meta_keywords); ?>">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="canonical" href="<?php echo e($canonical); ?>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

@@ -52,6 +52,7 @@ $all_blogs = [
     <title><?php echo e($title); ?></title>
     <meta name="description" content="Discover how businesses can improve online visibility, generate quality leads, and increase revenue through expert SEO, content marketing, eCommerce optimization, B2B strategies, and SaaS-focused digital growth solutions.">
     <meta name="keywords" content="SEO outsourcing company India, Content marketing services India, E commerce SEO services, B2B SEO agency, SaaS SEO agency">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="canonical" href="https://www.mithilasoftech.com/specialized-digital-marketing-services-for-business-growth">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

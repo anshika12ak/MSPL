@@ -22,6 +22,7 @@ $title = 'Terms and Conditions | Mithila Softech';
     </style>
     <meta name="description" content="Review the terms and conditions for using Mithila Softech website and services.">
     <meta name="keywords" content="terms conditions website">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="canonical" href="https://www.mithilasoftech.com/terms-conditions" />
 </head>
 <body>

@@ -22,6 +22,7 @@ $title = 'Privacy Policy | Mithila Softech';
     </style>
     <meta name="description" content="Read our privacy policy to understand how we collect, use, and protect your data.">
     <meta name="keywords" content="privacy policy IT company">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="canonical" href="https://www.mithilasoftech.com/privacy-policy" />
 </head>
 <body>

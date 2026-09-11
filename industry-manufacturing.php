@@ -206,6 +206,7 @@ $industry_data = [
     </style>
     <meta name="description" content="Optimize manufacturing operations with custom software solutions for automation, ERP, and efficiency.">
     <meta name="keywords" content="manufacturing software, ERP manufacturing">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="canonical" href="https://www.mithilasoftech.com/industry/manufacturing" />
 </head>
 <body>

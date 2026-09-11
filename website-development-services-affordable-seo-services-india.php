@@ -51,6 +51,7 @@ $all_blogs = [
     <title><?php echo e($title); ?></title>
     <meta name="description" content="Discover how professional website development services and affordable SEO services India can improve online visibility, generate quality leads, and accelerate business growth.">
     <meta name="keywords" content="Website development services, Affordable SEO services India">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="canonical" href="https://www.mithilasoftech.com/website-development-services-affordable-seo-services-india">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

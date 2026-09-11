@@ -69,6 +69,7 @@ $all_blogs = [
     <title><?= e($title) ?></title>
     <meta name="description" content="Confused between Local SEO and Traditional SEO? This guide breaks down the differences, benefits, and helps you decide which strategy is best for your business in 2026.">
     <meta name="keywords" content="Local SEO, Traditional SEO, SEO strategy 2026, local vs traditional SEO, SEO for business, local search ranking, national SEO.">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="canonical" href="https://www.mithilasoftech.com/local-seo-vs-traditional-seo-2026">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

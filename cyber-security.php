@@ -50,6 +50,7 @@ $title = 'Custom IT Solutions | Mithila Softech';
     </style>
     <meta name="description" content="Protect your business with advanced cyber security and data protection solutions.">
     <meta name="keywords" content="cyber security India, data protection">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="canonical" href="https://www.mithilasoftech.com/services/cyber-security" />
 </head>
 <body>

@@ -69,6 +69,7 @@ $all_blogs = [
     <title><?php echo $title; ?></title>
     <meta name="description" content="Discover why professional SEO services are essential for small businesses in 2026 to improve Google rankings, increase website traffic, generate leads, and grow online visibility.">
     <meta name="keywords" content="SEO services for small business, professional SEO services, digital marketing company India, local SEO, organic search growth, improve Google rankings.">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="assets/image/favicon.jpg" type="image/jpeg">

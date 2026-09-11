@@ -154,6 +154,7 @@ $title = 'Recruitment Services | Mithila Softech';
     </style>
     <meta name="description" content="Find skilled IT professionals with our recruitment and staffing solutions.">
     <meta name="keywords" content="IT recruitment India, hiring developers">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="canonical" href="https://www.mithilasoftech.com/services/recruitment-services" />
 </head>
 <body>

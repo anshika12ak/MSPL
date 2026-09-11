@@ -244,7 +244,8 @@ $testimonials = [
     <title>Custom Software & IT Company India | Mithila Softech</title>
     <meta name="description" content="Mithila Softech delivers custom software, web, mobile apps &amp; digital marketing services to help businesses grow with scalable IT solutions.">
     <meta name="keywords" content="IT company India, software development, web development, app development">
-    
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" href="assets/image/favicon.jpg" type="image/jpeg">

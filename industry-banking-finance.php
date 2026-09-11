@@ -207,6 +207,7 @@ $industry_data = [
     </style>
     <meta name="description" content="Secure and scalable fintech and banking software solutions for modern financial services.">
     <meta name="keywords" content="fintech software, banking IT solutions">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="canonical" href="https://www.mithilasoftech.com/industry/banking-finance" />
 </head>
 <body>

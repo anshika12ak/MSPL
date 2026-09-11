@@ -45,6 +45,7 @@ $all_blogs = [
     <title><?php echo $title; ?></title>
     <meta name="description" content="Discover how Mithila Softech helped a real estate brand generate ₹3.2 crore in property sales using SEO, AEO, social media marketing, Google Ads, and lead generation strategies.">
     <meta name="keywords" content="Digital Marketing for Real Estate, Real Estate Digital Marketing Services, SEO for Real Estate Companies, Property Lead Generation Services, Real Estate SEO Services, AEO Services for Real Estate, AI Search Optimization, Real Estate Social Media Marketing,Property Branding Agency, Digital Advertising for Builders, Luxury Property Marketing, Performance Marketing for Real Estate">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="assets/image/favicon.jpg" type="image/jpeg">

@@ -52,6 +52,7 @@ $all_blogs = [
     <title><?php echo e($title); ?></title>
     <meta name="description" content="Looking for the best digital marketing company in Canada? Discover how digital marketing combined with custom software development services, ERP solutions, and CRM systems helps businesses scale efficiently.">
     <meta name="keywords" content="Best Digital Marketing Company in Canada, Custom software development services, ERP software development company, CRM software development company">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="canonical" href="https://www.mithilasoftech.com/best-digital-marketing-company-canada-integrated-business-growth">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

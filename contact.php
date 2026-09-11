@@ -283,6 +283,7 @@ $testimonials = [
     </style>
     <meta name="description" content="Contact Mithila Softech for software, web, mobile app &amp; digital marketing services. Let’s build your solution today.">
     <meta name="keywords" content="contact IT company, hire developers India">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="canonical" href="https://www.mithilasoftech.com/contact" />
 </head>
 <body>

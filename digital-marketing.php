@@ -154,6 +154,7 @@ $title = 'Digital Marketing | Mithila Softech';
     </style>
     <meta name="description" content="Boost traffic and leads with SEO, social media marketing, and branding solutions.">
     <meta name="keywords" content="digital marketing India, SEO services">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="canonical" href="https://www.mithilasoftech.com/services/digital-marketing" />
 </head>
 <body>

@@ -139,6 +139,7 @@ $title = 'Mobile App Development | Mithila Softech';
     </style>
     <meta name="description" content="Build secure and scalable mobile apps for Android and iOS platforms.">
     <meta name="keywords" content="mobile app development India">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="canonical" href="https://www.mithilasoftech.com/services/mobile-app-development" />
 </head>
 <body>

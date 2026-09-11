@@ -20,6 +20,7 @@ $benefits = [
   <title>Careers at Mithila Softech | IT Jobs India</title>
   <meta name="description" content="Join Mithila Softech and build your career in software development and IT services.">
   <meta name="keywords" content="IT jobs India, careers software company">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

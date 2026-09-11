@@ -165,6 +165,7 @@ $industry_data = [
     </style>
     <meta name="description" content="Improve logistics and transport operations with smart tracking and management software.">
     <meta name="keywords" content="logistics software, transport management">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="canonical" href="https://www.mithilasoftech.com/industry/transport-logistics" />
 </head>
 <body>

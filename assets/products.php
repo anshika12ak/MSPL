@@ -13,6 +13,7 @@ $fallbackImg = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' wid
   <title>Best CRM and ERP Software Development Company – Mithila Softech</title>
   <meta name="description" content="Mithila Softech is a leading CRM & ERP software development company delivering custom, affordable, and scalable solutions for businesses.">
   <meta name="keywords" content="Best CRM and ERP software development company, custom ERP software development India, CRM solutions company Bihar, affordable ERP and CRM developers, enterprise software development services, Mithila Softech CRM ERP experts">
+    <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
 <style>
     :root{
       --primary-blue:#1e3a8a;
