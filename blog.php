@@ -20,6 +20,22 @@ $title = 'Mithila Softech Blog - Insights on Software, Transformation, Analytics
 
 $blogs = [
     [
+        "title" => "Best App Development Services in USA | Mithila Softech",
+        "excerpt" => "Looking for professional app development services in USA? Mithila Softech delivers custom mobile applications for businesses, startups, and enterprises with scalable technology, intuitive UI/UX, and reliable development solutions.",
+        "date" => "September 11, 2026",
+        "category" => "Mobile Development",
+        "img" => "assets/image/bestmarketingusa.jpeg",
+        "link" => "app-development-services-usa",
+    ],
+    [
+        "title" => "Best Marketing Company in Dubai for Business Growth | Mithila Softech",
+        "excerpt" => "Finding the best marketing company in Dubai can help businesses improve online visibility, attract qualified customers, and increase conversions. Learn what to look for when choosing a digital marketing partner in Dubai.",
+        "date" => "September 8, 2026",
+        "category" => "Digital Marketing",
+        "img" => "assets/image/bestmarketingdubai.jpeg",
+        "link" => "best-marketing-company-in-dubai",
+    ],
+    [
         "title" => "Best Website Development Services in Dubai for Business Growth | Mithila Softech",
         "excerpt" => "A professional website is essential for businesses competing in Dubai's highly competitive digital market. Discover how the best website development services in Dubai can help improve your online presence, attract customers, generate leads, and support long-term business growth.",
         "date" => "September 5, 2026",
