@@ -11,6 +11,14 @@ function e($v){ return htmlspecialchars((string)$v, ENT_QUOTES, "UTF-8"); }
 
 $all_blogs = [
     [
+        "title" => "Best Custom Software Agency in Dubai for Business Growth",
+        "excerpt" => "Looking for the best custom software agency in Dubai? Discover how tailored software development solutions can help businesses improve operations, automate processes, and build scalable digital platforms.",
+        "date" => "September 12, 2026",
+        "category" => "Technology",
+        "img" => "assets/image/blog9.png",
+        "link" => "best-custom-software-agency-dubai.php",
+    ],
+    [
         "title" => "Best Marketing Company in Dubai: How to Choose the Right Digital Marketing Partner",
         "excerpt" => "Finding the best marketing company in Dubai can help businesses improve online visibility, attract qualified customers, and increase conversions.",
         "date" => "September 8, 2026",
@@ -135,6 +143,7 @@ $all_blogs = [
 <p>A professional marketing partner can help your business build a stronger online presence, attract the right audience, generate qualified leads, and turn website visitors into customers.</p>
 
 <h2>Why Businesses in Dubai Need Digital Marketing</h2>
+<img src="assets/image/how-to-choose-marketing-partner-dubai.png" alt="How to Choose the Best Marketing Partner in Dubai" class="blog-image" onerror="this.onerror=null;this.src='<?php echo $fallbackImg; ?>';">
 <p>Dubai has a highly competitive business environment. Customers have numerous options available to them, and most begin their buying journey online.</p>
 <p>Whether someone is searching for a restaurant, real estate company, IT service, beauty salon, eCommerce store, or professional service, search engines and social media often influence their purchasing decisions.</p>
 <p>A strong digital marketing strategy helps businesses:</p>
@@ -149,7 +158,7 @@ $all_blogs = [
     <li>Compete with established businesses</li>
     <li>Measure marketing performance</li>
 </ul>
-<p>Working with an experienced digital marketing agency in Dubai can help businesses create a strategy based on their industry, audience, competition, and business objectives.</p>
+<p>Working with an experienced <a href="digital-marketing.php">digital marketing agency</a> in Dubai can help businesses create a strategy based on their industry, audience, competition, and business objectives.</p>
 
 <h2>What Makes the Best Marketing Company in Dubai?</h2>
 <p>There are many agencies offering digital marketing services in Dubai, but not every agency follows the same approach.</p>
@@ -159,9 +168,9 @@ $all_blogs = [
 <p>A reliable marketing agency in Dubai should be able to provide multiple digital marketing services under one strategy.</p>
 <p>These may include:</p>
 <ul>
-    <li>Search Engine Optimization (SEO)</li>
+    <li><a href="seo-services.php">Search Engine Optimization (SEO)</a></li>
     <li>Local SEO</li>
-    <li>Social media marketing</li>
+    <li><a href="social-media-marketing.php">Social media marketing</a></li>
     <li>Google Ads and PPC</li>
     <li>Content marketing</li>
     <li>Email marketing</li>
@@ -174,7 +183,7 @@ $all_blogs = [
 
 <h3>2. Strong SEO Strategy</h3>
 <p>SEO is one of the most important components of long-term online growth.</p>
-<p>A professional SEO company in Dubai should focus on more than simply adding keywords to a website. A complete SEO strategy can include:</p>
+<p>A professional <a href="seo-services.php">SEO company</a> in Dubai should focus on more than simply adding keywords to a website. A complete SEO strategy can include:</p>
 <ul>
     <li>Keyword research</li>
     <li>Technical SEO</li>
@@ -190,7 +199,7 @@ $all_blogs = [
 
 <h3>3. Effective Social Media Marketing</h3>
 <p>Dubai has a highly active social media audience, making platforms such as Instagram, Facebook, LinkedIn, and other social networks valuable marketing channels.</p>
-<p>Professional social media marketing in Dubai can help businesses:</p>
+<p>Professional <a href="social-media-marketing.php">social media marketing</a> in Dubai can help businesses:</p>
 <ul>
     <li>Build brand awareness</li>
     <li>Engage with potential customers</li>

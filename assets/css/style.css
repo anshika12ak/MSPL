@@ -756,7 +756,7 @@ p, li {
 .recent-post-item img {
   display: block !important;
   max-width: 100% !important;
-  object-fit: cover !important;
+  object-fit: contain !important;
   object-position: center center !important;
   background: transparent !important;
   border-radius: 20px !important;
@@ -767,7 +767,8 @@ p, li {
 .blog-thumb-wrap > img {
   width: 100% !important;
   height: 100% !important;
-  object-fit: cover !important;
+  object-fit: contain !important;
+  background: #020617 !important;
 }
 
 .blog-image,

@@ -20,6 +20,14 @@ $title = 'Mithila Softech Blog - Insights on Software, Transformation, Analytics
 
 $blogs = [
     [
+        "title" => "Best Custom Software Development Agency in Dubai | Mithila Softech",
+        "excerpt" => "Looking for the best custom software agency in Dubai? Discover how tailored software development solutions can help businesses improve operations, automate processes, and build scalable digital platforms.",
+        "date" => "September 12, 2026",
+        "category" => "Technology",
+        "img" => "assets/image/bestsoftwaredubai.jpeg",
+        "link" => "best-custom-software-agency-dubai",
+    ],
+    [
         "title" => "Best App Development Services in USA | Mithila Softech",
         "excerpt" => "Looking for professional app development services in USA? Mithila Softech delivers custom mobile applications for businesses, startups, and enterprises with scalable technology, intuitive UI/UX, and reliable development solutions.",
         "date" => "September 11, 2026",
