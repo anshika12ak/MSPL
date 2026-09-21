@@ -20,6 +20,30 @@ $title = 'Mithila Softech Blog - Insights on Software, Transformation, Analytics
 
 $blogs = [
     [
+        "title" => "AI Search Optimization Company: How AI-Ready Websites Drive Business Growth | Mithila Softech",
+        "excerpt" => "Looking for an AI search optimization company? Learn how AI-ready SEO, web development and custom software solutions can help businesses grow online.",
+        "date" => "September 19, 2026",
+        "category" => "Technology",
+        "img" => "assets/image/aisearchera.png",
+        "link" => "ai-search-optimization-web-development-custom-software",
+    ],
+    [
+        "title" => "Why Your Website Gets Traffic but No Leads: 9 Problems to Fix",
+        "excerpt" => "Is your website getting visitors but not generating leads? Discover 9 common website problems and practical solutions to turn traffic into business enquiries.",
+        "date" => "September 17, 2026",
+        "category" => "Web Design",
+        "img" => "assets/image/website-development-seo-services.jpeg",
+        "link" => "website-gets-traffic-but-no-leads",
+    ],
+    [
+        "title" => "Best Marketing Services in Dubai for Business Growth | Mithila Softech",
+        "excerpt" => "Discover the best marketing services in Dubai, including SEO, social media, Google Ads and content marketing to increase visibility and leads.",
+        "date" => "September 15, 2026",
+        "category" => "Digital Marketing",
+        "img" => "assets/image/best-marketing-services-in-dubai.jpg",
+        "link" => "best-marketing-services-in-dubai",
+    ],
+    [
         "title" => "Best Custom Software Development Agency in Dubai | Mithila Softech",
         "excerpt" => "Looking for the best custom software agency in Dubai? Discover how tailored software development solutions can help businesses improve operations, automate processes, and build scalable digital platforms.",
         "date" => "September 12, 2026",

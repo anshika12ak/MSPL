@@ -11,36 +11,36 @@ function e($v){ return htmlspecialchars((string)$v, ENT_QUOTES, "UTF-8"); }
 
 $all_blogs = [
     [
+        "title" => "How AI Search Optimization, Web Development and Custom Software Can Help Your Business Grow",
+        "excerpt" => "AI is changing how customers discover businesses online. Learn how AI search optimization, web development, and custom software drive growth.",
+        "date" => "September 19, 2026",
+        "category" => "Technology",
+        "img" => "assets/image/aisearchera.png",
+        "link" => "ai-search-optimization-web-development-custom-software.php",
+    ],
+    [
+        "title" => "Why Your Website Gets Traffic but No Leads: 9 Problems to Fix",
+        "excerpt" => "Is your website getting visitors but not generating leads? Discover 9 common website problems and practical solutions to turn traffic into business enquiries.",
+        "date" => "September 17, 2026",
+        "category" => "Web Design",
+        "img" => "assets/image/website-development-seo-services.jpeg",
+        "link" => "website-gets-traffic-but-no-leads.php",
+    ],
+    [
+        "title" => "Best Marketing Services in Dubai: Grow Your Business Online",
+        "excerpt" => "Looking for the best marketing services in Dubai? Discover how SEO, social media marketing, Google Ads, content marketing and performance marketing help businesses grow.",
+        "date" => "September 15, 2026",
+        "category" => "Digital Marketing",
+        "img" => "assets/image/digitalmarketingheader.png",
+        "link" => "best-marketing-services-in-dubai.php",
+    ],
+    [
         "title" => "Best Custom Software Agency in Dubai for Business Growth",
-        "excerpt" => "Looking for the best custom software agency in Dubai? Discover how tailored software development solutions can help businesses improve operations, automate processes, and build scalable digital platforms.",
+        "excerpt" => "Looking for the best custom software agency in Dubai? Discover how tailored software development solutions can help businesses improve operations.",
         "date" => "September 12, 2026",
         "category" => "Technology",
-        "img" => "assets/image/blog9.png",
+        "img" => "assets/image/bestsoftwaredubai.jpeg",
         "link" => "best-custom-software-agency-dubai.php",
-    ],
-    [
-        "title" => "App Development Services in USA for Growing Businesses",
-        "excerpt" => "Looking for professional app development services in USA? Mithila Softech delivers custom mobile applications for businesses, startups, and enterprises.",
-        "date" => "September 11, 2026",
-        "category" => "Mobile Development",
-        "img" => "assets/image/bestmarketingusa.jpeg",
-        "link" => "app-development-services-usa.php",
-    ],
-    [
-        "title" => "Best Marketing Company in Dubai: How to Choose the Right Digital Marketing Partner",
-        "excerpt" => "Finding the best marketing company in Dubai can help businesses improve online visibility, attract qualified customers, and increase conversions.",
-        "date" => "September 8, 2026",
-        "category" => "Digital Marketing",
-        "img" => "assets/image/bestmarketingdubai.jpeg",
-        "link" => "best-marketing-company-in-dubai.php",
-    ],
-    [
-        "title" => "how-digital-marketing-helps-local-businesses-grow-faster-in-2026",
-        "excerpt" => "Digital marketing has become essential for every local business that wants to grow in today's competitive market.",
-        "date" => "May 25, 2026",
-        "category" => "Digital Marketing",
-        "img" => "assets/image/blog6.png?v=20260610-1659",
-        "link" => "how-digital-marketing-helps-local-businesses-grow-faster-in-2026.php",
     ]
 ];
 ?>
@@ -53,6 +53,7 @@ $all_blogs = [
     <meta name="description" content="Get reliable app development services in USA from Mithila Softech. Build custom, scalable Android, iOS, Flutter and React Native apps.">
     <meta name="keywords" content="app development services USA, mobile app development services USA, app development company USA, mobile app development company USA, custom app development USA, Android app development USA, iOS app development USA, Flutter app development USA, React Native app development USA">
     <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
+    <link rel="canonical" href="https://mithilasoftech.com/app-development-services-usa">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="assets/image/favicon.jpg" type="image/jpeg">
