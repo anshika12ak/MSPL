@@ -79,7 +79,8 @@ $all_blogs = [
         .blog-body li { margin-bottom: 10px; color: var(--muted); }
         .blog-body a { color: var(--green); font-weight: 600; text-decoration: underline; }
         .blog-body a:hover { color: var(--blue-dark); }
-        .blog-image { width: 100%; height: auto; border-radius: 16px; margin-bottom: 40px; box-shadow: var(--shadow); }
+        .blog-image { width: 100%; height: auto; border-radius: 16px; margin-bottom: 30px; box-shadow: var(--shadow); }
+        .blog-internal-image { display: block; max-width: 440px; width: 100%; height: auto; margin: 24px auto 32px; border-radius: 12px; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06); border: 1px solid #e5e7eb; }
         .flow-diagram { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 12px; padding: 24px; text-align: center; margin: 30px 0; font-weight: 600; color: var(--blue-dark); line-height: 2; }
         .question-box { background: #f8fafc; border-left: 4px solid var(--blue-dark); padding: 18px 22px; border-radius: 8px; margin: 24px 0; }
         .question-box ol { margin: 0; padding-left: 20px; }
@@ -157,7 +158,7 @@ $all_blogs = [
                     <p>This is where AI search optimization, professional web development, and custom software development work seamlessly together.</p>
 
                     <h2>What Is AI Search Optimization?</h2>
-                    <img src="assets/image/how-ai-is-transforming-digital-marketing.png" alt="How AI Is Transforming Digital Marketing and AI Search" class="blog-image" onerror="this.onerror=null;this.src='<?php echo $fallbackImg; ?>';">
+                    <img src="assets/image/from-discovery-to-growth-ai-search-infographic.png?v=<?php echo time(); ?>" alt="From Discovery to Growth: How AI Search Optimization, Web Development and Custom Software Work Together" class="blog-internal-image" onerror="this.onerror=null;this.src='<?php echo $fallbackImg; ?>';">
                     <p><a href="what-is-ai-seo-2026.php">AI search optimization</a> focuses on making a business's online information easier for AI-powered search systems to understand, interpret, and cite when answering relevant user queries.</p>
                     <p>Traditional SEO often focuses on keywords, rankings, backlinks, technical optimization, and search intent.</p>
                     <p>AI-focused optimization goes further by helping search systems clearly understand:</p>

@@ -79,7 +79,8 @@ $all_blogs = [
         .blog-body li { margin-bottom: 10px; color: var(--muted); }
         .blog-body a { color: var(--green); font-weight: 600; text-decoration: underline; }
         .blog-body a:hover { color: var(--blue-dark); }
-        .blog-image { width: 100%; height: auto; border-radius: 16px; margin-bottom: 40px; box-shadow: var(--shadow); }
+        .blog-image { width: 100%; height: auto; border-radius: 16px; margin-bottom: 30px; box-shadow: var(--shadow); }
+        .blog-internal-image { display: block; max-width: 440px; width: 100%; height: auto; margin: 24px auto 32px; border-radius: 12px; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06); border: 1px solid #e5e7eb; }
         .blog-layout { display: flex; gap: 40px; align-items: flex-start; }
         .blog-main { flex: 1; min-width: 0; }
         .blog-sidebar { width: 360px; flex-shrink: 0; position: sticky; top: 120px; display: flex; flex-direction: column; gap: 40px; }
@@ -153,7 +154,7 @@ $all_blogs = [
                     <p>The right marketing strategy can help a business improve its online visibility, attract relevant visitors, generate qualified leads and convert prospects into customers.</p>
 
                     <h2>Why Businesses Need Marketing Services in Dubai</h2>
-                    <img src="assets/image/digital-marketing-agency-infographic.png" alt="Digital Marketing Agency Services Dubai Infographic" class="blog-image" onerror="this.onerror=null;this.src='<?php echo $fallbackImg; ?>';">
+                    <img src="assets/image/best-marketing-services-in-dubai-flowchart.png?v=<?php echo time(); ?>" alt="Best Marketing Services in Dubai for Business Growth Infographic" class="blog-internal-image" onerror="this.onerror=null;this.src='<?php echo $fallbackImg; ?>';">
                     <p>The Dubai market is highly competitive across industries such as <a href="industry-real-estate.php">real estate</a>, <a href="industry-healthcare.php">healthcare</a>, hospitality, <a href="industry-education.php">education</a>, construction, <a href="industry-retail.php">retail</a>, <a href="industry-banking-finance.php">finance</a> and professional services.</p>
                     <p>Professional marketing services can help businesses:</p>
                     <ul>

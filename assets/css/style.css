@@ -772,13 +772,32 @@ p, li {
 }
 
 .blog-image,
-.blog-main > img,
-.blog-body > img,
-.blog-content > img {
+.blog-main > img:not(.blog-internal-image):not(.blog-inline-image),
+.blog-body > img:not(.blog-internal-image):not(.blog-inline-image),
+.blog-content > img:not(.blog-internal-image):not(.blog-inline-image) {
   width: 100% !important;
   height: auto !important;
   border: 1px solid rgba(15, 23, 42, 0.12) !important;
   box-shadow: 0 16px 40px rgba(15, 23, 42, 0.14) !important;
+}
+
+.blog-internal-image,
+.blog-inline-image,
+.blog-body img.blog-internal-image,
+.blog-body img.blog-inline-image,
+.blog-content img.blog-internal-image,
+.blog-content img.blog-inline-image,
+.blog-main .blog-body img.blog-internal-image,
+.blog-main .blog-body img.blog-inline-image {
+  display: block !important;
+  max-width: 440px !important;
+  width: 100% !important;
+  height: auto !important;
+  margin: 24px auto 32px !important;
+  border-radius: 12px !important;
+  border: 1px solid #e5e7eb !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06) !important;
+  object-fit: contain !important;
 }
 
 .recent-post-thumb,
@@ -817,11 +836,19 @@ p, li {
   }
 
   .blog-image,
-  .blog-main img,
-  .blog-content img,
-  .blog-body img {
+  .blog-main > img:not(.blog-internal-image):not(.blog-inline-image),
+  .blog-content > img:not(.blog-internal-image):not(.blog-inline-image),
+  .blog-body > img:not(.blog-internal-image):not(.blog-inline-image) {
     width: 100% !important;
     height: auto !important;
+  }
+
+  .blog-internal-image,
+  .blog-inline-image {
+    max-width: 100% !important;
+    width: 100% !important;
+    height: auto !important;
+    margin: 20px auto 26px !important;
   }
 
   .recent-post-thumb,
@@ -1294,7 +1321,7 @@ p, li {
     }
 
     body:has(.blog-content-wrap) .blog-image,
-    body:has(.blog-content-wrap) .blog-body > img {
+    body:has(.blog-content-wrap) .blog-body > img:not(.blog-internal-image):not(.blog-inline-image) {
         display: block !important;
         width: 100% !important;
         max-width: 100% !important;
@@ -1306,6 +1333,17 @@ p, li {
         margin: 0 0 22px !important;
         box-shadow: 0 10px 24px rgba(15, 23, 42, 0.14) !important;
         transform: none !important;
+    }
+
+    body:has(.blog-content-wrap) .blog-internal-image,
+    body:has(.blog-content-wrap) .blog-inline-image {
+        display: block !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        height: auto !important;
+        margin: 20px auto 26px !important;
+        border-radius: 12px !important;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06) !important;
     }
 
     body:has(.blog-content-wrap) .blog-sidebar {

@@ -71,7 +71,8 @@ $all_blogs = [
         .blog-body li { margin-bottom: 10px; color: var(--muted); }
         .blog-body a { color: var(--green); font-weight: 600; text-decoration: underline; }
         .blog-body a:hover { color: var(--blue-dark); }
-        .blog-image { width: 100%; height: auto; border-radius: 16px; margin-bottom: 40px; box-shadow: var(--shadow); }
+        .blog-image { width: 100%; height: auto; border-radius: 16px; margin-bottom: 30px; box-shadow: var(--shadow); }
+        .blog-internal-image { display: block; max-width: 440px; width: 100%; height: auto; margin: 24px auto 32px; border-radius: 12px; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06); border: 1px solid #e5e7eb; }
         .blog-layout { display: flex; gap: 40px; align-items: flex-start; }
         .blog-main { flex: 1; min-width: 0; }
         .blog-sidebar { width: 360px; flex-shrink: 0; position: sticky; top: 120px; display: flex; flex-direction: column; gap: 40px; }
@@ -144,7 +145,7 @@ $all_blogs = [
 <p>A professional marketing partner can help your business build a stronger online presence, attract the right audience, generate qualified leads, and turn website visitors into customers.</p>
 
 <h2>Why Businesses in Dubai Need Digital Marketing</h2>
-<img src="assets/image/how-to-choose-marketing-partner-dubai.png" alt="How to Choose the Best Marketing Partner in Dubai" class="blog-image" onerror="this.onerror=null;this.src='<?php echo $fallbackImg; ?>';">
+<img src="assets/image/how-to-choose-marketing-partner-dubai.png?v=<?php echo time(); ?>" alt="How to Choose the Best Marketing Partner in Dubai" class="blog-internal-image" onerror="this.onerror=null;this.src='<?php echo $fallbackImg; ?>';">
 <p>Dubai has a highly competitive business environment. Customers have numerous options available to them, and most begin their buying journey online.</p>
 <p>Whether someone is searching for a restaurant, real estate company, IT service, beauty salon, eCommerce store, or professional service, search engines and social media often influence their purchasing decisions.</p>
 <p>A strong digital marketing strategy helps businesses:</p>

@@ -58,6 +58,7 @@ $recent_blogs = $recent_blogs ?? [
         .blog-body li { margin-bottom: 10px; color: var(--muted); }
         .blog-body a { color: var(--blue-dark); text-decoration: underline; font-weight: 600; }
         .blog-image { width: 100%; height: auto; border-radius: 20px; margin-bottom: 40px; border: 1px solid rgba(15, 23, 42, 0.12); box-shadow: 0 16px 40px rgba(15, 23, 42, 0.14); }
+        .blog-internal-image { display: block; max-width: 440px; width: 100%; height: auto; margin: 24px auto 32px; border-radius: 12px; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06); border: 1px solid #e5e7eb; }
         .comparison-table { width: 100%; border-collapse: collapse; margin: 0 0 28px; font-size: 0.98rem; }
         .comparison-table th, .comparison-table td { border: 1px solid #e5e7eb; padding: 12px 14px; text-align: left; vertical-align: top; }
         .comparison-table th { background: #f8fafc; color: var(--blue-dark); font-weight: 800; }
@@ -138,7 +139,7 @@ $recent_blogs = $recent_blogs ?? [
                                 <?php foreach ($block['items'] as $item): ?><li><?php echo $item; ?></li><?php endforeach; ?>
                             </ol>
                         <?php elseif ($block['type'] === 'img'): ?>
-                            <img src="<?php echo e($block['src']); ?>" alt="<?php echo e($block['alt'] ?? ''); ?>" class="blog-image" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='<?php echo e($fallbackImg); ?>';">
+                            <img src="<?php echo e($block['src']); ?>" alt="<?php echo e($block['alt'] ?? ''); ?>" class="blog-internal-image" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='<?php echo e($fallbackImg); ?>';">
                         <?php elseif ($block['type'] === 'table'): ?>
                             <table class="comparison-table">
                                 <thead><tr><?php foreach ($block['headers'] as $header): ?><th><?php echo e($header); ?></th><?php endforeach; ?></tr></thead>

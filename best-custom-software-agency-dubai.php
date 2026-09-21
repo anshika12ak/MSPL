@@ -63,6 +63,7 @@ $all_blogs = [
         .blog-body a { color: var(--green); font-weight: 600; text-decoration: underline; }
         .blog-body a:hover { color: var(--blue-dark); }
         .blog-image { width: 100%; height: auto; border-radius: 16px; margin-bottom: 40px; box-shadow: var(--shadow); }
+        .blog-internal-image { display: block; max-width: 440px; width: 100%; height: auto; margin: 24px auto 32px; border-radius: 12px; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06); border: 1px solid #e5e7eb; }
         .blog-layout { display: flex; gap: 40px; align-items: flex-start; }
         .blog-main { flex: 1; min-width: 0; }
         .blog-sidebar { width: 360px; flex-shrink: 0; position: sticky; top: 120px; display: flex; flex-direction: column; gap: 40px; }
@@ -134,7 +135,7 @@ $all_blogs = [
 <p>Mithila Softech provides business-focused software development solutions designed around specific requirements, workflows, users, and long-term growth plans.</p>
 
 <h2>Why Choose Custom Software Development in Dubai?</h2>
-<img src="assets/image/best-custom-software-agency-dubai-flowchart.png" alt="Best Custom Software Agency in Dubai for Business Growth" class="blog-image" onerror="this.onerror=null;this.src='<?php echo $fallbackImg; ?>';">
+<img src="assets/image/best-custom-software-agency-dubai-flowchart.png?v=<?php echo time(); ?>" alt="Best Custom Software Agency in Dubai for Business Growth" class="blog-internal-image" onerror="this.onerror=null;this.src='<?php echo $fallbackImg; ?>';">
 <p>Every business operates differently. A retail company may need an advanced inventory management system, while a logistics company may require fleet tracking and automated delivery management.</p>
 <p>Custom software allows businesses to build solutions around their actual requirements rather than changing their processes to fit generic software.</p>
 <p>Key benefits include:</p>

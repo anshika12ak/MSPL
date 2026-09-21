@@ -30,7 +30,7 @@ $content_blocks = [
     ['type' => 'h2', 'text' => "What Makes Mithila Softech One of the Best Website Development Companies in UK?"],
     ['type' => 'p', 'html' => "At Mithila Softech, we understand that every business has unique goals. That's why we don't believe in one-size-fits-all solutions. Our experienced developers create websites tailored specifically to your business objectives and target audience."],
 
-    ['type' => 'p', 'html' => "<img src='assets/image/web-dev-uk-img2.png' alt='Custom Website Development' style='width:100%; max-width:800px; border-radius:12px; margin:20px 0;'>"],
+    ['type' => 'p', 'html' => "<img src='assets/image/web-dev-uk-img2.png' alt='Custom Website Development' class='blog-internal-image'>"],
     ['type' => 'h3', 'text' => "1. Custom Website Development"],
     ['type' => 'p', 'html' => "We build websites from the ground up, ensuring every feature aligns with your brand identity and business requirements. Whether you need a corporate website, portfolio, or enterprise platform, our custom development services deliver exceptional results."],
 

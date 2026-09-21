@@ -63,7 +63,7 @@ $all_blogs = [
         .blog-body a { color: blue; font-weight: 600; text-decoration: underline; }
         .blog-body a:hover { color: darkblue; }
         .blog-image { width: 100%; height: auto; border-radius: 16px; margin-bottom: 40px; box-shadow: var(--shadow); }
-        .blog-inline-image { max-width: 100%; width: auto; height: auto; border-radius: 16px; margin: 20px auto 30px; display: block; box-shadow: var(--shadow); }
+        .blog-inline-image { max-width: 440px; width: 100%; height: auto; border-radius: 12px; margin: 24px auto 32px; display: block; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06); border: 1px solid #e5e7eb; }
         .blog-layout { display: flex; gap: 40px; align-items: flex-start; }
         .blog-main { flex: 1; min-width: 0; }
         .blog-sidebar { width: 360px; flex-shrink: 0; position: sticky; top: 120px; display: flex; flex-direction: column; gap: 40px; }

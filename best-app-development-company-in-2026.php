@@ -32,7 +32,7 @@ $content_blocks = [
     ['type' => 'h2', 'text' => "What Makes the Best App Development Company in 2026?"],
     ['type' => 'p', 'html' => "Technology is changing quickly, and businesses need development partners who can adapt to new requirements. Several factors can help identify a reliable development company."],
 
-    ['type' => 'p', 'html' => "<img src='assets/image/app-dev-2026-img2.png' alt='Strong Technical Expertise' style='width:100%; max-width:800px; border-radius:12px; margin:20px 0;'>"],
+    ['type' => 'p', 'html' => "<img src='assets/image/app-dev-2026-img2.png' alt='Strong Technical Expertise' class='blog-internal-image'>"],
     ['type' => 'h3', 'text' => "1. Strong Technical Expertise"],
     ['type' => 'p', 'html' => "A professional development team should have experience with modern programming languages, frameworks, APIs, databases, cloud technologies, and development tools."],
     ['type' => 'p', 'html' => "The technology stack should be selected according to the application's requirements rather than simply choosing a popular technology."],

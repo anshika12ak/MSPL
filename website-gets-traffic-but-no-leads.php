@@ -79,7 +79,8 @@ $all_blogs = [
         .blog-body li { margin-bottom: 10px; color: var(--muted); }
         .blog-body a { color: var(--green); font-weight: 600; text-decoration: underline; }
         .blog-body a:hover { color: var(--blue-dark); }
-        .blog-image { width: 100%; height: auto; border-radius: 16px; margin-bottom: 40px; box-shadow: var(--shadow); }
+        .blog-image { width: 100%; height: auto; border-radius: 16px; margin-bottom: 30px; box-shadow: var(--shadow); }
+        .blog-internal-image { display: block; max-width: 440px; width: 100%; height: auto; margin: 24px auto 32px; border-radius: 12px; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06); border: 1px solid #e5e7eb; }
         .solution-box { background: #f8fafc; border-left: 4px solid var(--blue-dark); padding: 18px 22px; border-radius: 8px; margin: 20px 0 30px; }
         .solution-box h4 { margin-top: 0; color: var(--blue-dark); font-size: 1.15rem; }
         .flow-diagram { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 12px; padding: 24px; text-align: center; margin: 30px 0; font-weight: 600; color: var(--blue-dark); line-height: 2; }
@@ -156,7 +157,7 @@ $all_blogs = [
                     <p>If your website is attracting visitors but generating very few enquiries, the problem may not be your marketing alone. Your website itself could be creating barriers between visitors and your business.</p>
                     <p>Let's look at the 9 most common problems and how to solve them.</p>
 
-                    <img src="assets/image/web.jpg" alt="Website Conversion Problems and Solutions" class="blog-image" onerror="this.onerror=null;this.src='<?php echo $fallbackImg; ?>';">
+                    <img src="assets/image/why-website-gets-traffic-but-no-leads-infographic.png?v=<?php echo time(); ?>" alt="Why Your Website Gets Traffic but No Leads Infographic" class="blog-internal-image" onerror="this.onerror=null;this.src='<?php echo $fallbackImg; ?>';">
 
                     <h2>1. Your Website Does Not Clearly Explain What You Offer</h2>
                     <p>When someone lands on your website, they should understand within a few seconds:</p>

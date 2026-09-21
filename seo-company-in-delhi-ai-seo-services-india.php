@@ -175,8 +175,6 @@ $all_blogs = [
                     
 
                     <img src="assets/image/seoindelhi.png?v=20260610-1659" alt="SEO Company in Delhi" class="blog-image" onerror="this.onerror=null;this.src='<?php echo $fallbackImg; ?>';">
-
-                    <img src="<?= e($hero_bg_image) ?>" alt="<?= e($hero_title) ?>" class="blog-image" onerror="this.onerror=null;this.src='<?= e($fallbackImg) ?>';">
                     <h2>SEO Company in Delhi: Why Businesses Need AI SEO Services in 2026</h2>
                     <p>In today’s competitive online market, every business wants better visibility, higher website traffic, and more leads. Whether you own a startup, local business, ecommerce store, or enterprise company, investing in professional SEO services has become essential for growth. Choosing the right SEO company in Delhi can help your business dominate search engine rankings and attract targeted customers.</p>
                     <p>With the rise of artificial intelligence and smart search algorithms, modern businesses are now moving towards AI SEO services to achieve faster and smarter results. Companies across India are looking for the best SEO company in India that understands both traditional SEO and AI-driven optimization techniques.</p>

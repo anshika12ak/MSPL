@@ -12,7 +12,7 @@ $content_blocks = [
     ['type' => 'p', 'html' => "Social media has evolved into one of the most powerful digital marketing channels for businesses of every size. It is no longer just a platform for posting updates—it is where customers discover brands, compare products, read reviews, and interact with businesses in real time. High engagement on social media not only increases your visibility but also builds trust, strengthens customer relationships, and creates more opportunities for lead generation and sales."],
     ['type' => 'p', 'html' => "However, gaining meaningful engagement requires more than posting regularly. Today's algorithms reward content that sparks conversations, provides value, and encourages interaction. Whether you are managing Facebook, Instagram, LinkedIn, X, or other platforms, a strategic approach is essential. Here are practical tips that can help your business improve social media engagement and achieve better marketing results."],
     
-    ['type' => 'p', 'html' => "<img src='assets/image/social-media-engagement-body-new.jpg' alt='10 Tips to Improve Social Media Engagement' class='blog-image' style='margin:20px 0;'>"],
+    ['type' => 'p', 'html' => "<img src='assets/image/social-media-engagement-body-new.jpg' alt='10 Tips to Improve Social Media Engagement' class='blog-internal-image'>"],
 
     ['type' => 'h2', 'text' => "1. Understand Your Target Audience"],
     ['type' => 'p', 'html' => "Successful social media marketing begins with knowing who your audience is. Research their interests, demographics, online behavior, and the type of content they engage with most."],
