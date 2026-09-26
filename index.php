@@ -72,6 +72,30 @@ $partners = [
 ];
 $blogs = [
     [
+        "title" => "How Custom Mobile App Development Solves Business Problems | Mithila Softech",
+        "excerpt" => "Discover how custom mobile app development can help businesses solve customer engagement, automation, sales, and operational challenges.",
+        "date" => "September 26, 2026",
+        "category" => "Mobile Development",
+        "img" => "assets/image/custom-mobile-app-development-hero-banner.jpg",
+        "link" => "custom-mobile-app-development-business-solutions",
+    ],
+    [
+        "title" => "Why Your Canadian Business Website Is Losing Customers | Website Development Canada",
+        "excerpt" => "Learn how website development in Canada can solve common business problems like poor mobile experience, slow loading, weak conversions, and difficult navigation.",
+        "date" => "September 25, 2026",
+        "category" => "Web Development",
+        "img" => "assets/image/website-development-canada-hero-banner.jpg",
+        "link" => "website-development-canada-business-problems",
+    ],
+    [
+        "title" => "Voice Search, Featured Snippets & AI Content Optimization Services",
+        "excerpt" => "Improve your online visibility with voice search optimization services, featured snippet optimization, and AI content optimization for better search performance.",
+        "date" => "September 22, 2026",
+        "category" => "Digital Marketing",
+        "img" => "assets/image/voice-search-ai-optimization-hero-banner.jpg",
+        "link" => "voice-search-featured-snippet-ai-content-optimization",
+    ],
+    [
         "title" => "AI Search Optimization Company: How AI-Ready Websites Drive Business Growth | Mithila Softech",
         "excerpt" => "Looking for an AI search optimization company? Learn how AI-ready SEO, web development and custom software solutions can help businesses grow online.",
         "date" => "September 19, 2026",
