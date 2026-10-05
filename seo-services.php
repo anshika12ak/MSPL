@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'services';
 $title = 'Search Engine Optimization | Mithila Softech';
 ?>
@@ -144,7 +144,7 @@ $title = 'Search Engine Optimization | Mithila Softech';
 
 <section class="srv-hero-wrapper">
     <div class="container" style="position: relative; z-index: 2;">
-        <span class="srv-hero-badge" style="display: inline-flex; align-items: center; padding: 8px 18px; border-radius: 999px; background: rgba(255, 255, 255, 0.1); color: #ffffff; font-weight: 700; font-size: 0.95rem; margin-bottom: 24px; border: 1px solid rgba(255,255,255,0.15);">ðŸ” &nbsp; SEO Services</span>
+        <span class="srv-hero-badge" style="display: inline-flex; align-items: center; padding: 8px 18px; border-radius: 999px; background: rgba(255, 255, 255, 0.1); color: #ffffff; font-weight: 700; font-size: 0.95rem; margin-bottom: 24px; border: 1px solid rgba(255,255,255,0.15);">SEO Services</span>
         <h1 class="srv-hero-headline">Search Engine <br><span class="srv-hero-headline-bold">Optimization</span></h1>
         <p class="srv-hero-subtext">Technical SEO, on-page optimization and link-building campaigns that push you to the top of Google rankings.</p>
     </div>

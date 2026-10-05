@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 function e($v){ return htmlspecialchars((string)$v, ENT_QUOTES, "UTF-8"); }
 
 $logo_path = "assets/image/ms.png";
@@ -288,7 +288,7 @@ $industries = [
     <div class="srv-hero-bg-orb1"></div>
     <div class="srv-hero-bg-orb2"></div>
     <div class="container" style="position: relative; z-index: 2;">
-        <span class="srv-hero-badge">ðŸ¢ &nbsp; Industries We Serve</span>
+        <span class="srv-hero-badge">Industries We Serve</span>
         <h1 class="srv-hero-headline">Industry-Specific IT Solutions <br><span class="srv-hero-headline-bold">for <span class="srv-hero-headline-accent">Business Growth</span></span></h1>
         <p class="srv-hero-subtext">Focused technology solutions aligned with the unique challenges and growth opportunities across leading industry sectors. We partner with businesses to build tools that improve efficiency, visibility, and growth.</p>
     </div>

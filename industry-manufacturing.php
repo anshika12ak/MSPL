@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'industry';
 $title = 'Manufacturing Industry Solutions | Mithila Softech';
 
@@ -216,7 +216,7 @@ $industry_data = [
     <div class="srv-hero-bg-orb1"></div>
     <div class="srv-hero-bg-orb2"></div>
     <div class="container" style="position: relative; z-index: 2;">
-        <span class="srv-hero-badge">ðŸ­ &nbsp; Manufacturing Solutions</span>
+        <span class="srv-hero-badge">Manufacturing Solutions</span>
         <h1 class="srv-hero-headline">Manufacturing Software Solutions <br><span class="srv-hero-headline-bold">for <span class="srv-hero-headline-accent">Smart Operations</span></span></h1>
         <p class="srv-hero-subtext"><?php echo htmlspecialchars($industry_data['desc']); ?></p>
     </div>

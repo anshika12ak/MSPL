@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'services';
 $title = 'Custom IT Solutions | Mithila Softech';
 ?>
@@ -58,7 +58,7 @@ $title = 'Custom IT Solutions | Mithila Softech';
 
 <section class="srv-hero-wrapper">
     <div class="container" style="position: relative; z-index: 2;">
-        <span class="srv-hero-badge" style="display: inline-flex; align-items: center; padding: 8px 18px; border-radius: 999px; background: rgba(255, 255, 255, 0.1); color: #ffffff; font-weight: 700; font-size: 0.95rem; margin-bottom: 24px; border: 1px solid rgba(255,255,255,0.15);">ðŸ›¡ï¸ &nbsp; Security First</span>
+        <span class="srv-hero-badge" style="display: inline-flex; align-items: center; padding: 8px 18px; border-radius: 999px; background: rgba(255, 255, 255, 0.1); color: #ffffff; font-weight: 700; font-size: 0.95rem; margin-bottom: 24px; border: 1px solid rgba(255,255,255,0.15);">Security First</span>
         <h1 class="srv-hero-headline">Cyber Security Services <br><span class="srv-hero-headline-bold">for <span class="srv-hero-headline-accent" style="background: linear-gradient(135deg, #38bdf8 0%, #bfdbfe 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Data Protection</span></span></h1>
         <p class="srv-hero-subtext">Website audits, SSL, data protection compliance, firewall setup & threat monitoring to keep your business secure.</p>
     </div>

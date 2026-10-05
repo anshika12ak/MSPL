@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'blog';
 $title = 'How Specialized Digital Marketing Services Drive Scalable Business Growth | Mithila Softech';
 $hero_title = 'How Specialized Digital Marketing Services Drive Scalable Business Growth';

@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'services';
 $title = 'Digital Marketing | Mithila Softech';
 ?>
@@ -164,7 +164,7 @@ $title = 'Digital Marketing | Mithila Softech';
     <div class="srv-hero-bg-orb1"></div>
     <div class="srv-hero-bg-orb2"></div>
     <div class="container" style="position: relative; z-index: 2;">
-        <span class="srv-hero-badge">ðŸ“ˆ &nbsp; Growth Marketing</span>
+        <span class="srv-hero-badge">Growth Marketing</span>
         <h1 class="srv-hero-headline">Digital Marketing Services <br><span class="srv-hero-headline-bold">for <span class="srv-hero-headline-accent">Business Growth</span></span></h1>
         <p class="srv-hero-subtext">Data-driven SEO, Google Ads, Meta campaigns, and comprehensive digital strategies that accelerate growth and turn clicks into loyal customers.</p>
     </div>

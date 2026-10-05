@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'blog';
 $title = 'ERP Software Development Company: Custom ERP Solutions for Business Growth | Mithila Softech';
 $hero_title = 'ERP Software Development Company: Custom ERP Solutions for Business Growth';

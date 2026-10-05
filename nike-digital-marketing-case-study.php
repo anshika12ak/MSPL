@@ -1,11 +1,11 @@
-﻿<?php
+<?php
 $activePage = 'blog';
 $title = 'Nike Digital Marketing Case Study & Online Growth Lessons for Modern Brands | Mithila Softech';
 
 $base_dir = str_replace('\\', '/', dirname($_SERVER['SCRIPT_NAME']));
 $base_url = $base_dir === '/' ? '/' : $base_dir . '/';
 
-$hero_badge = 'ðŸ˜ï¸ &nbsp; Case Study';
+$hero_badge = 'Case Study';
 $hero_title = 'Nike Digital Marketing Case Study & Online Growth Lessons for Modern Brands';
 $hero_subtext = 'Explore how Nike became a global digital marketing leader through SEO, social media, influencer marketing, and data-driven campaigns. Learn key online growth strategies.';
 $hero_bg_image = 'assets/image/nikecase.png?v=20260610-1659';
@@ -24,8 +24,8 @@ $all_blogs = [
         "link" => "nike-digital-marketing-case-study.php",
     ],
     [
-        "title" => "How a Real Estate Brand Generated â‚¹3.2 Crore Through Strategic Digital Marketing",
-        "excerpt" => "Learn how Mithila Softech helped a real estate developer generate â‚¹3.2 crore in property sales through SEO, AEO, social media campaigns, and performance marketing strategies.",
+        "title" => "How a Real Estate Brand Generated ₹3.2 Crore Through Strategic Digital Marketing",
+        "excerpt" => "Learn how Mithila Softech helped a real estate developer generate ₹3.2 crore in property sales through SEO, AEO, social media campaigns, and performance marketing strategies.",
         "date" => "September 24, 2026",
         "category" => "Case Study",
         "img" => "assets/image/realestateblog.png?v=20260610-1659",

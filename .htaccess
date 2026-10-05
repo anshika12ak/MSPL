@@ -49,3 +49,4 @@ RewriteRule ^(.*)$ $1.php [NC,L]
 
 # Disable ETags for smaller HTTP responses
 FileETag None
+AddDefaultCharset UTF-8

@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'terms';
 $title = 'Terms and Conditions | Mithila Softech';
 ?>
@@ -30,7 +30,7 @@ $title = 'Terms and Conditions | Mithila Softech';
 <?php include 'headerhome.php'; ?>
 
 <?php 
-$hero_badge = 'ðŸ“œ &nbsp; Terms';
+$hero_badge = 'Terms';
 $hero_title = 'Terms &amp; Conditions';
 $hero_subtext = 'Guidelines for using our website and services.';
 include 'heropage.php'; 

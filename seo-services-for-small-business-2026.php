@@ -1,7 +1,7 @@
-﻿<?php
+<?php
 $activePage = 'blog';
 $title = 'Local SEO vs Traditional SEO: Which Strategy Is Best for Your Business in 2026? | Mithila Softech';
-$hero_badge = 'ðŸ“ˆ &nbsp; Digital Marketing';
+$hero_badge = 'Digital Marketing';
 $hero_title = 'Local SEO vs Traditional SEO: Which Strategy Is Best for Your Business in 2026?';
 $hero_subtext = 'Understand the key differences between local and traditional SEO and learn which approach will deliver the best results for your business in 2026.';
 $hero_bg_image = 'assets/image/local-seo-vs-traditional-seo-which-strategy-is-best-for-your-business-in-2026.jpg';

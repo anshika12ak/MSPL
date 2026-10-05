@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'blog';
 $title = 'How Modern Search Optimization Helps Businesses Grow in the AI Search Era | Mithila Softech';
 $hero_title = 'How Modern Search Optimization Helps Businesses Grow in the AI Search Era';

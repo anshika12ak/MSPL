@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'blog';
 $title = 'How to Choose the Right CRM Software for Your Business | Mithila Softech';
 $hero_title = 'How to Choose the Right CRM Software for Your Business';

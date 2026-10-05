@@ -26,10 +26,10 @@ $clients = [
 ];
 
 $stats = [
-    ["number"=>"60","label"=>"Technologies Mastered", "icon"=>"ðŸ’»"],
-    ["number"=>"50","label"=>"Team Strength", "icon"=>"ðŸ‘¥"],
-    ["number"=>"100","label"=>"Clients Worldwide", "icon"=>"ðŸŒ"],
-    ["number"=>"20","label"=>"Services Offered", "icon"=>"âš™ï¸"]
+    ["number"=>"60","label"=>"Technologies Mastered", "icon"=>"&#128187;"],
+    ["number"=>"50","label"=>"Team Strength", "icon"=>"&#128101;"],
+    ["number"=>"100","label"=>"Clients Worldwide", "icon"=>"&#127757;"],
+    ["number"=>"20","label"=>"Services Offered", "icon"=>"&#9881;&#65039;"]
 ];
 
 $testimonials = [
@@ -281,7 +281,7 @@ $testimonials = [
 <?php include 'headerhome.php'; ?>
 
 <?php 
-$hero_badge = 'ðŸš€ &nbsp; Technology Partner';
+$hero_badge = 'Technology Partner';
 $hero_title = 'About Us';
 $hero_subtext = 'We are a team of passionate developers, designers, and digital strategists dedicated to building robust technology solutions for growing businesses.';
 include 'heropage.php'; 
@@ -343,9 +343,7 @@ include 'heropage.php';
     <div style="position: absolute; bottom: -50px; right: -50px; width: 300px; height: 300px; background: rgba(255,255,255,0.05); border-radius: 50%; filter: blur(50px);"></div>
     <div class="container" style="position: relative; z-index: 2;">
         <div class="section-heading center reveal" style="text-align: center; margin-bottom: 28px;">
-            <span class="eyebrow" style="background: rgba(255,255,255,0.1); color: #ffffff !important; -webkit-text-fill-color: #ffffff !important; border: 1px solid rgba(255,255,255,0.2);">Our Impact</span>
             <h2 style="color: #ffffff !important; margin-top: 15px; font-size: clamp(2.2rem, 4vw, 3.2rem); font-weight: 800;">Our <span style="color: #ffffff !important; -webkit-text-fill-color: #ffffff !important; background: none !important;">Strength in Numbers</span></h2>
-            <p style="color: rgba(255,255,255,0.8); font-size: 1.1rem; max-width: 600px; margin: 0 auto;">Delivering excellence and scaling businesses globally through technology.</p>
         </div>
         <div class="stats-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 30px;">        <?php foreach ($stats as $index => $stat): ?>
             <article class="stat-card reveal" style="--delay: <?php echo ($index * 0.1); ?>s; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 20px; padding: 28px 18px; text-align: center; backdrop-filter: blur(10px); transition: transform 0.3s ease, background 0.3s ease;">

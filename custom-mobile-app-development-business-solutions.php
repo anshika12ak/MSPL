@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'blog';
 $title = 'How Custom Mobile App Development Solves Business Problems | Mithila Softech';
 $hero_title = 'How a Custom Mobile App Can Solve Common Business Problems';

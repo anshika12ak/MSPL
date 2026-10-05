@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'services';
 $title = 'Custom IT Solutions | Mithila Softech';
 ?>
@@ -168,7 +168,7 @@ $title = 'Custom IT Solutions | Mithila Softech';
     <div class="srv-hero-bg-orb1"></div>
     <div class="srv-hero-bg-orb2"></div>
     <div class="container" style="position: relative; z-index: 2;">
-        <span class="srv-hero-badge">ðŸ’» &nbsp; Custom Software</span>
+        <span class="srv-hero-badge">Custom Software</span>
         <h1 class="srv-hero-headline">Custom IT Solutions <br><span class="srv-hero-headline-bold">for <span class="srv-hero-headline-accent">Your Business</span></span></h1>
         <p class="srv-hero-subtext">ERP, CRM, inventory management & bespoke software tailored to your business needs.</p>
     </div>

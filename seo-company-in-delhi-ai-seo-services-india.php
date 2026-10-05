@@ -1,8 +1,8 @@
-﻿<?php
+<?php
 $activePage = 'blog';
 $title = 'SEO Company in Delhi – AI Powered SEO Services for Small Businesses in India';
 $title = 'Why Hiring a Digital Marketing Company in India Can Transform Your Business in 2026 | Mithila Softech';
-$hero_badge = 'ðŸ“ˆ &nbsp; Digital Marketing';
+$hero_badge = 'Digital Marketing';
 $hero_title = 'SEO Company in Delhi: AI Powered SEO Services';
 $hero_subtext = 'Looking for the best SEO company in India? Mithila Softech offers AI SEO services, digital marketing solutions, and affordable SEO services for small businesses in Delhi and across India.';
 $hero_bg_image = 'assets/image/seoindelhi.png?v=20260610-1659';

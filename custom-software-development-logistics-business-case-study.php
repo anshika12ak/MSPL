@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'blog';
 $title = 'How Custom Software Development Helped a Logistics Company Scale Operations Efficiently | Mithila Softech';
 $hero_title = 'How a Growing Logistics Company Transformed Operations with Custom Software Development';

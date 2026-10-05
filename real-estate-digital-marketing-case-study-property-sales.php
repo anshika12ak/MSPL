@@ -1,9 +1,9 @@
-﻿<?php
+<?php
 $activePage = 'blog';
-$title = 'How a Real Estate Brand Generated â‚¹3.2 Crore Through Strategic Digital Marketing | Mithila Softech';
-$hero_badge = 'ðŸ˜ï¸ &nbsp; Case Study';
-$hero_title = 'How a Real Estate Brand Generated â‚¹3.2 Crore Through Strategic Digital Marketing';
-$hero_subtext = 'Discover how Mithila Softech helped a real estate brand generate â‚¹3.2 crore in property sales using SEO, AEO, social media marketing, Google Ads, and lead generation strategies.';
+$title = 'How a Real Estate Brand Generated ₹3.2 Crore Through Strategic Digital Marketing | Mithila Softech';
+$hero_badge = 'Case Study';
+$hero_title = 'How a Real Estate Brand Generated ₹3.2 Crore Through Strategic Digital Marketing';
+$hero_subtext = 'Discover how Mithila Softech helped a real estate brand generate ₹3.2 crore in property sales using SEO, AEO, social media marketing, Google Ads, and lead generation strategies.';
 $hero_bg_image = 'assets/image/realestateblog.png?v=20260610-1659';
 $hero_bg_size = 'contain';
 $fallbackImg = "https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable";
@@ -12,8 +12,8 @@ function e($v){ return htmlspecialchars((string)$v, ENT_QUOTES, "UTF-8"); }
 
 $all_blogs = [
     [
-        "title" => "How a Real Estate Brand Generated â‚¹3.2 Crore Through Strategic Digital Marketing",
-        "excerpt" => "Learn how Mithila Softech helped a real estate developer generate â‚¹3.2 crore in property sales through SEO, AEO, social media campaigns, and performance marketing strategies.",
+        "title" => "How a Real Estate Brand Generated ₹3.2 Crore Through Strategic Digital Marketing",
+        "excerpt" => "Learn how Mithila Softech helped a real estate developer generate ₹3.2 crore in property sales through SEO, AEO, social media campaigns, and performance marketing strategies.",
         "date" => "September 24, 2026",
         "category" => "Case Study",
         "img" => "assets/image/realestateblog.png?v=20260610-1659",
@@ -43,7 +43,7 @@ $all_blogs = [
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $title; ?></title>
-    <meta name="description" content="Discover how Mithila Softech helped a real estate brand generate â‚¹3.2 crore in property sales using SEO, AEO, social media marketing, Google Ads, and lead generation strategies.">
+    <meta name="description" content="Discover how Mithila Softech helped a real estate brand generate ₹3.2 crore in property sales using SEO, AEO, social media marketing, Google Ads, and lead generation strategies.">
     <meta name="keywords" content="Digital Marketing for Real Estate, Real Estate Digital Marketing Services, SEO for Real Estate Companies, Property Lead Generation Services, Real Estate SEO Services, AEO Services for Real Estate, AI Search Optimization, Real Estate Social Media Marketing,Property Branding Agency, Digital Advertising for Builders, Luxury Property Marketing, Performance Marketing for Real Estate">
     <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -159,7 +159,7 @@ $all_blogs = [
                                 <tr><td style="padding: 12px; border: 1px solid #e5e7eb;">Qualified Property Leads</td><td style="padding: 12px; border: 1px solid #e5e7eb;">55/month</td><td style="padding: 12px; border: 1px solid #e5e7eb;">320+/month</td></tr>
                                 <tr><td style="padding: 12px; border: 1px solid #e5e7eb;">Google Keyword Rankings</td><td style="padding: 12px; border: 1px solid #e5e7eb;">25</td><td style="padding: 12px; border: 1px solid #e5e7eb;">220+</td></tr>
                                 <tr><td style="padding: 12px; border: 1px solid #e5e7eb;">Social Media Engagement</td><td style="padding: 12px; border: 1px solid #e5e7eb;">Low</td><td style="padding: 12px; border: 1px solid #e5e7eb;">8X Growth</td></tr>
-                                <tr><td style="padding: 12px; border: 1px solid #e5e7eb;">Property Sales Revenue</td><td style="padding: 12px; border: 1px solid #e5e7eb;">Inconsistent</td><td style="padding: 12px; border: 1px solid #e5e7eb;"><strong>â‚¹3.2 Crore Generated</strong></td></tr>
+                                <tr><td style="padding: 12px; border: 1px solid #e5e7eb;">Property Sales Revenue</td><td style="padding: 12px; border: 1px solid #e5e7eb;">Inconsistent</td><td style="padding: 12px; border: 1px solid #e5e7eb;"><strong>₹3.2 Crore Generated</strong></td></tr>
                             </tbody>
                         </table>
                     </div>

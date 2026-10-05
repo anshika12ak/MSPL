@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'services';
 $title = 'Recruitment Services | Mithila Softech';
 ?>
@@ -160,7 +160,7 @@ $title = 'Recruitment Services | Mithila Softech';
 <?php include 'headerhome.php'; ?>
 
 <?php 
-$hero_badge = 'ðŸ’¼ &nbsp; Talent Acquisition';
+$hero_badge = 'Talent Acquisition';
 $hero_title = 'IT Recruitment &amp; <br><span class="hero-headline-bold">Staffing <span class="hero-headline-accent">Services</span></span>';
 $hero_subtext = 'End-to-end IT talent acquisition, executive search, and scalable staffing solutions connecting you with verified tech professionals.';
 include 'heropage.php'; 

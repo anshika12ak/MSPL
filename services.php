@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'services';
 $title = 'Our Services | Mithila Softech';
 
@@ -271,7 +271,7 @@ $services = [
     </div>
 </section>
 
-<!-- â”€â”€ Detailed Service Sections â”€â”€ -->
+<!-- Detailed Service Sections -->
 <?php foreach ($categories as $index => $cat): 
     $cat_id = $cat['id'];
     $cat_desc = $tab_desc[$cat_id];
@@ -332,10 +332,10 @@ $services = [
     
     <div class="container" style="max-width: 650px; position: relative; z-index: 2;">
         <div class="section-heading center reveal" style="text-align: center; margin-bottom: 24px;">
-            <span class="eyebrow" style="background: rgba(56,189,248,0.1); color: #38bdf8; border: 1px solid rgba(56,189,248,0.3); margin-bottom: 12px; display: inline-flex;">ðŸš€ Ready to scale?</span>
+            <span class="eyebrow" style="background: rgba(56,189,248,0.1); color: #38bdf8; border: 1px solid rgba(56,189,248,0.3); margin-bottom: 12px; display: inline-flex;">Ready to scale?</span>
             <h2 style="color: #ffffff; font-size: clamp(1.8rem, 4vw, 2.5rem); margin-bottom: 12px; font-weight: 800;">
                 Let's build something <br>
-                <span style="background: linear-gradient(135deg, #38bdf8 0%, #bfdbfe 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">extraordinary</span>
+                <span style="color: #38bdf8; display: inline-block;">extraordinary</span>
             </h2>
             <p style="color: rgba(255, 255, 255, 0.8); font-size: 0.95rem;">Fill out the form below to share your requirements and our team will connect with you.</p>
         </div>

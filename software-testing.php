@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'services';
 $title = 'Software Testing & QA Services | Mithila Softech';
 ?>
@@ -852,7 +852,7 @@ $title = 'Software Testing & QA Services | Mithila Softech';
      STANDARD HERO SECTION (MATCHES ALL PAGES VIA heropage.php)
      ========================================== -->
 <?php 
-$hero_badge = 'ðŸ§ª &nbsp; Quality Assurance';
+$hero_badge = 'Quality Assurance';
 $hero_title = 'Software Testing &amp; <br><span class="hero-headline-bold">QA <span class="hero-headline-accent">Services</span></span>';
 $hero_subtext = 'Accelerate your release cycles and eliminate critical defects before they hit production with enterprise-grade automated & manual QA.';
 $hero_bg_image = 'assets/image/itsolutionsheader.png';

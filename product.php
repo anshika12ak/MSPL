@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 function e($v){ return htmlspecialchars((string)$v, ENT_QUOTES, "UTF-8"); }
 
 $logo_path = "assets/image/ms.png";
@@ -98,7 +98,7 @@ $fallbackImg = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' wid
 <?php $activePage = 'product'; include 'headerhome.php'; ?>
 
 <?php 
-$hero_badge = 'ðŸ“¦ &nbsp; Our Products';
+$hero_badge = 'Our Products';
 $hero_title = 'Business Software Products <br><span class="hero-headline-bold">for <span class="hero-headline-accent">Modern Enterprises</span></span>';
 $hero_subtext = 'Explore our product offerings designed to solve real business and education challenges.';
 include 'heropage.php'; 

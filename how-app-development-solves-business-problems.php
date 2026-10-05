@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'blog';
 $title = 'How App Development Solves Common Business Problems | Mithila Softech';
 $hero_title = 'Business Problems an App Can Solve: A Practical Guide to App Development';

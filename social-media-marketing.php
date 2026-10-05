@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'services';
 $title = 'Social Media Marketing | Mithila Softech';
 ?>
@@ -135,7 +135,7 @@ $title = 'Social Media Marketing | Mithila Softech';
 
 <section class="srv-hero-wrapper">
     <div class="container" style="position: relative; z-index: 2;">
-        <span class="srv-hero-badge" style="display: inline-flex; align-items: center; padding: 8px 18px; border-radius: 999px; background: rgba(255, 255, 255, 0.1); color: #ffffff; font-weight: 700; font-size: 0.95rem; margin-bottom: 24px; border: 1px solid rgba(255,255,255,0.15);">ðŸ“± &nbsp; Social Media</span>
+        <span class="srv-hero-badge" style="display: inline-flex; align-items: center; padding: 8px 18px; border-radius: 999px; background: rgba(255, 255, 255, 0.1); color: #ffffff; font-weight: 700; font-size: 0.95rem; margin-bottom: 24px; border: 1px solid rgba(255,255,255,0.15);">Social Media</span>
         <h1 class="srv-hero-headline">Social Media <br><span class="srv-hero-headline-bold">Marketing</span></h1>
         <p class="srv-hero-subtext">Engaging content strategies across all major platforms that build community and drive consistent growth.</p>
     </div>

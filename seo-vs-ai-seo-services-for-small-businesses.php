@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'blog';
 $title = 'SEO vs AI SEO Services: Which Delivers Better Results for Small Businesses? | Mithila Softech';
 $hero_title = 'SEO vs AI SEO Services: Which Delivers Better Results for Small Businesses?';

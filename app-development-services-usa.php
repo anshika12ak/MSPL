@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'blog';
 $title = 'Best App Development Services in USA | Mithila Softech';
 $hero_title = 'App Development Services in USA for Growing Businesses';

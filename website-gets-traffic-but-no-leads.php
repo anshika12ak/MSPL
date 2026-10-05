@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'blog';
 $title = 'Why Your Website Gets Traffic but No Leads: 9 Problems to Fix | Mithila Softech';
 $hero_title = 'Why Your Website Gets Traffic but No Leads: 9 Problems to Fix';

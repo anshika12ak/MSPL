@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'blog';
 $title = 'AI Search Optimization Company: How AI-Ready Websites Drive Business Growth | Mithila Softech';
 $hero_title = 'How AI Search Optimization, Web Development and Custom Software Can Help Your Business Grow';

@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'blog';
 $title = 'How to Reduce Software Maintenance Costs Without Rebuilding | Mithila Softech';
 $hero_title = 'How to Reduce Software Maintenance Costs Without Rebuilding Your Software';

@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'services';
 $title = 'App Deployment & Support | Mithila Softech';
 ?>
@@ -147,7 +147,7 @@ $title = 'App Deployment & Support | Mithila Softech';
 
 <section class="srv-hero-wrapper">
     <div class="container" style="position: relative; z-index: 2;">
-        <span class="srv-hero-badge" style="display: inline-flex; align-items: center; padding: 8px 18px; border-radius: 999px; background: rgba(255, 255, 255, 0.1); color: #ffffff; font-weight: 700; font-size: 0.95rem; margin-bottom: 24px; border: 1px solid rgba(255,255,255,0.15);">ðŸš€ &nbsp; App Deployment</span>
+        <span class="srv-hero-badge" style="display: inline-flex; align-items: center; padding: 8px 18px; border-radius: 999px; background: rgba(255, 255, 255, 0.1); color: #ffffff; font-weight: 700; font-size: 0.95rem; margin-bottom: 24px; border: 1px solid rgba(255,255,255,0.15);">App Deployment</span>
         <h1 class="srv-hero-headline">App Deployment <br><span class="srv-hero-headline-bold">&amp; Support</span></h1>
         <p class="srv-hero-subtext">End-to-end launch support - app store listing, ASO, CI/CD pipelines, bug fixes, and feature updates.</p>
     </div>

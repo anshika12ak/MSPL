@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'blog';
 $title = 'Website Development Services and Affordable SEO Services India: The Complete Growth Guide for Businesses | Mithila Softech';
 $hero_title = 'Website Development Services and Affordable SEO Services India: The Complete Growth Guide for Businesses';

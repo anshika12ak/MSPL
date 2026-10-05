@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'blog';
 $title = 'The Ultimate Guide to Digital Transformation for Modern Businesses | Mithila Softech';
 $fallbackImg = "https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable";
@@ -128,7 +128,7 @@ $all_blogs = [
 
 <section class="srv-hero-wrapper" style="background-color: #020617; background-image: linear-gradient(135deg, rgba(2, 6, 23, 0.72), rgba(21, 58, 117, 0.55)), url('assets/image/theultimateguide.png?v=20260610-1659'); background-position: center, center; background-size: cover, contain; background-repeat: no-repeat, no-repeat;">
     <div class="container" style="position: relative; z-index: 2;">
-        <span class="srv-hero-badge">ðŸ“ &nbsp; Blog Post</span>
+        <span class="srv-hero-badge">Blog Post</span>
         <h1 class="srv-hero-headline">The Ultimate Guide to Digital Transformation for Modern Businesses</h1>
         <p class="srv-hero-subtext">Digital transformation is redefining how businesses operate, compete, and deliver value. In today’s fast-paced environment, adopting digital technologies is no longer optional - it is essential for survival and growth. Organizations that embrace digital transformation services can streamline operations, enhance customer experiences, and make data-driven decisions. Companies like Mithila Softech are helping businesses transition into the digital era with innovative solutions.</p>
     </div>

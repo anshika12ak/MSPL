@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'privacy';
 $title = 'Privacy Policy | Mithila Softech';
 ?>
@@ -30,7 +30,7 @@ $title = 'Privacy Policy | Mithila Softech';
 <?php include 'headerhome.php'; ?>
 
 <?php 
-$hero_badge = 'ðŸ”’ &nbsp; Privacy';
+$hero_badge = 'Privacy';
 $hero_title = 'Privacy Policy';
 $hero_subtext = 'How we collect, use, and protect your data.';
 include 'heropage.php'; 

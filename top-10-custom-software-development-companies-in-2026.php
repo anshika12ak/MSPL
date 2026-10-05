@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'blog';
 $title = 'Top 10 Custom Software Development Companies in 2026 | Best Software Development Firms';
 $hero_title = 'Top 10 Custom Software Development Companies in 2026';

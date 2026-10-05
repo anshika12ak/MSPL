@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'services';
 $title = 'Cloud & DevOps Solutions | Mithila Softech';
 ?>
@@ -143,7 +143,7 @@ $title = 'Cloud & DevOps Solutions | Mithila Softech';
 
 <section class="srv-hero-wrapper">
     <div class="container" style="position: relative; z-index: 2;">
-        <span class="srv-hero-badge" style="display: inline-flex; align-items: center; padding: 8px 18px; border-radius: 999px; background: rgba(255, 255, 255, 0.1); color: #ffffff; font-weight: 700; font-size: 0.95rem; margin-bottom: 24px; border: 1px solid rgba(255,255,255,0.15);">â˜ï¸ &nbsp; Cloud Services</span>
+        <span class="srv-hero-badge" style="display: inline-flex; align-items: center; padding: 8px 18px; border-radius: 999px; background: rgba(255, 255, 255, 0.1); color: #ffffff; font-weight: 700; font-size: 0.95rem; margin-bottom: 24px; border: 1px solid rgba(255,255,255,0.15);">Cloud Services</span>
         <h1 class="srv-hero-headline">Cloud &amp; DevOps Solutions <br><span class="srv-hero-headline-bold">for <span class="srv-hero-headline-accent" style="background: linear-gradient(135deg, #38bdf8 0%, #bfdbfe 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Scalable Infrastructure</span></span></h1>
         <p class="srv-hero-subtext">AWS, GCP and Azure deployments with CI/CD pipelines, auto-scaling, and infrastructure-as-code.</p>
     </div>

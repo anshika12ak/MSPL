@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'blog';
 $title = 'CRM Software Development Company & App Development Company India: A Complete Business Guide | Mithila Softech';
 $hero_title = 'CRM Software Development Company & App Development Company India: A Complete Business Guide';

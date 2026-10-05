@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'blog';
 $title = 'mobile-app-development-trends-every-business-should-know-in-2026';
 $fallbackImg = "https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable";
@@ -128,7 +128,7 @@ $all_blogs = [
 
 <section class="srv-hero-wrapper" style="background-color: #020617; background-image: linear-gradient(135deg, rgba(2, 6, 23, 0.72), rgba(21, 58, 117, 0.55)), url('assets/image/mobileapp-development.png?v=20260610-1659'); background-position: center, center; background-size: cover, contain; background-repeat: no-repeat, no-repeat;">
     <div class="container" style="position: relative; z-index: 2;">
-        <span class="srv-hero-badge">ðŸ“ &nbsp; Blog Post</span>
+        <span class="srv-hero-badge">Blog Post</span>
         <h1 class="srv-hero-headline">Mobile App Development Trends Every Business Should Know in 2026</h1>
         <p class="srv-hero-subtext">Mobile apps have become a critical part of business success. Whether it's e-commerce, healthcare, or finance, apps are transforming how businesses interact with customers. With rapid technological advancements, companies like Mithila Softech are helping businesses build innovative and user-friendly mobile applications.</p>
     </div>

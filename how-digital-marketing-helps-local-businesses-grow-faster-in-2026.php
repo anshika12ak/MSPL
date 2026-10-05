@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'blog';
 $title = 'How Digital Marketing Helps Local Businesses Grow Faster in 2026 | Mithila Softech';
 $hero_title = 'How Digital Marketing Helps Local Businesses Grow Faster in 2026';

@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'blog';
 $title = 'Best Software Development Services in UK: How to Choose the Right Technology Partner | Mithila Softech';
 $hero_title = 'Best Software Development Services in UK: A Complete Guide for Modern Businesses';

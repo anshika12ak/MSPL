@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'blog';
 $title = 'Best Marketing Services in Dubai for Business Growth | Mithila Softech';
 $hero_title = 'Best Marketing Services in Dubai: Grow Your Business Online';

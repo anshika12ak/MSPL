@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'blog';
 $title = 'Why Your Canadian Business Website Is Losing Customers | Website Development Canada';
 $hero_title = 'Why Your Canadian Business Website Is Losing Customers - and How to Fix It';

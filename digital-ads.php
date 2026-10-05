@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'services';
 $title = 'Google & Meta Ads | Mithila Softech';
 ?>
@@ -150,7 +150,7 @@ $title = 'Google & Meta Ads | Mithila Softech';
 <?php include 'headerhome.php'; ?>
 
 <?php 
-$hero_badge = 'ðŸŽ¯ &nbsp; Paid Advertising';
+$hero_badge = 'Paid Advertising';
 $hero_title = 'Google &amp; <br><span class="hero-headline-bold">Meta Ads</span>';
 $hero_subtext = 'Data-driven paid campaigns with precise audience targeting, creative A/B testing, and measurable ROAS.';
 include 'heropage.php'; 

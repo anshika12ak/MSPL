@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'blog';
 $title = '7 Integral Elements of a Successful SEO Marketing Campaign for 2026 | Mithila Softech';
 $hero_title = '7 Integral Elements of a Successful SEO Marketing Campaign for 2026';

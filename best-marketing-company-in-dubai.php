@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'blog';
 $title = 'Best Marketing Company in Dubai for Business Growth | Mithila Softech';
 $hero_title = 'Best Marketing Company in Dubai: How to Choose the Right Digital Marketing Partner';

@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'services';
 $title = 'Dynamic Web Applications | Mithila Softech';
 ?>
@@ -190,7 +190,7 @@ $title = 'Dynamic Web Applications | Mithila Softech';
 <?php include 'headerhome.php'; ?>
 
 <?php 
-$hero_badge = 'ðŸ’» &nbsp; Web Apps';
+$hero_badge = 'Web Apps';
 $hero_title = 'Dynamic Web <br><span class="hero-headline-bold">Applications</span>';
 $hero_subtext = 'Data-driven portals, dashboards and PWAs that go beyond static pages to deliver real-time experiences.';
 include 'heropage.php'; 

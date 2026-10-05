@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'blog';
 $title = 'AI Development Services: How Businesses Are Using Artificial Intelligence in 2026 | Mithila Softech';
 $hero_title = 'AI Development Services: How Businesses Are Using Artificial Intelligence in 2026';

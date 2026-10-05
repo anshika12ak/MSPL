@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'services';
 $title = 'UI/UX Design & Prototyping | Mithila Softech';
 ?>
@@ -125,7 +125,7 @@ $title = 'UI/UX Design & Prototyping | Mithila Softech';
 <?php include 'headerhome.php'; ?>
 
 <?php 
-$hero_badge = 'ðŸŽ¨ &nbsp; Design Solutions';
+$hero_badge = 'Design Solutions';
 $hero_title = 'UI/UX Design &amp; <br><span class="hero-headline-bold">Prototyping</span>';
 $hero_subtext = 'User-centred mobile and web design with interactive Figma prototypes, wireframes, and intuitive user-flow mapping.';
 include 'heropage.php'; 

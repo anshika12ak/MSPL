@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'blog';
 $title = 'Best Digital Marketing Company in Canada: Why Integrated Technology and Marketing Matter for Business Growth | Mithila Softech';
 $hero_title = 'Best Digital Marketing Company in Canada: Why Integrated Technology and Marketing Matter for Business Growth';

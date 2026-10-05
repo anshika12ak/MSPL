@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'services';
 $title = 'Website Design & Development | Mithila Softech';
 ?>
@@ -175,7 +175,7 @@ $title = 'Website Design & Development | Mithila Softech';
 <?php include 'headerhome.php'; ?>
 
 <?php 
-$hero_badge = 'ðŸŒ &nbsp; Web Services';
+$hero_badge = 'Web Services';
 $hero_title = 'Professional Web <br><span class="hero-headline-bold">Development <span class="hero-headline-accent">Services</span></span>';
 $hero_subtext = 'Custom websites, e-commerce portals, admin dashboards & PWAs built with modern tech stacks.';
 include 'heropage.php'; 

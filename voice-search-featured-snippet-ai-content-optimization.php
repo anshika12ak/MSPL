@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'blog';
 $title = 'Voice Search, Featured Snippets & AI Content Optimization Services | Mithila Softech';
 $hero_title = 'Voice Search, Featured Snippets & AI Content Optimization: Is Your Website Ready?';

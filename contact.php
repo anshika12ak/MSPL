@@ -27,10 +27,10 @@ $clients = [
 ];
 
 $stats = [
-    ["number"=>"60","label"=>"Technologies Mastered", "icon"=>"ðŸ’»"],
-    ["number"=>"50","label"=>"Team Strength", "icon"=>"ðŸ‘¥"],
-    ["number"=>"100","label"=>"Clients Worldwide", "icon"=>"ðŸŒ"],
-    ["number"=>"20","label"=>"Services Offered", "icon"=>"âš™ï¸"]
+    ["number"=>"60","label"=>"Technologies Mastered", "icon"=>"&#128187;"],
+    ["number"=>"50","label"=>"Team Strength", "icon"=>"&#128101;"],
+    ["number"=>"100","label"=>"Clients Worldwide", "icon"=>"&#127757;"],
+    ["number"=>"20","label"=>"Services Offered", "icon"=>"&#9881;&#65039;"]
 ];
 
 $testimonials = [
@@ -294,7 +294,7 @@ $testimonials = [
     <div class="srv-hero-bg-orb1"></div>
     <div class="srv-hero-bg-orb2"></div>
     <div class="container" style="position: relative; z-index: 2;">
-        <span class="srv-hero-badge">ðŸ“ž &nbsp; Get in Touch</span>
+        <span class="srv-hero-badge">Get in Touch</span>
         <h1 class="srv-hero-headline">Contact Mithila Softech – <br><span class="srv-hero-headline-bold">Let’s Build <span class="srv-hero-headline-accent">Your Solution</span></span></h1>
         <p class="srv-hero-subtext">We are a team of passionate developers, designers, and digital strategists dedicated to building robust technology solutions for growing businesses.</p>
     </div>

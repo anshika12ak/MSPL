@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'blog';
 $title = 'Best Custom Software Development Agency in Dubai | Mithila Softech';
 $hero_title = 'Best Custom Software Agency in Dubai for Business Growth';

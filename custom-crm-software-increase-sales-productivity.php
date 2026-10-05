@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $activePage = 'blog';
 $title = 'How Custom CRM Software Can Increase Sales and Productivity for Your Business | Mithila Softech';
 $hero_title = 'How Custom CRM Software Can Increase Sales and Productivity';
