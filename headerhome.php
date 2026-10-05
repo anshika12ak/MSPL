@@ -178,6 +178,15 @@ $nav_items = [
         color: var(--text, #333);
     }
     
+    /* Whole site: keep the screen static on mobile (no sideways scroll or wobble) */
+    html { overflow-x: hidden; max-width: 100%; -webkit-text-size-adjust: 100%; }
+    @media (max-width: 991px) {
+        html, body { max-width: 100%; overscroll-behavior-x: none; }
+        body { overflow-x: clip; position: relative; width: 100%; }
+        img, svg, video, iframe, table { max-width: 100%; }
+        p, h1, h2, h3, h4, h5, li, a { overflow-wrap: anywhere; }
+    }
+
     /* Mobile Drawer Dropdown Adjustments (Base drawer styling is managed in style.css) */
     @media (max-width: 1199px) {
         .site-header { top: 0; }

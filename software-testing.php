@@ -807,6 +807,41 @@ $title = 'Software Testing & QA Services | Mithila Softech';
                 border-radius: 20px;
             }
         }
+
+        /* --- EXTRA RESPONSIVE FIXES (tablet and mobile) --- */
+        img, svg, video { max-width: 100%; }
+
+        @media (max-width: 991px) {
+            html, body { overflow-x: hidden; max-width: 100%; overscroll-behavior-x: none; }
+            main, section, .content-section, .content-container, footer { max-width: 100%; }
+            .content-section { padding: 70px 0; overflow-x: clip; }
+            .page-orb { display: none; }
+            .section-head { margin-bottom: 36px; }
+            .comparison-grid, .why-choose-list { gap: 20px; }
+            .service-features-grid > *, .comparison-grid > *, .process-grid > *,
+            .why-choose-list > *, .tech-categories-grid > *, .intro-grid > * { min-width: 0; }
+            p, h1, h2, h3, h4, li { overflow-wrap: anywhere; }
+        }
+
+        @media (max-width: 640px) {
+            .content-section { padding: 48px 0; }
+            .content-container { padding: 0 16px; }
+            .section-title { font-size: clamp(1.6rem, 7vw, 2rem); }
+            .section-subtitle { font-size: 0.98rem; }
+            .intro-grid { gap: 28px; margin-bottom: 44px; }
+            .intro-text h2 { font-size: clamp(1.5rem, 6.5vw, 1.9rem); }
+            .intro-text p { font-size: 0.98rem; line-height: 1.7; }
+            .qa-stat-item { padding: 20px 16px; }
+            .qa-stat-item .stat-num { font-size: 1.8rem; }
+            .button-primary, .button-outline { width: 100%; justify-content: center; text-align: center; box-sizing: border-box; }
+            .cta-box h2 { font-size: clamp(1.5rem, 6.5vw, 1.9rem); }
+            .cta-box .btn-white, .cta-box .btn-trans-border { width: 100%; justify-content: center; text-align: center; box-sizing: border-box; }
+        }
+
+        @media (max-width: 380px) {
+            .content-container { padding: 0 12px; }
+            .cta-box { padding: 36px 16px; }
+        }
     </style>
 </head>
 <body>

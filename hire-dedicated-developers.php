@@ -1598,6 +1598,22 @@ if ($is_specific_role) {
         img, svg, video { max-width: 100%; }
         .form-control, .form-select { min-width: 0; box-sizing: border-box; }
 
+        /* Keep the screen static on mobile: no sideways scrolling or wobble */
+        html { overflow-x: hidden; max-width: 100%; -webkit-text-size-adjust: 100%; }
+        @media (max-width: 991px) {
+            html, body {
+                overflow-x: hidden;
+                max-width: 100%;
+                overscroll-behavior-x: none;
+            }
+            body { position: relative; width: 100%; }
+            main, section, .content-section, .content-container, footer { max-width: 100%; }
+            .content-section { overflow-x: clip; }
+            .tech-stack-grid > *, .service-features-grid > *, .comparison-grid > *,
+            .process-grid > *, .why-choose-list > *, .intro-grid > * { min-width: 0; }
+            p, h1, h2, h3, h4, li { overflow-wrap: anywhere; }
+        }
+
         /* Select dropdowns: consistent look with custom arrow */
         .form-select {
             -webkit-appearance: none;
