@@ -176,7 +176,7 @@ $title = 'Website Design & Development | Mithila Softech';
 
 <?php 
 $hero_badge = 'ðŸŒ &nbsp; Web Services';
-$hero_title = 'Professional Web <br><span class="hero-headline-bold">Development <span class="hero-headline-accent">Services in India</span></span>';
+$hero_title = 'Professional Web <br><span class="hero-headline-bold">Development <span class="hero-headline-accent">Services</span></span>';
 $hero_subtext = 'Custom websites, e-commerce portals, admin dashboards & PWAs built with modern tech stacks.';
 include 'heropage.php'; 
 ?>
@@ -189,7 +189,7 @@ include 'heropage.php';
             <div class="intro-text">
                 <span class="eyebrow reveal">Web Services</span>
                 <h2 class="reveal" style="transition-delay: 0.05s;">Transform Your Digital Presence with <span>Expert Web Development</span></h2>
-                <p class="reveal" style="transition-delay: 0.15s;">In today's digital-first world, your website is the face of your business. Itâ€™s often the first touchpoint for potential customers and plays a critical role in establishing trust and driving conversions. At Mithila Softech, we specialize in building visually stunning, highly functional, and fast-loading web experiences tailored to your brandâ€™s unique goals.</p>
+                <p class="reveal" style="transition-delay: 0.15s;">In today's digital-first world, your website is the face of your business. It’s often the first touchpoint for potential customers and plays a critical role in establishing trust and driving conversions. At Mithila Softech, we specialize in building visually stunning, highly functional, and fast-loading web experiences tailored to your brand’s unique goals.</p>
                 <p class="reveal" style="transition-delay: 0.25s;">Whether you need a sleek corporate website, a complex dynamic web application, or a high-converting e-commerce portal, our expert developers use the latest frameworks to deliver a seamless user experience across all devices.</p>
             </div>
             <div class="intro-image-wrap reveal" style="transition-delay: 0.3s;">

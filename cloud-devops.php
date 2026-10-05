@@ -157,7 +157,7 @@ $title = 'Cloud & DevOps Solutions | Mithila Softech';
             <div class="intro-text">
                 <span class="eyebrow reveal">Cloud Engineering</span>
                 <h2 class="reveal" style="transition-delay: 0.05s;">Accelerate Delivery with <span>Cloud DevOps</span></h2>
-                <p class="reveal" style="transition-delay: 0.15s;">Moving to the cloud isn't just about serversâ€”it's about agility, scalability, and extreme cost-efficiency. We help businesses modernize their infrastructure, bridging the gap between development and operations.</p>
+                <p class="reveal" style="transition-delay: 0.15s;">Moving to the cloud isn't just about servers - it's about agility, scalability, and extreme cost-efficiency. We help businesses modernize their infrastructure, bridging the gap between development and operations.</p>
                 <p class="reveal" style="transition-delay: 0.25s;">From seamless migrations to building automated CI/CD pipelines and containerized microservices, our DevOps engineers ensure your applications are always fast, secure, and highly available.</p>
             </div>
             <div class="intro-image-wrap reveal" style="transition-delay: 0.3s;">

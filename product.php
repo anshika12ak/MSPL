@@ -14,14 +14,14 @@ $fallbackImg = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' wid
   
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Our Products â€“ Mithila Softech">
+  <meta property="og:title" content="Our Products – Mithila Softech">
   <meta property="og:description" content="Explore our product offerings designed to solve real business and education challenges.">
   <meta property="og:image" content="assets/image/product.jpg">
   <meta property="og:url" content="https://mithilasoftech.com/product">
 
   <!-- X (Twitter) Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Our Products â€“ Mithila Softech">
+  <meta name="twitter:title" content="Our Products – Mithila Softech">
   <meta name="twitter:description" content="Explore our product offerings designed to solve real business and education challenges.">
   <meta name="twitter:image" content="assets/image/product.jpg">
 

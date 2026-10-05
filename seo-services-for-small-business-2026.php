@@ -12,7 +12,7 @@ function e($v){ return htmlspecialchars((string)$v, ENT_QUOTES, "UTF-8"); }
 
 $all_blogs = [
     [
-        "title" => "SEO Company in Delhi â€“ AI Powered SEO Services for Small Businesses in India",
+        "title" => "SEO Company in Delhi – AI Powered SEO Services for Small Businesses in India",
         "excerpt" => "Mithila Softech is a leading SEO company in Delhi offering AI SEO services, digital marketing strategies, and affordable SEO services for small businesses across India to improve rankings, traffic, and online visibility.",
         "date" => "June 1, 2024",
         "category" => "Digital Marketing",
@@ -21,7 +21,7 @@ $all_blogs = [
     ],
     [
         "title" => "how-digital-marketing-helps-local-businesses-grow-faster-in-2026",
-        "excerpt" => "Digital marketing has become essential for every local business that wants to grow in todayâ€™s competitive market.",
+        "excerpt" => "Digital marketing has become essential for every local business that wants to grow in today’s competitive market.",
         "date" => "May 25, 2024",
         "category" => "Digital Marketing",
         "img" => "assets/image/blog6.png?v=20260610-1659",
@@ -163,7 +163,7 @@ $all_blogs = [
                     
                     <img src="<?= e($hero_bg_image) ?>" alt="<?= e($hero_title) ?>" class="blog-image" onerror="this.onerror=null;this.src='<?= e($fallbackImg) ?>';">
 
-                    <p>In todayâ€™s digital world, simply having a website is no longer enough. Thousands of businesses are competing online for visibility, customers, and sales. If your business is not appearing on Google when potential customers search for your products or services, you are losing valuable opportunities every single day.</p>
+                    <p>In today’s digital world, simply having a website is no longer enough. Thousands of businesses are competing online for visibility, customers, and sales. If your business is not appearing on Google when potential customers search for your products or services, you are losing valuable opportunities every single day.</p>
             <p>This is why investing in professional <a href="seo-services" style="color: var(--blue-dark); text-decoration: underline; font-weight: 500;">SEO services for small business</a> has become essential in 2026. Search Engine Optimization helps businesses improve online visibility, attract targeted customers, increase website traffic, and generate long-term growth without relying completely on paid advertisements.</p>
 
             <h2>What Is SEO?</h2>

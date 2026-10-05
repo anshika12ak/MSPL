@@ -9,7 +9,7 @@ $category = "Technology";
 $hero_bg_image = "assets/image/new_blog25_0.png";
 
 $content_blocks = [
-    ['type' => 'p', 'html' => "Technology is no longer simply a support function—it is a critical part of business growth. From websites and mobile applications to custom software, automation, cybersecurity, and digital marketing, Canadian businesses need technology solutions that are reliable, scalable, and aligned with their goals."],
+    ['type' => 'p', 'html' => "Technology is no longer simply a support function - it is a critical part of business growth. From websites and mobile applications to custom software, automation, cybersecurity, and digital marketing, Canadian businesses need technology solutions that are reliable, scalable, and aligned with their goals."],
     ['type' => 'p', 'html' => "For organizations searching for the <a href='https://www.mithilasoftech.com/' style='color: var(--blue-dark); text-decoration: underline; font-weight: 600;'>best IT services company in Canada</a>, the right technology partner should offer more than individual services. It should understand business challenges, recommend practical solutions, and provide the technical expertise required to turn digital ideas into measurable results."],
     ['type' => 'p', 'html' => "Mithila Softech is a technology and digital solutions company offering services including web development, mobile app development, custom software solutions, ERP/CRM development, digital marketing, and recruitment services."],
     ['type' => 'h2', 'text' => "Why Businesses in Canada Need Professional IT Services"],

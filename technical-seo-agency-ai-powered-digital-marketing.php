@@ -147,7 +147,7 @@ $content_blocks = [
     ],
     [
         'type' => 'p',
-        'html' => 'However, AI should support—not replace—human expertise. High-quality content still requires creativity, industry knowledge, and a deep understanding of audience needs. The most successful strategy combines AI insights with experienced content writers and SEO specialists.'
+        'html' => 'However, AI should support - not replace - human expertise. High-quality content still requires creativity, industry knowledge, and a deep understanding of audience needs. The most successful strategy combines AI insights with experienced content writers and SEO specialists.'
     ],
     [
         'type' => 'h2',

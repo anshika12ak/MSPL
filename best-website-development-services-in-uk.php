@@ -9,7 +9,7 @@ $category = "Web Development";
 $hero_bg_image = "assets/image/web-dev-uk-img1.png";
 
 $content_blocks = [
-    ['type' => 'p', 'html' => "In today's digital-first world, your website is more than just an online presence—it's the foundation of your business. Whether you're a startup, a growing enterprise, or an established company, having a professionally designed website is essential to building credibility, attracting customers, and increasing revenue."],
+    ['type' => 'p', 'html' => "In today's digital-first world, your website is more than just an online presence - it's the foundation of your business. Whether you're a startup, a growing enterprise, or an established company, having a professionally designed website is essential to building credibility, attracting customers, and increasing revenue."],
     ['type' => 'p', 'html' => "If you're searching for the best website development services in UK, choosing the right development partner can make all the difference. A well-built website doesn't just look great; it delivers exceptional performance, ranks well on search engines, and converts visitors into loyal customers."],
     ['type' => 'p', 'html' => "At <a href='https://mithilasoftech.com/' style='color: var(--blue-dark); text-decoration: underline; font-weight: 600;'>Mithila Softech</a>, we specialize in creating custom, responsive, and SEO-friendly websites that help businesses across the UK achieve sustainable online growth."],
 

@@ -1365,7 +1365,7 @@ include 'heropage.php';
 
             <div class="why-item ms-reveal ms-card-shine ms-delay-3">
                 <h4>Shift-Left Defect Prevention</h4>
-                <p>We review architecture blueprints, API schemas, and wireframes before coding beginsâ€”preventing costly foundational defects rather than just logging them post-build.</p>
+                <p>We review architecture blueprints, API schemas, and wireframes before coding begins - preventing costly foundational defects rather than just logging them post-build.</p>
             </div>
 
             <div class="why-item ms-reveal ms-card-shine ms-delay-4">

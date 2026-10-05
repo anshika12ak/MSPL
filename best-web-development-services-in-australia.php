@@ -99,7 +99,7 @@ $content_blocks = [
     ['type' => 'p', 'html' => "Ongoing maintenance, security updates, bug fixes, performance improvements, and new feature development can help keep a website reliable as the business evolves."],
     ['type' => 'h2', 'text' => "Why Businesses Can Consider Mithila Softech"],
     ['type' => 'p', 'html' => "Mithila Softech positions itself as a technology and digital solutions company providing web development, mobile applications, digital marketing, recruitment, and custom software solutions."],
-    ['type' => 'p', 'html' => "Its web development services include custom responsive websites, eCommerce platforms, dynamic web applications, dashboards, and PWAs. This makes it possible to support businesses with different levels of digital requirements—from a professional corporate website to a more complex web-based application."],
+    ['type' => 'p', 'html' => "Its web development services include custom responsive websites, eCommerce platforms, dynamic web applications, dashboards, and PWAs. This makes it possible to support businesses with different levels of digital requirements - from a professional corporate website to a more complex web-based application."],
     ['type' => 'p', 'html' => "The company also emphasizes scalable solutions, transparent communication, client-centric development, and ongoing technical support."],
     ['type' => 'p', 'html' => "For Australian businesses looking for a development partner, the key is to choose a team that understands the project's business objectives rather than focusing only on the technical build."],
     ['type' => 'ul', 'items' => [

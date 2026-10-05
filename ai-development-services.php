@@ -12,7 +12,7 @@ function e($v){ return htmlspecialchars((string)$v, ENT_QUOTES, "UTF-8"); }
 $all_blogs = [
     [
         "title" => "how-digital-marketing-helps-local-businesses-grow-faster-in-2026",
-        "excerpt" => "Digital marketing has become essential for every local business that wants to grow in todayâ€™s competitive market.",
+        "excerpt" => "Digital marketing has become essential for every local business that wants to grow in today’s competitive market.",
         "date" => "May 25, 2026",
         "category" => "Digital Marketing",
         "img" => "assets/image/blog6.png?v=20260610-1659",

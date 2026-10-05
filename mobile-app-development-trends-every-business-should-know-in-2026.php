@@ -7,7 +7,7 @@ function e($v){ return htmlspecialchars((string)$v, ENT_QUOTES, "UTF-8"); }
 
 $all_blogs = [
     [
-        "title" => "SEO Company in Delhi â€“ AI Powered SEO Services for Small Businesses in India",
+        "title" => "SEO Company in Delhi – AI Powered SEO Services for Small Businesses in India",
         "excerpt" => "Mithila Softech is a leading SEO company in Delhi offering AI SEO services, digital marketing strategies, and affordable SEO services for small businesses across India to improve rankings, traffic, and online visibility.",
         "date" => "June 1, 2024",
         "category" => "Digital Marketing",
@@ -16,7 +16,7 @@ $all_blogs = [
     ],
     [
         "title" => "how-digital-marketing-helps-local-businesses-grow-faster-in-2026",
-        "excerpt" => "Digital marketing has become essential for every local business that wants to grow in todayâ€™s competitive market.",
+        "excerpt" => "Digital marketing has become essential for every local business that wants to grow in today’s competitive market.",
         "date" => "May 25, 2024",
         "category" => "Digital Marketing",
         "img" => "assets/image/blog6.png?v=20260610-1659",

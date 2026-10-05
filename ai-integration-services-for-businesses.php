@@ -301,7 +301,7 @@ $recent_blogs = [
 
 <h3>2. Which businesses can benefit from AI integration?</h3>
 
-<p>Businesses across industries—including healthcare, manufacturing, retail, finance, logistics, education, and professional services—can benefit from AI by improving productivity, customer experience, and operational efficiency.</p>
+<p>Businesses across industries - including healthcare, manufacturing, retail, finance, logistics, education, and professional services - can benefit from AI by improving productivity, customer experience, and operational efficiency.</p>
 
 <h3>3. Why should businesses choose custom AI solutions instead of ready-made tools?</h3>
 

@@ -230,7 +230,7 @@ $content_blocks = [
     ],
     [
         'type' => 'p',
-        'html' => 'AI is not replacing SEO professionals—it is making them more efficient. By combining AI with proven SEO strategies, businesses can:'
+        'html' => 'AI is not replacing SEO professionals - it is making them more efficient. By combining AI with proven SEO strategies, businesses can:'
     ],
     [
         'type' => 'ul',

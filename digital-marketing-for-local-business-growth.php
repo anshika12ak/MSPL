@@ -11,7 +11,7 @@ function e($v){ return htmlspecialchars((string)$v, ENT_QUOTES, "UTF-8"); }
 
 $all_blogs = [
     [
-        "title" => "SEO Company in Delhi â€“ AI Powered SEO Services for Small Businesses in India",
+        "title" => "SEO Company in Delhi – AI Powered SEO Services for Small Businesses in India",
         "excerpt" => "Mithila Softech is a leading SEO company in Delhi offering AI SEO services, digital marketing strategies, and affordable SEO services for small businesses across India to improve rankings, traffic, and online visibility.",
         "date" => "June 1, 2024",
         "category" => "Digital Marketing",
@@ -20,7 +20,7 @@ $all_blogs = [
     ],
     [
         "title" => "how-digital-marketing-helps-local-businesses-grow-faster-in-2026",
-        "excerpt" => "Digital marketing has become essential for every local business that wants to grow in todayâ€™s competitive market.",
+        "excerpt" => "Digital marketing has become essential for every local business that wants to grow in today’s competitive market.",
         "date" => "May 25, 2024",
         "category" => "Digital Marketing",
         "img" => "assets/image/blog6.png?v=20260610-1659",
@@ -167,7 +167,7 @@ $all_blogs = [
                     
                     <img src="assets/image/blog6.png?v=20260610-1659" alt="How Digital Marketing Helps Local Businesses Grow" class="blog-image" onerror="this.onerror=null;this.src='<?php echo $fallbackImg; ?>';">
                     
-                    <p>In todayâ€™s digital-first world, customers search online before choosing any product or service. Businesses that invest in professional <a href="digital-marketing" style="color: var(--blue-dark); text-decoration: underline; font-weight: 500;">digital marketing services</a>, <a href="seo-services" style="color: var(--blue-dark); text-decoration: underline; font-weight: 500;">SEO services for local businesses</a>, <a href="website-design" style="color: var(--blue-dark); text-decoration: underline; font-weight: 500;">website development services</a>, and <a href="social-media-marketing" style="color: var(--blue-dark); text-decoration: underline; font-weight: 500;">social media marketing</a> are able to grow faster and attract more customers online. Whether someone is looking for a salon, auto spare parts shop, restaurant, hospital, or software company, the first thing they usually do is search on Google or social media platforms.</p>
+                    <p>In today’s digital-first world, customers search online before choosing any product or service. Businesses that invest in professional <a href="digital-marketing" style="color: var(--blue-dark); text-decoration: underline; font-weight: 500;">digital marketing services</a>, <a href="seo-services" style="color: var(--blue-dark); text-decoration: underline; font-weight: 500;">SEO services for local businesses</a>, <a href="website-design" style="color: var(--blue-dark); text-decoration: underline; font-weight: 500;">website development services</a>, and <a href="social-media-marketing" style="color: var(--blue-dark); text-decoration: underline; font-weight: 500;">social media marketing</a> are able to grow faster and attract more customers online. Whether someone is looking for a salon, auto spare parts shop, restaurant, hospital, or software company, the first thing they usually do is search on Google or social media platforms.</p>
                     
                     <p>This shift in customer behavior has made digital marketing one of the most powerful tools for local business growth. Businesses that invest in online marketing strategies are able to attract more customers, build trust, increase visibility, and generate more sales compared to businesses that rely only on traditional marketing methods.</p>
                     

@@ -20,7 +20,7 @@ $all_blogs = [
         "link" => "real-estate-digital-marketing-case-study-property-sales",
     ],
     [
-        "title" => "SEO Company in Delhi â€“ AI Powered SEO Services for Small Businesses in India",
+        "title" => "SEO Company in Delhi – AI Powered SEO Services for Small Businesses in India",
         "excerpt" => "Mithila Softech is a leading SEO company in Delhi offering AI SEO services, digital marketing strategies, and affordable SEO services for small businesses across India to improve rankings, traffic, and online visibility.",
         "date" => "June 1, 2026",
         "category" => "Digital Marketing",
@@ -29,7 +29,7 @@ $all_blogs = [
     ],
     [
         "title" => "how-digital-marketing-helps-local-businesses-grow-faster-in-2026",
-        "excerpt" => "Digital marketing has become essential for every local business that wants to grow in todayâ€™s competitive market.",
+        "excerpt" => "Digital marketing has become essential for every local business that wants to grow in today’s competitive market.",
         "date" => "May 25, 2026",
         "category" => "Digital Marketing",
         "img" => "assets/image/blog6.png?v=20260610-1659",
@@ -103,7 +103,7 @@ $all_blogs = [
                     
                     <img src="assets/image/realestateblog.png?v=20260610-1659" alt="Real Estate Digital Marketing Strategy" class="blog-image" onerror="this.onerror=null;this.src='<?php echo $fallbackImg; ?>';">
                     
-                    <p>In todayâ€™s competitive property market, having premium projects is no longer enough. Buyers now discover, compare, and shortlist properties online before ever speaking to a sales team.</p>
+                    <p>In today’s competitive property market, having premium projects is no longer enough. Buyers now discover, compare, and shortlist properties online before ever speaking to a sales team.</p>
                     <p>This shift has made <strong>Digital Marketing for Real Estate</strong> one of the most important growth drivers for developers, builders, and property consultants.</p>
                     <p>In this case study, <a href="index" style="color: var(--blue-dark); text-decoration: underline; font-weight: 500;">Mithila Softech</a> shares how a struggling real estate brand transformed its online presence and generated high-value property sales using a performance-focused digital marketing strategy.</p>
 
@@ -118,10 +118,10 @@ $all_blogs = [
                         <li>Rising advertising costs</li>
                         <li>No structured online lead funnel</li>
                     </ul>
-                    <p>The company needed a strategy that could attract serious buyers instead of random inquiries. Thatâ€™s when they partnered with Mithila Softech.</p>
+                    <p>The company needed a strategy that could attract serious buyers instead of random inquiries. That’s when they partnered with Mithila Softech.</p>
 
                     <h2>Step 1: Creating a Conversion-Focused Real Estate Website</h2>
-                    <p>Our first priority was optimizing the clientâ€™s website to improve trust and conversions. We redesigned the platform with a mobile-first approach, faster loading speeds, and smart lead inquiry forms.</p>
+                    <p>Our first priority was optimizing the client’s website to improve trust and conversions. We redesigned the platform with a mobile-first approach, faster loading speeds, and smart lead inquiry forms.</p>
                     <p>We also optimized the website around high-intent keywords such as <strong>Real Estate Digital Marketing Services</strong>, <strong>Luxury Property Marketing</strong>, <strong>SEO for Real Estate Companies</strong>, and <strong>Property Lead Generation Services</strong>. The updated website became the foundation of the entire marketing campaign.</p>
 
                     <h2>Step 2: SEO + AEO Strategy That Dominated Search Results</h2>
@@ -134,7 +134,7 @@ $all_blogs = [
                         <li>Hyperlocal SEO pages</li>
                         <li>Voice-search optimization</li>
                     </ul>
-                    <p>The website started ranking for valuable searches like â€œbest luxury apartments near meâ€ and â€œtop residential projects in the cityâ€, significantly improving buyer intent traffic.</p>
+                    <p>The website started ranking for valuable searches like “best luxury apartments near me” and “top residential projects in the city”, significantly improving buyer intent traffic.</p>
 
                     <h2>Step 3: Social Media Campaigns That Built Buyer Confidence</h2>
                     <p>Real estate purchases are emotional and trust-driven decisions. We launched highly targeted campaigns across Instagram, Facebook, YouTube, and LinkedIn.</p>
@@ -179,7 +179,7 @@ $all_blogs = [
                     <p><strong>2. What are the best digital marketing strategies for real estate companies?</strong><br>The most effective include SEO, AEO optimization, Google Ads, and storytelling-based social media marketing.</p>
                     <p><strong>3. How does SEO help real estate developers generate property leads?</strong><br>SEO improves visibility for searches related to apartments and investment properties, bringing more organic, qualified inquiries.</p>
                     <p><strong>4. What is AEO in real estate marketing?</strong><br>Answer Engine Optimization helps websites appear in AI search tools and voice search results by optimizing for conversational queries.</p>
-                    <p><strong>5. How long does it take to see results?</strong><br>Most businesses see measurable improvements in traffic and lead generation within 3â€“6 months.</p>
+                    <p><strong>5. How long does it take to see results?</strong><br>Most businesses see measurable improvements in traffic and lead generation within 3–6 months.</p>
 
                     
 

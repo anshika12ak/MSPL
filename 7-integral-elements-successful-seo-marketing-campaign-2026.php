@@ -12,7 +12,7 @@ function e($v){ return htmlspecialchars((string)$v, ENT_QUOTES, "UTF-8"); }
 $all_blogs = [
     [
         "title" => "how-digital-marketing-helps-local-businesses-grow-faster-in-2026",
-        "excerpt" => "Digital marketing has become essential for every local business that wants to grow in todayâ€™s competitive market.",
+        "excerpt" => "Digital marketing has become essential for every local business that wants to grow in today’s competitive market.",
         "date" => "May 25, 2026",
         "category" => "Digital Marketing",
         "img" => "assets/image/blog6.png?v=20260610-1659",
@@ -239,7 +239,7 @@ $all_blogs = [
 
 <h2>Why Businesses Need an Integrated SEO Strategy in 2026</h2>
 <p>Today's search landscape is powered by AI, personalization, and user experience. Businesses that combine AI powered digital marketing, AI content optimization, Voice search optimization services, and Featured snippet optimization within a single SEO marketing campaign achieve stronger long-term results than those relying on outdated tactics.</p>
-<p>The most successful companies understand that SEO is no longer just about ranking higherâ€”it is about delivering the best possible experience for users while building trust and authority online.</p>
+<p>The most successful companies understand that SEO is no longer just about ranking higher - it is about delivering the best possible experience for users while building trust and authority online.</p>
 
 <h2>Conclusion</h2>
 <p>A successful SEO marketing campaign in 2026 requires a holistic approach that combines technical excellence, strategic content creation, AI-powered insights, and continuous optimization. Businesses that invest in strong technical foundations, understand user intent, leverage <a href="ai-development-services.php">AI powered digital marketing</a>, embrace Voice search optimization services, and focus on <a href="https://www.mithilasoftech.com/">Featured snippet optimization</a> will be better positioned to achieve sustainable organic growth.</p>

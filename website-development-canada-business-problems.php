@@ -1,7 +1,7 @@
 ﻿<?php
 $activePage = 'blog';
 $title = 'Why Your Canadian Business Website Is Losing Customers | Website Development Canada';
-$hero_title = 'Why Your Canadian Business Website Is Losing Customersâ€”and How to Fix It';
+$hero_title = 'Why Your Canadian Business Website Is Losing Customers - and How to Fix It';
 $hero_subtext = 'Learn how website development in Canada can solve common business problems like poor mobile experience, slow loading, weak conversions, and difficult navigation.';
 $hero_bg_image = 'assets/image/website-development-canada-hero-banner.jpg';
 $hero_bg_size = 'cover';

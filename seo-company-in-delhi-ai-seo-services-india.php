@@ -1,6 +1,6 @@
 ﻿<?php
 $activePage = 'blog';
-$title = 'SEO Company in Delhi â€“ AI Powered SEO Services for Small Businesses in India';
+$title = 'SEO Company in Delhi – AI Powered SEO Services for Small Businesses in India';
 $title = 'Why Hiring a Digital Marketing Company in India Can Transform Your Business in 2026 | Mithila Softech';
 $hero_badge = 'ðŸ“ˆ &nbsp; Digital Marketing';
 $hero_title = 'SEO Company in Delhi: AI Powered SEO Services';
@@ -16,7 +16,7 @@ function e($v){ return htmlspecialchars((string)$v, ENT_QUOTES, "UTF-8"); }
 
 $all_blogs = [
     [
-        "title" => "SEO Company in Delhi â€“ AI Powered SEO Services for Small Businesses in India",
+        "title" => "SEO Company in Delhi – AI Powered SEO Services for Small Businesses in India",
         "excerpt" => "Mithila Softech is a leading SEO company in Delhi offering AI SEO services, digital marketing strategies, and affordable SEO services for small businesses across India to improve rankings, traffic, and online visibility.",
         "date" => "June 1, 2026",
         "category" => "Digital Marketing",
@@ -25,7 +25,7 @@ $all_blogs = [
     ],
     [
         "title" => "how-digital-marketing-helps-local-businesses-grow-faster-in-2026",
-        "excerpt" => "Digital marketing has become essential for every local business that wants to grow in todayâ€™s competitive market.",
+        "excerpt" => "Digital marketing has become essential for every local business that wants to grow in today’s competitive market.",
         "date" => "May 25, 2026",
         "category" => "Digital Marketing",
         "img" => "assets/image/blog6.png?v=20260610-1659",
@@ -176,7 +176,7 @@ $all_blogs = [
 
                     <img src="assets/image/seoindelhi.png?v=20260610-1659" alt="SEO Company in Delhi" class="blog-image" onerror="this.onerror=null;this.src='<?php echo $fallbackImg; ?>';">
                     <h2>SEO Company in Delhi: Why Businesses Need AI SEO Services in 2026</h2>
-                    <p>In todayâ€™s competitive online market, every business wants better visibility, higher website traffic, and more leads. Whether you own a startup, local business, ecommerce store, or enterprise company, investing in professional SEO services has become essential for growth. Choosing the right SEO company in Delhi can help your business dominate search engine rankings and attract targeted customers.</p>
+                    <p>In today’s competitive online market, every business wants better visibility, higher website traffic, and more leads. Whether you own a startup, local business, ecommerce store, or enterprise company, investing in professional SEO services has become essential for growth. Choosing the right SEO company in Delhi can help your business dominate search engine rankings and attract targeted customers.</p>
                     <p>With the rise of artificial intelligence and smart search algorithms, modern businesses are now moving towards AI SEO services to achieve faster and smarter results. Companies across India are looking for the best SEO company in India that understands both traditional SEO and AI-driven optimization techniques.</p>
                     
                     <h2>Why SEO is Important for Businesses</h2>
@@ -283,7 +283,7 @@ $all_blogs = [
                     
                     <h2>Conclusion</h2>
                     <p>Choosing the right SEO company in Delhi can significantly impact your business growth and online success. From improving search engine rankings to generating quality leads, SEO plays a vital role in digital marketing success. Businesses looking for affordable and effective SEO services for small business should partner with agencies that combine expertise, innovation, and AI-powered strategies.</p>
-                    <p>As the digital world evolves, AI SEO services are becoming essential for businesses that want smarter optimization and long-term growth. Partnering with the best SEO company in India can help your brand achieve higher visibility, increased traffic, and better conversions in todayâ€™s competitive market.</p>
+                    <p>As the digital world evolves, AI SEO services are becoming essential for businesses that want smarter optimization and long-term growth. Partnering with the best SEO company in India can help your brand achieve higher visibility, increased traffic, and better conversions in today’s competitive market.</p>
                     
                     <h2>FAQs</h2>
                     <p><strong>1. What does an SEO company in Delhi do?</strong><br>An SEO company in Delhi helps businesses improve their website rankings on search engines through keyword optimization, technical SEO, content marketing, and link-building strategies.</p>

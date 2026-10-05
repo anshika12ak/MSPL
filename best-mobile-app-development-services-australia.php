@@ -101,7 +101,7 @@ $content_blocks = [
     ['type' => 'h2', 'text' => "Why Choose Mithila Softech for Mobile App Development?"],
     ['type' => 'p', 'html' => "Mithila Softech offers mobile application development for Android and iOS, including cross-platform development with Flutter and React Native, as well as native development using Swift and Kotlin. Its services also include UI/UX design, prototyping, app deployment, and ongoing support."],
     ['type' => 'p', 'html' => "For businesses targeting Australian customers, the development process can be tailored around their specific audience, business model, functionality, integrations, and scalability requirements."],
-    ['type' => 'p', 'html' => "The goal should be to build more than an application—it should be a digital product that supports customer engagement and business growth."],
+    ['type' => 'p', 'html' => "The goal should be to build more than an application - it should be a digital product that supports customer engagement and business growth."],
     ['type' => 'h2', 'text' => "Conclusion"],
     ['type' => 'p', 'html' => "Choosing the <a class=\"c15\" href=\'https://www.mithilasoftech.com/\' style=\'color: var(--blue-dark); text-decoration: underline; font-weight: 600;\'>Best mobile app development services in Australia</a> can help businesses turn their digital ideas into practical, scalable, and user-friendly applications."],
     ['type' => 'p', 'html' => "Whether you need an Android app, iOS application, cross-platform solution, or enterprise mobile application, the development partner you choose should have strong technical expertise, a structured development process, reliable testing practices, and long-term support."],

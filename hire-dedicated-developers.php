@@ -23,7 +23,7 @@ $hire_roles = [
         'intro_eyebrow' => 'React.js Engineering',
         'intro_heading' => 'Ship Ultra-Fast Web Products with <span>Dedicated React Engineers</span>',
         'intro_p1' => 'In modern web development, users expect instantaneous interactions, zero page reloads, and silky-smooth transitions. Our dedicated React developers specialize in architecting scalable Single Page Applications (SPAs), Next.js server-rendered platforms, and modular component design systems that deliver extraordinary user satisfaction.',
-        'intro_p2' => 'Whether you need to build a complex SaaS dashboard, upgrade a legacy frontend to React 18, or scale your engineering velocity, our developers embed directly into your GitHub repos, Slack channels, and daily standups — operating as an indispensable extension of your internal team.',
+        'intro_p2' => 'Whether you need to build a complex SaaS dashboard, upgrade a legacy frontend to React 18, or scale your engineering velocity, our developers embed directly into your GitHub repos, Slack channels, and daily standups - operating as an indispensable extension of your internal team.',
         'impact_heading' => 'The Mithila Softech React Advantage',
         'impact_items' => [
             'Next.js 14 App Router, Server Components & Static Generation (SSG)',
@@ -533,7 +533,7 @@ $hire_roles = [
         ],
         'intro_eyebrow' => 'Human-Centric Product Design',
         'intro_heading' => 'Create High-Converting User Experiences with <span>Dedicated UI/UX Designers</span>',
-        'intro_p1' => 'Great software isn’t just about code — it’s about how intuitively it solves user problems. Our dedicated UI/UX designers blend user research, wireframing, cognitive psychology, and visual artistry to create web and mobile experiences that eliminate user friction and maximize engagement.',
+        'intro_p1' => 'Great software isn’t just about code - it’s about how intuitively it solves user problems. Our dedicated UI/UX designers blend user research, wireframing, cognitive psychology, and visual artistry to create web and mobile experiences that eliminate user friction and maximize engagement.',
         'intro_p2' => 'Working collaboratively in Figma, our designers deliver complete end-to-end design systems with tokens, responsive auto-layout components, and clickable interactive prototypes that make developer handoff seamless and reduce engineering rework by up to 50%.',
         'impact_heading' => 'The Mithila Softech UI/UX Advantage',
         'impact_items' => [

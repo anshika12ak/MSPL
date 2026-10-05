@@ -139,7 +139,7 @@ include 'heropage.php';
             <div class="intro-text">
                 <span class="eyebrow reveal">Design Solutions</span>
                 <h2 class="reveal" style="transition-delay: 0.05s;">Intuitive, Human-Centric <span>Design</span></h2>
-                <p class="reveal" style="transition-delay: 0.15s;">A great application is more than just flawless codeâ€”it's an experience. We design digital interfaces that are not only visually stunning but also highly intuitive, ensuring high user retention, accessibility, and satisfaction.</p>
+                <p class="reveal" style="transition-delay: 0.15s;">A great application is more than just flawless code - it's an experience. We design digital interfaces that are not only visually stunning but also highly intuitive, ensuring high user retention, accessibility, and satisfaction.</p>
                 <p class="reveal" style="transition-delay: 0.25s;">From initial wireframes and user journey mapping to high-fidelity, interactive prototypes, our design team bridges the gap between your business objectives and your users' needs.</p>
             </div>
             <div class="intro-image-wrap reveal" style="transition-delay: 0.3s;">
@@ -201,7 +201,7 @@ include 'heropage.php';
             </div>
             <div class="process-card reveal" style="transition-delay: 0.3s;">
                 <div class="card-top"><div class="process-step-num">3</div></div>
-                <h3 style="margin-top: 16px;">Visual Design</h3><p>We apply your brand identityâ€”colors, typography, and imageryâ€”transforming wireframes into polished, beautiful interfaces.</p>
+                <h3 style="margin-top: 16px;">Visual Design</h3><p>We apply your brand identity - colors, typography, and imagery - transforming wireframes into polished, beautiful interfaces.</p>
             </div>
             <div class="process-card reveal" style="transition-delay: 0.4s;">
                 <div class="card-top"><div class="process-step-num">4</div></div>
