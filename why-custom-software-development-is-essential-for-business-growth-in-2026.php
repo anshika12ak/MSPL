@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $activePage = 'blog';
 $title = 'why-custom-software-development-is-essential-for-business-growth-in-2026';
 $fallbackImg = "https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable";
@@ -7,7 +7,7 @@ function e($v){ return htmlspecialchars((string)$v, ENT_QUOTES, "UTF-8"); }
 
 $all_blogs = [
     [
-        "title" => "SEO Company in Delhi – AI Powered SEO Services for Small Businesses in India",
+        "title" => "SEO Company in Delhi â€“ AI Powered SEO Services for Small Businesses in India",
         "excerpt" => "Mithila Softech is a leading SEO company in Delhi offering AI SEO services, digital marketing strategies, and affordable SEO services for small businesses across India to improve rankings, traffic, and online visibility.",
         "date" => "June 1, 2024",
         "category" => "Digital Marketing",
@@ -16,7 +16,7 @@ $all_blogs = [
     ],
     [
         "title" => "how-digital-marketing-helps-local-businesses-grow-faster-in-2026",
-        "excerpt" => "Digital marketing has become essential for every local business that wants to grow in today’s competitive market.",
+        "excerpt" => "Digital marketing has become essential for every local business that wants to grow in todayâ€™s competitive market.",
         "date" => "May 25, 2024",
         "category" => "Digital Marketing",
         "img" => "assets/image/blog6.png?v=20260610-1659",
@@ -69,7 +69,7 @@ $all_blogs = [
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="assets/image/favicon.jpg" type="image/jpeg">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="assets/css/style.css?v=2.2">
     <style>
         .blog-content-wrap {
             padding: 80px 0;
@@ -128,7 +128,7 @@ $all_blogs = [
 
 <section class="srv-hero-wrapper" style="background-color: #020617; background-image: linear-gradient(135deg, rgba(2, 6, 23, 0.72), rgba(21, 58, 117, 0.55)), url('assets/image/whycustom.png?v=20260610-1659'); background-position: center, center; background-size: cover, contain; background-repeat: no-repeat, no-repeat;">
     <div class="container" style="position: relative; z-index: 2;">
-        <span class="srv-hero-badge">📝 &nbsp; Blog Post</span>
+        <span class="srv-hero-badge">ðŸ“ &nbsp; Blog Post</span>
         <h1 class="srv-hero-headline">Why Custom Software Development Is Essential for Business Growth in 2026</h1>
         <p class="srv-hero-subtext">In an increasingly competitive and technology-driven world, businesses must continuously innovate to stay relevant. Generic, off-the-shelf software solutions may offer quick fixes, but they often fail to address unique operational challenges. This is why custom software development services have become a strategic investment for businesses aiming for long-term growth. Custom software enables organizations to streamline processes, enhance efficiency, and deliver superior customer experiences. Companies like Mithila Softech help businesses build tailored digital solutions that align with their goals and future scalability.</p>
     </div>

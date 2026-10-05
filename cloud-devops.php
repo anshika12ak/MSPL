@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $activePage = 'services';
 $title = 'Cloud & DevOps Solutions | Mithila Softech';
 ?>
@@ -12,7 +12,7 @@ $title = 'Cloud & DevOps Solutions | Mithila Softech';
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="assets/image/favicon.jpg" type="image/jpeg">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="assets/css/style.css?v=2.2">
     <style>
         .srv-hero-wrapper {
             text-align: center; overflow: hidden;
@@ -143,7 +143,7 @@ $title = 'Cloud & DevOps Solutions | Mithila Softech';
 
 <section class="srv-hero-wrapper">
     <div class="container" style="position: relative; z-index: 2;">
-        <span class="srv-hero-badge" style="display: inline-flex; align-items: center; padding: 8px 18px; border-radius: 999px; background: rgba(255, 255, 255, 0.1); color: #ffffff; font-weight: 700; font-size: 0.95rem; margin-bottom: 24px; border: 1px solid rgba(255,255,255,0.15);">☁️ &nbsp; Cloud Services</span>
+        <span class="srv-hero-badge" style="display: inline-flex; align-items: center; padding: 8px 18px; border-radius: 999px; background: rgba(255, 255, 255, 0.1); color: #ffffff; font-weight: 700; font-size: 0.95rem; margin-bottom: 24px; border: 1px solid rgba(255,255,255,0.15);">â˜ï¸ &nbsp; Cloud Services</span>
         <h1 class="srv-hero-headline">Cloud &amp; DevOps Solutions <br><span class="srv-hero-headline-bold">for <span class="srv-hero-headline-accent" style="background: linear-gradient(135deg, #38bdf8 0%, #bfdbfe 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Scalable Infrastructure</span></span></h1>
         <p class="srv-hero-subtext">AWS, GCP and Azure deployments with CI/CD pipelines, auto-scaling, and infrastructure-as-code.</p>
     </div>
@@ -157,7 +157,7 @@ $title = 'Cloud & DevOps Solutions | Mithila Softech';
             <div class="intro-text">
                 <span class="eyebrow reveal">Cloud Engineering</span>
                 <h2 class="reveal" style="transition-delay: 0.05s;">Accelerate Delivery with <span>Cloud DevOps</span></h2>
-                <p class="reveal" style="transition-delay: 0.15s;">Moving to the cloud isn't just about servers—it's about agility, scalability, and extreme cost-efficiency. We help businesses modernize their infrastructure, bridging the gap between development and operations.</p>
+                <p class="reveal" style="transition-delay: 0.15s;">Moving to the cloud isn't just about serversâ€”it's about agility, scalability, and extreme cost-efficiency. We help businesses modernize their infrastructure, bridging the gap between development and operations.</p>
                 <p class="reveal" style="transition-delay: 0.25s;">From seamless migrations to building automated CI/CD pipelines and containerized microservices, our DevOps engineers ensure your applications are always fast, secure, and highly available.</p>
             </div>
             <div class="intro-image-wrap reveal" style="transition-delay: 0.3s;">

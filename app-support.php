@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $activePage = 'services';
 $title = 'App Deployment & Support | Mithila Softech';
 ?>
@@ -12,7 +12,7 @@ $title = 'App Deployment & Support | Mithila Softech';
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="assets/image/favicon.jpg" type="image/jpeg">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="assets/css/style.css?v=2.2">
     <style>
         .srv-hero-wrapper {
             text-align: center; overflow: hidden;
@@ -147,9 +147,9 @@ $title = 'App Deployment & Support | Mithila Softech';
 
 <section class="srv-hero-wrapper">
     <div class="container" style="position: relative; z-index: 2;">
-        <span class="srv-hero-badge" style="display: inline-flex; align-items: center; padding: 8px 18px; border-radius: 999px; background: rgba(255, 255, 255, 0.1); color: #ffffff; font-weight: 700; font-size: 0.95rem; margin-bottom: 24px; border: 1px solid rgba(255,255,255,0.15);">🚀 &nbsp; App Deployment</span>
+        <span class="srv-hero-badge" style="display: inline-flex; align-items: center; padding: 8px 18px; border-radius: 999px; background: rgba(255, 255, 255, 0.1); color: #ffffff; font-weight: 700; font-size: 0.95rem; margin-bottom: 24px; border: 1px solid rgba(255,255,255,0.15);">ðŸš€ &nbsp; App Deployment</span>
         <h1 class="srv-hero-headline">App Deployment <br><span class="srv-hero-headline-bold">&amp; Support</span></h1>
-        <p class="srv-hero-subtext">End-to-end launch support — app store listing, ASO, CI/CD pipelines, bug fixes, and feature updates.</p>
+        <p class="srv-hero-subtext">End-to-end launch support â€” app store listing, ASO, CI/CD pipelines, bug fixes, and feature updates.</p>
     </div>
 </section>
 
@@ -215,7 +215,7 @@ $title = 'App Deployment & Support | Mithila Softech';
         <div class="process-grid">
             <div class="process-card reveal" style="transition-delay: 0.1s;">
                 <div class="card-top"><div class="process-step-num">1</div></div>
-                <h3 style="margin-top: 16px;">Pre-Launch Audit</h3><p>We review your app’s performance, security protocols, and compliance with store policies before submission.</p>
+                <h3 style="margin-top: 16px;">Pre-Launch Audit</h3><p>We review your appâ€™s performance, security protocols, and compliance with store policies before submission.</p>
             </div>
             <div class="process-card reveal" style="transition-delay: 0.2s;">
                 <div class="card-top"><div class="process-step-num">2</div></div>

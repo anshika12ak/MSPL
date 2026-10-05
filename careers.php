@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 function e($v){ return htmlspecialchars((string)$v, ENT_QUOTES, "UTF-8"); }
 
 $logo_path = "assets/image/ms.png";
@@ -27,7 +27,7 @@ $benefits = [
   <link rel="shortcut icon" href="assets/image/favicon.jpg" type="image/jpeg">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   
-  <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>" />
+  <link rel="stylesheet" href="assets/css/style.css?v=2.2" />
   
   <style>
     /* Hero Section */
@@ -182,7 +182,7 @@ $benefits = [
 
 <section class="hero-careers">
     <div class="container" style="position: relative; z-index: 2;">
-        <span class="hero-careers-badge">🚀 &nbsp; Careers at Mithila Softech</span>
+        <span class="hero-careers-badge">ðŸš€ &nbsp; Careers at Mithila Softech</span>
         <h1>Careers at Mithila Softech &ndash; <br><span class="hero-headline-bold">Join <span class="hero-headline-accent" style="color: #38bdf8;">Our Team</span></span></h1>
         <p>Join a high-ownership team solving real business problems with strong engineering, quality execution, and fast delivery culture.</p>
     </div>

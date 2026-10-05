@@ -43,13 +43,51 @@ $hero_bg_size = $hero_bg_size ?? 'cover';
         align-items: center;
         justify-content: center;
         min-height: 400px;
+        overflow: hidden;
     }
     
     .inner-hero-overlay {
         position: absolute;
         inset: 0;
-        background: linear-gradient(135deg, rgba(2, 6, 23, 0.85) 0%, rgba(21, 58, 117, 0.75) 100%);
+        background: linear-gradient(135deg, rgba(2, 6, 23, 0.88) 0%, rgba(21, 58, 117, 0.78) 100%);
         z-index: -1;
+    }
+
+    /* Ambient Animated Floating Orbs in Hero */
+    .inner-hero-orb {
+        position: absolute;
+        border-radius: 50%;
+        filter: blur(80px);
+        opacity: 0.35;
+        z-index: 0;
+        pointer-events: none;
+    }
+    .inner-hero-orb-1 {
+        width: 340px;
+        height: 340px;
+        background: radial-gradient(circle, rgba(56, 189, 248, 0.45) 0%, rgba(29, 78, 158, 0) 70%);
+        top: -60px;
+        right: 8%;
+        animation: heroOrbFloat1 12s ease-in-out infinite alternate;
+    }
+    .inner-hero-orb-2 {
+        width: 300px;
+        height: 300px;
+        background: radial-gradient(circle, rgba(152, 55, 212, 0.4) 0%, rgba(21, 58, 117, 0) 70%);
+        bottom: -50px;
+        left: 6%;
+        animation: heroOrbFloat2 14s ease-in-out infinite alternate-reverse;
+    }
+
+    @keyframes heroOrbFloat1 {
+        0% { transform: translate(0, 0) scale(1); }
+        50% { transform: translate(-30px, 25px) scale(1.1); }
+        100% { transform: translate(20px, -15px) scale(0.95); }
+    }
+    @keyframes heroOrbFloat2 {
+        0% { transform: translate(0, 0) scale(1); }
+        50% { transform: translate(25px, -25px) scale(1.12); }
+        100% { transform: translate(-20px, 20px) scale(0.9); }
     }
     
     .inner-hero-content {
@@ -70,10 +108,15 @@ $hero_bg_size = $hero_bg_size ?? 'cover';
         font-weight: 700;
         font-size: 0.95rem;
         margin-bottom: 24px;
-        border: 1px solid rgba(255,255,255,0.2);
-        opacity: 0;
-        transform: translateY(20px);
-        animation: innerHeroFadeUp 0.6s ease forwards;
+        border: 1px solid rgba(255,255,255,0.25);
+        opacity: 1;
+        transform: none;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    @keyframes heroBadgeFloat {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-4px); }
     }
 
     .inner-hero-headline {
@@ -82,9 +125,22 @@ $hero_bg_size = $hero_bg_size ?? 'cover';
         line-height: 1.1;
         margin: 0 0 20px 0;
         color: #ffffff;
-        opacity: 0;
-        transform: translateY(20px);
-        animation: innerHeroFadeUp 0.6s ease forwards 0.1s;
+        opacity: 1;
+        transform: none;
+    }
+
+    .inner-hero-headline .hero-headline-accent {
+        background: linear-gradient(135deg, #38bdf8 0%, #ffffff 35%, #38bdf8 65%, #bfdbfe 100%);
+        background-size: 220% auto;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        animation: heroAccentShimmer 5s ease-in-out infinite;
+    }
+
+    @keyframes heroAccentShimmer {
+        0%, 100% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
     }
 
     .inner-hero-subtext {
@@ -93,13 +149,8 @@ $hero_bg_size = $hero_bg_size ?? 'cover';
         line-height: 1.6;
         margin: 0 auto;
         max-width: 800px;
-        opacity: 0;
-        transform: translateY(20px);
-        animation: innerHeroFadeUp 0.6s ease forwards 0.2s;
-    }
-
-    @keyframes innerHeroFadeUp {
-        to { opacity: 1; transform: translateY(0); }
+        opacity: 1;
+        transform: none;
     }
 
     @media (max-width: 768px) {
@@ -118,6 +169,8 @@ $hero_bg_size = $hero_bg_size ?? 'cover';
 
 <section class="inner-hero-wrapper">
     <div class="inner-hero-overlay"></div>
+    <div class="inner-hero-orb inner-hero-orb-1"></div>
+    <div class="inner-hero-orb inner-hero-orb-2"></div>
     <div class="inner-hero-content">
         <?php if (!empty($badge_text)): ?>
             <span class="inner-hero-badge"><?php echo $badge_text; ?></span>

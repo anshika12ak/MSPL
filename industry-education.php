@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $activePage = 'industry';
 $title = 'Education Industry Solutions | Mithila Softech';
 
@@ -28,7 +28,7 @@ $industry_data = [
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="assets/image/favicon.jpg" type="image/jpeg">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="assets/css/style.css?v=2.2">
     <style>
         /* --- NEW HERO STYLES --- */
         .srv-hero-wrapper {
@@ -181,7 +181,7 @@ f         .feature-card:hover::before, .process-card:hover::before, .why-item:ho
     <div class="srv-hero-bg-orb1"></div>
     <div class="srv-hero-bg-orb2"></div>
     <div class="container" style="position: relative; z-index: 2;">
-        <span class="srv-hero-badge">🎓 &nbsp; EdTech Solutions</span>
+        <span class="srv-hero-badge">ðŸŽ“ &nbsp; EdTech Solutions</span>
         <h1 class="srv-hero-headline">Education &amp; eLearning <br><span class="srv-hero-headline-bold">Software <span class="srv-hero-headline-accent">Solutions</span></span></h1>
         <p class="srv-hero-subtext"><?php echo htmlspecialchars($industry_data['desc']); ?></p>
     </div>

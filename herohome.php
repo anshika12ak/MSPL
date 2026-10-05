@@ -321,7 +321,7 @@ $heading_tag = $hero_heading_tag ?? 'h1';
                 <div class="hero-visual">
                     <div class="hero-circle-outer"><div class="hero-orbit-dot"></div></div>
                     <div class="hero-circle-inner"><div class="hero-orbit-dot2"></div></div>
-                    <div class="hero-center-card"><img src="<?php echo htmlspecialchars($logo); ?>" alt="Mithila Softech Logo"></div>
+                    <div class="hero-center-card"><img src="<?php echo htmlspecialchars($logo); ?>" alt="Mithila Softech Logo" width="128" height="128" fetchpriority="high" decoding="async"></div>
                     <?php foreach ($chips as $chip): ?>
                         <div class="hero-chip" style="<?php echo $chip['style']; ?> animation-delay: <?php echo $chip['delay']; ?>, calc(<?php echo $chip['delay']; ?> + 0.5s);"><span class="hero-chip-dot" style="background: <?php echo $chip['dot']; ?>"></span><?php echo htmlspecialchars($chip['label']); ?></div>
                     <?php endforeach; ?>

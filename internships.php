@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 function e($v){ return htmlspecialchars((string)$v, ENT_QUOTES, "UTF-8"); }
 
 $logo_path = "assets/image/ms.png";
@@ -26,7 +26,7 @@ $tracks = [
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   
-  <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>" />
+  <link rel="stylesheet" href="assets/css/style.css?v=2.2" />
   <style>
     /* Hero Section */
     .hero-internship {
@@ -152,7 +152,7 @@ $tracks = [
 
 <section class="hero-internship">
   <div class="container">
-    <span class="hero-badge reveal">🎓 &nbsp; Internship Program</span>
+    <span class="hero-badge reveal">ðŸŽ“ &nbsp; Internship Program</span>
     <h1 class="reveal" style="--delay:100ms;">Internship Opportunities in IT &amp; Software Development</h1>
     <p class="reveal" style="--delay:200ms;">Launch your professional journey with hands-on projects, direct mentorship, and real delivery experience across our core business domains.</p>
   </div>
@@ -175,8 +175,8 @@ $tracks = [
         <article class="internship-card reveal" style="--delay: <?= $index * 100 ?>ms;">
           <h3><?= e($item["title"]) ?></h3>
           <div class="intern-meta">
-            <span class="intern-chip">⏱ <?= e($item["duration"]) ?></span>
-            <span class="intern-chip">📍 <?= e($item["mode"]) ?></span>
+            <span class="intern-chip">â± <?= e($item["duration"]) ?></span>
+            <span class="intern-chip">ðŸ“ <?= e($item["mode"]) ?></span>
           </div>
           <p><?= e($item["desc"]) ?></p>
         </article>

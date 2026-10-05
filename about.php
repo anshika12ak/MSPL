@@ -11,6 +11,7 @@ $awards = [
     ["name" => "Ministry of MSME", "img" => "assets/image/MSMElogo.png"],
     ["name" => "#startupindia", "img" => "assets/image/StartupIndia.png"],
     ["name" => "STARTUP BIHAR", "img" => "assets/image/startUpBihar.png"],
+    ["name" => "ISO 9001:2015 Certified", "img" => "assets/image/iso-certified.png"],
 ];
 $clients = [
     ["name" => "L&T", "img" => "assets/image/l-and-t.png", "bg" => "#ffffff"],
@@ -25,19 +26,19 @@ $clients = [
 ];
 
 $stats = [
-    ["number"=>"60","label"=>"Technologies Mastered", "icon"=>"💻"],
-    ["number"=>"50","label"=>"Team Strength", "icon"=>"👥"],
-    ["number"=>"100","label"=>"Clients Worldwide", "icon"=>"🌍"],
-    ["number"=>"20","label"=>"Services Offered", "icon"=>"⚙️"]
+    ["number"=>"60","label"=>"Technologies Mastered", "icon"=>"ðŸ’»"],
+    ["number"=>"50","label"=>"Team Strength", "icon"=>"ðŸ‘¥"],
+    ["number"=>"100","label"=>"Clients Worldwide", "icon"=>"ðŸŒ"],
+    ["number"=>"20","label"=>"Services Offered", "icon"=>"âš™ï¸"]
 ];
 
 $testimonials = [
     ["name" => "Info somnath", "role" => "Customer", "text" => "Outstanding SEO agency! Mithila Softech helped us fix our website's technical SEO, optimize our content, and significantly increase our organic search traffic. They provide excellent monthly reports, clear communication, and most importantly real results. If you want your website to rank higher on Google, they are the team to trust.", "link" => "", "img" => "assets/image/ms.png"],
-    ["name" => "Deepak Mishra", "role" => "Customer", "text" => "I had a really good experience with Mithila Softtech Company. The team is helpful, friendly, and easy to communicate with. They understand requirements well and deliver the work on time without compromising on quality. Overall, it’s a reliable company with a positive work approach. I would definitely recommend Mithila Softtech to others.", "link" => "https://share.google/PYO50A25Sab77pOy5", "img" => "assets/image/deepak_mishra.jpg"],
+    ["name" => "Deepak Mishra", "role" => "Customer", "text" => "I had a really good experience with Mithila Softtech Company. The team is helpful, friendly, and easy to communicate with. They understand requirements well and deliver the work on time without compromising on quality. Overall, itâ€™s a reliable company with a positive work approach. I would definitely recommend Mithila Softtech to others.", "link" => "https://share.google/PYO50A25Sab77pOy5", "img" => "assets/image/deepak_mishra.jpg"],
     ["name" => "Pramod Kumar", "role" => "Customer", "text" => "Good experience overall. The team was cooperative, patient, and focused on understanding our business requirements before starting the work.", "link" => "https://share.google/mRT25cRYPsquMdwQT", "img" => "assets/image/pramod_kumar.jpg"],
     ["name" => "Namrata", "role" => "Customer", "text" => "Mithila Softech helped improve our website structure and local SEO. We noticed better engagement after implementing their suggestions.", "link" => "https://share.google/J6DHkkc3mdBdsAuPv", "img" => "assets/image/namrata.jpg"],
     ["name" => "Anshika Singh", "role" => "Customer", "text" => "Had a great experience working with Mithila Softech. Their team explained the SEO process clearly and helped improve our website visibility. Communication was smooth throughout the project.", "link" => "https://share.google/vOJPK0RddwMq5CkKd", "img" => "assets/image/anshika_singh.jpg"],
-    ["name" => "The Abhishek Sharma", "role" => "Customer", "text" => "Mithila Softech stands out for their industry-specific approach. They don't offer a one-size-fits-all solution — they actually understand your sector and build accordingly. Clean communication, timely delivery, and real results. Would definitely work with them again.", "link" => "https://share.google/Tlfx2H8cOBZ0rlW2H", "img" => "assets/image/abhishek_sharma.jpg"],
+    ["name" => "The Abhishek Sharma", "role" => "Customer", "text" => "Mithila Softech stands out for their industry-specific approach. They don't offer a one-size-fits-all solution â€” they actually understand your sector and build accordingly. Clean communication, timely delivery, and real results. Would definitely work with them again.", "link" => "https://share.google/Tlfx2H8cOBZ0rlW2H", "img" => "assets/image/abhishek_sharma.jpg"],
     ["name" => "Ragini Mishra", "role" => "Customer", "text" => "The team is creative and understands branding well. They helped us improve our social media presence and website performance.", "link" => "https://share.google/cuLmepYkySKJUF3WA", "img" => "assets/image/ragini_mishra.jpg"],
 ];
 ?>
@@ -52,7 +53,7 @@ $testimonials = [
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" href="assets/image/favicon.jpg" type="image/jpeg">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="assets/css/style.css?v=2.2">
     <style>
         /* --- HERO STYLES --- */
         .srv-hero-wrapper {
@@ -280,7 +281,7 @@ $testimonials = [
 <?php include 'headerhome.php'; ?>
 
 <?php 
-$hero_badge = '🚀 &nbsp; Technology Partner';
+$hero_badge = 'ðŸš€ &nbsp; Technology Partner';
 $hero_title = 'About Us';
 $hero_subtext = 'We are a team of passionate developers, designers, and digital strategists dedicated to building robust technology solutions for growing businesses.';
 include 'heropage.php'; 
@@ -440,7 +441,6 @@ include 'heropage.php';
 
     <div class="container" style="position: relative; z-index: 2;">
         <div class="section-heading center reveal" style="text-align: center; margin-bottom: 36px;">
-            <span class="eyebrow" style="background: rgba(29, 78, 158, 0.08); color: var(--blue); border: 1px solid rgba(29, 78, 158, 0.15); padding: 6px 16px; border-radius: 100px; font-size: 0.75rem; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 12px; display: inline-block;">Technology Partners</span>
             <h2 style="font-size: clamp(2.2rem, 4vw, 3.2rem); font-weight: 800; color: var(--text); margin-bottom: 16px; margin-top: 0;">Our <span style="background: linear-gradient(135deg, var(--green) 0%, var(--blue) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Clients</span></h2>
             <p style="font-size: 1.1rem; color: var(--muted); max-width: 600px; margin: 0 auto;">We collaborate with global technology leaders to deliver robust, scalable, and secure solutions.</p>
         </div>

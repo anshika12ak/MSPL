@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $activePage = 'blog';
 $title = 'Best Marketing Services in Dubai for Business Growth | Mithila Softech';
 $hero_title = 'Best Marketing Services in Dubai: Grow Your Business Online';
@@ -66,7 +66,7 @@ $all_blogs = [
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="assets/image/favicon.jpg" type="image/jpeg">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="assets/css/style.css?v=2.2">
     <style>
         .blog-content-wrap { padding: 80px 0; background: #ffffff; }
         .blog-main .blog-body { max-width: 800px; margin: 0 auto; padding-left: 0 !important; padding-right: 0 !important; font-size: 1.1rem; line-height: 1.8; color: var(--text); }

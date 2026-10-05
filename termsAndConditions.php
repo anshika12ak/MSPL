@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $activePage = 'terms';
 $title = 'Terms and Conditions | Mithila Softech';
 ?>
@@ -12,7 +12,7 @@ $title = 'Terms and Conditions | Mithila Softech';
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="assets/image/favicon.jpg" type="image/jpeg">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="assets/css/style.css?v=2.2">
     <style>
         .policy-content h2 { margin-top: 40px; margin-bottom: 16px; font-size: 1.75rem; text-align: left; color: var(--text); }
         .policy-content p { margin-bottom: 20px; text-align: left; color: var(--muted); line-height: 1.75; }
@@ -30,7 +30,7 @@ $title = 'Terms and Conditions | Mithila Softech';
 <?php include 'headerhome.php'; ?>
 
 <?php 
-$hero_badge = '📜 &nbsp; Terms';
+$hero_badge = 'ðŸ“œ &nbsp; Terms';
 $hero_title = 'Terms &amp; Conditions';
 $hero_subtext = 'Guidelines for using our website and services.';
 include 'heropage.php'; 

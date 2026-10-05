@@ -1,7 +1,7 @@
-<?php
+﻿<?php
 $activePage = 'blog';
 $title = 'Local SEO vs Traditional SEO: Which Strategy Is Best for Your Business in 2026? | Mithila Softech';
-$hero_badge = '📈 &nbsp; Digital Marketing';
+$hero_badge = 'ðŸ“ˆ &nbsp; Digital Marketing';
 $hero_title = 'Local SEO vs Traditional SEO: Which Strategy Is Best for Your Business in 2026?';
 $hero_subtext = 'Understand the key differences between local and traditional SEO and learn which approach will deliver the best results for your business in 2026.';
 $hero_bg_image = 'assets/image/local-seo-vs-traditional-seo-which-strategy-is-best-for-your-business-in-2026.jpg';
@@ -12,7 +12,7 @@ function e($v){ return htmlspecialchars((string)$v, ENT_QUOTES, "UTF-8"); }
 
 $all_blogs = [
     [
-        "title" => "SEO Company in Delhi – AI Powered SEO Services for Small Businesses in India",
+        "title" => "SEO Company in Delhi â€“ AI Powered SEO Services for Small Businesses in India",
         "excerpt" => "Mithila Softech is a leading SEO company in Delhi offering AI SEO services, digital marketing strategies, and affordable SEO services for small businesses across India to improve rankings, traffic, and online visibility.",
         "date" => "June 1, 2024",
         "category" => "Digital Marketing",
@@ -21,7 +21,7 @@ $all_blogs = [
     ],
     [
         "title" => "how-digital-marketing-helps-local-businesses-grow-faster-in-2026",
-        "excerpt" => "Digital marketing has become essential for every local business that wants to grow in today’s competitive market.",
+        "excerpt" => "Digital marketing has become essential for every local business that wants to grow in todayâ€™s competitive market.",
         "date" => "May 25, 2024",
         "category" => "Digital Marketing",
         "img" => "assets/image/blog6.png?v=20260610-1659",
@@ -75,7 +75,7 @@ $all_blogs = [
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="assets/image/favicon.jpg" type="image/jpeg">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="assets/css/style.css?v=2.2">
     <style>
         .blog-content-wrap {
             padding: 80px 0;
@@ -163,7 +163,7 @@ $all_blogs = [
                     
                     <img src="<?= e($hero_bg_image) ?>" alt="<?= e($hero_title) ?>" class="blog-image" onerror="this.onerror=null;this.src='<?= e($fallbackImg) ?>';">
 
-                    <p>In today’s digital world, simply having a website is no longer enough. Thousands of businesses are competing online for visibility, customers, and sales. If your business is not appearing on Google when potential customers search for your products or services, you are losing valuable opportunities every single day.</p>
+                    <p>In todayâ€™s digital world, simply having a website is no longer enough. Thousands of businesses are competing online for visibility, customers, and sales. If your business is not appearing on Google when potential customers search for your products or services, you are losing valuable opportunities every single day.</p>
             <p>This is why investing in professional <a href="seo-services" style="color: var(--blue-dark); text-decoration: underline; font-weight: 500;">SEO services for small business</a> has become essential in 2026. Search Engine Optimization helps businesses improve online visibility, attract targeted customers, increase website traffic, and generate long-term growth without relying completely on paid advertisements.</p>
 
             <h2>What Is SEO?</h2>

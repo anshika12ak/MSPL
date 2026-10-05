@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $activePage = 'services';
 $title = 'Recruitment Services | Mithila Softech';
 ?>
@@ -8,8 +8,7 @@ $title = 'Recruitment Services | Mithila Softech';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IT Recruitment Services India | Hire Skilled Talent</title>
-    <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
-    <link rel="stylesheet" href="footer.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="assets/css/style.css?v=2.2">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <style>
         /* --- HERO STYLES --- */
@@ -161,7 +160,7 @@ $title = 'Recruitment Services | Mithila Softech';
 <?php include 'headerhome.php'; ?>
 
 <?php 
-$hero_badge = '💼 &nbsp; Talent Acquisition';
+$hero_badge = 'ðŸ’¼ &nbsp; Talent Acquisition';
 $hero_title = 'IT Recruitment &amp; <br><span class="hero-headline-bold">Staffing <span class="hero-headline-accent">Services</span></span>';
 $hero_subtext = 'End-to-end IT talent acquisition, executive search, and scalable staffing solutions connecting you with verified tech professionals.';
 include 'heropage.php'; 

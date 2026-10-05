@@ -11,6 +11,7 @@ $awards = [
     ["name" => "Ministry of MSME", "img" => "assets/image/MSMElogo.png"],
     ["name" => "#startupindia", "img" => "assets/image/StartupIndia.png"],
     ["name" => "STARTUP BIHAR", "img" => "assets/image/startUpBihar.png"],
+    ["name" => "ISO 9001:2015 Certified", "img" => "assets/image/iso-certified.png"],
 ];
 $clients = [
     ["name" => "L&T", "img" => "assets/image/l-and-t.png", "bg" => "#ffffff"],
@@ -26,19 +27,19 @@ $clients = [
 ];
 
 $stats = [
-    ["number"=>"60","label"=>"Technologies Mastered", "icon"=>"💻"],
-    ["number"=>"50","label"=>"Team Strength", "icon"=>"👥"],
-    ["number"=>"100","label"=>"Clients Worldwide", "icon"=>"🌍"],
-    ["number"=>"20","label"=>"Services Offered", "icon"=>"⚙️"]
+    ["number"=>"60","label"=>"Technologies Mastered", "icon"=>"ðŸ’»"],
+    ["number"=>"50","label"=>"Team Strength", "icon"=>"ðŸ‘¥"],
+    ["number"=>"100","label"=>"Clients Worldwide", "icon"=>"ðŸŒ"],
+    ["number"=>"20","label"=>"Services Offered", "icon"=>"âš™ï¸"]
 ];
 
 $testimonials = [
     ["name" => "Info somnath", "role" => "Customer", "text" => "Outstanding SEO agency! Mithila Softech helped us fix our website's technical SEO, optimize our content, and significantly increase our organic search traffic. They provide excellent monthly reports, clear communication, and most importantly real results. If you want your website to rank higher on Google, they are the team to trust.", "link" => "", "img" => "assets/image/ms.png"],
-    ["name" => "Deepak Mishra", "role" => "Customer", "text" => "I had a really good experience with Mithila Softtech Company. The team is helpful, friendly, and easy to communicate with. They understand requirements well and deliver the work on time without compromising on quality. Overall, it’s a reliable company with a positive work approach. I would definitely recommend Mithila Softtech to others.", "link" => "https://share.google/PYO50A25Sab77pOy5", "img" => "assets/image/deepak_mishra.jpg"],
+    ["name" => "Deepak Mishra", "role" => "Customer", "text" => "I had a really good experience with Mithila Softtech Company. The team is helpful, friendly, and easy to communicate with. They understand requirements well and deliver the work on time without compromising on quality. Overall, itâ€™s a reliable company with a positive work approach. I would definitely recommend Mithila Softtech to others.", "link" => "https://share.google/PYO50A25Sab77pOy5", "img" => "assets/image/deepak_mishra.jpg"],
     ["name" => "Pramod Kumar", "role" => "Customer", "text" => "Good experience overall. The team was cooperative, patient, and focused on understanding our business requirements before starting the work.", "link" => "https://share.google/mRT25cRYPsquMdwQT", "img" => "assets/image/pramod_kumar.jpg"],
     ["name" => "Namrata", "role" => "Customer", "text" => "Mithila Softech helped improve our website structure and local SEO. We noticed better engagement after implementing their suggestions.", "link" => "https://share.google/J6DHkkc3mdBdsAuPv", "img" => "assets/image/namrata.jpg"],
     ["name" => "Anshika Singh", "role" => "Customer", "text" => "Had a great experience working with Mithila Softech. Their team explained the SEO process clearly and helped improve our website visibility. Communication was smooth throughout the project.", "link" => "https://share.google/vOJPK0RddwMq5CkKd", "img" => "assets/image/anshika_singh.jpg"],
-    ["name" => "The Abhishek Sharma", "role" => "Customer", "text" => "Mithila Softech stands out for their industry-specific approach. They don't offer a one-size-fits-all solution — they actually understand your sector and build accordingly. Clean communication, timely delivery, and real results. Would definitely work with them again.", "link" => "https://share.google/Tlfx2H8cOBZ0rlW2H", "img" => "assets/image/abhishek_sharma.jpg"],
+    ["name" => "The Abhishek Sharma", "role" => "Customer", "text" => "Mithila Softech stands out for their industry-specific approach. They don't offer a one-size-fits-all solution â€” they actually understand your sector and build accordingly. Clean communication, timely delivery, and real results. Would definitely work with them again.", "link" => "https://share.google/Tlfx2H8cOBZ0rlW2H", "img" => "assets/image/abhishek_sharma.jpg"],
     ["name" => "Ragini Mishra", "role" => "Customer", "text" => "The team is creative and understands branding well. They helped us improve our social media presence and website performance.", "link" => "https://share.google/cuLmepYkySKJUF3WA", "img" => "assets/image/ragini_mishra.jpg"],
 ];
 ?>
@@ -52,7 +53,7 @@ $testimonials = [
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    <link rel="icon" href="assets/image/favicon.jpg" type="image/jpeg">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="assets/css/style.css?v=2.2">
     <style>
         /* --- HERO STYLES --- */
         .srv-hero-wrapper {
@@ -281,7 +282,7 @@ $testimonials = [
             .testimonials-track { grid-template-columns: 1fr; }
         }
     </style>
-    <meta name="description" content="Contact Mithila Softech for software, web, mobile app &amp; digital marketing services. Let’s build your solution today.">
+    <meta name="description" content="Contact Mithila Softech for software, web, mobile app &amp; digital marketing services. Letâ€™s build your solution today.">
     <meta name="keywords" content="contact IT company, hire developers India">
     <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
     <link rel="canonical" href="https://www.mithilasoftech.com/contact" />
@@ -293,8 +294,8 @@ $testimonials = [
     <div class="srv-hero-bg-orb1"></div>
     <div class="srv-hero-bg-orb2"></div>
     <div class="container" style="position: relative; z-index: 2;">
-        <span class="srv-hero-badge">📞 &nbsp; Get in Touch</span>
-        <h1 class="srv-hero-headline">Contact Mithila Softech – <br><span class="srv-hero-headline-bold">Let’s Build <span class="srv-hero-headline-accent">Your Solution</span></span></h1>
+        <span class="srv-hero-badge">ðŸ“ž &nbsp; Get in Touch</span>
+        <h1 class="srv-hero-headline">Contact Mithila Softech â€“ <br><span class="srv-hero-headline-bold">Letâ€™s Build <span class="srv-hero-headline-accent">Your Solution</span></span></h1>
         <p class="srv-hero-subtext">We are a team of passionate developers, designers, and digital strategists dedicated to building robust technology solutions for growing businesses.</p>
     </div>
 </section>

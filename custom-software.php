@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $activePage = 'services';
 $title = 'Custom IT Solutions | Mithila Softech';
 ?>
@@ -12,7 +12,7 @@ $title = 'Custom IT Solutions | Mithila Softech';
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="assets/image/favicon.jpg" type="image/jpeg">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="assets/css/style.css?v=2.2">
     <style>
         /* --- HERO STYLES --- */
         .srv-hero-wrapper {
@@ -168,7 +168,7 @@ $title = 'Custom IT Solutions | Mithila Softech';
     <div class="srv-hero-bg-orb1"></div>
     <div class="srv-hero-bg-orb2"></div>
     <div class="container" style="position: relative; z-index: 2;">
-        <span class="srv-hero-badge">💻 &nbsp; Custom Software</span>
+        <span class="srv-hero-badge">ðŸ’» &nbsp; Custom Software</span>
         <h1 class="srv-hero-headline">Custom IT Solutions <br><span class="srv-hero-headline-bold">for <span class="srv-hero-headline-accent">Your Business</span></span></h1>
         <p class="srv-hero-subtext">ERP, CRM, inventory management & bespoke software tailored to your business needs.</p>
     </div>

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $activePage = 'services';
 $title = 'Google & Meta Ads | Mithila Softech';
 ?>
@@ -12,7 +12,7 @@ $title = 'Google & Meta Ads | Mithila Softech';
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="assets/image/favicon.jpg" type="image/jpeg">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="assets/css/style.css?v=2.2">
     <style>
         .srv-hero-wrapper {
             text-align: center; overflow: hidden;
@@ -150,7 +150,7 @@ $title = 'Google & Meta Ads | Mithila Softech';
 <?php include 'headerhome.php'; ?>
 
 <?php 
-$hero_badge = '🎯 &nbsp; Paid Advertising';
+$hero_badge = 'ðŸŽ¯ &nbsp; Paid Advertising';
 $hero_title = 'Google &amp; <br><span class="hero-headline-bold">Meta Ads</span>';
 $hero_subtext = 'Data-driven paid campaigns with precise audience targeting, creative A/B testing, and measurable ROAS.';
 include 'heropage.php'; 
@@ -185,7 +185,7 @@ include 'heropage.php';
                     <div class="feature-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13.5 21v-7h2.4l.4-3h-2.8V9.1c0-.9.3-1.6 1.6-1.6h1.3V4.8c-.2 0-1-.1-1.9-.1-2.4 0-4 1.5-4 4.3V11H8v3h2.7v7h2.8z"></path></svg></div>
                 </div>
                 <h3>Meta (Facebook/IG) Ads</h3>
-                <p>Leverage Meta’s powerful demographic and behavioral targeting to generate high-quality leads and drive e-commerce sales with engaging creative formats.</p>
+                <p>Leverage Metaâ€™s powerful demographic and behavioral targeting to generate high-quality leads and drive e-commerce sales with engaging creative formats.</p>
             </div>
             <div class="feature-card reveal" style="transition-delay: 0.3s;">
                 <div class="card-top">
@@ -218,7 +218,7 @@ include 'heropage.php';
         <div class="process-grid">
             <div class="process-card reveal" style="transition-delay: 0.1s;">
                 <div class="card-top"><div class="process-step-num">1</div></div>
-                <h3 style="margin-top: 16px;">Goal Definition</h3><p>We align your business objectives—whether it's raw sales, lead volume, or brand awareness—with the perfect channel mix.</p>
+                <h3 style="margin-top: 16px;">Goal Definition</h3><p>We align your business objectivesâ€”whether it's raw sales, lead volume, or brand awarenessâ€”with the perfect channel mix.</p>
             </div>
             <div class="process-card reveal" style="transition-delay: 0.2s;">
                 <div class="card-top"><div class="process-step-num">2</div></div>

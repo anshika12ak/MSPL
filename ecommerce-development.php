@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $activePage = 'services';
 $title = 'E-Commerce Development | Mithila Softech';
 ?>
@@ -12,7 +12,7 @@ $title = 'E-Commerce Development | Mithila Softech';
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="assets/image/favicon.jpg" type="image/jpeg">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="assets/css/style.css?v=2.2">
     <style>
         .srv-hero-wrapper {
             text-align: center; overflow: hidden;
@@ -192,7 +192,7 @@ $title = 'E-Commerce Development | Mithila Softech';
 
 <section class="srv-hero-wrapper">
     <div class="container" style="position: relative; z-index: 2;">
-        <span class="srv-hero-badge" style="display: inline-flex; align-items: center; padding: 8px 18px; border-radius: 999px; background: rgba(255, 255, 255, 0.1); color: #ffffff; font-weight: 700; font-size: 0.95rem; margin-bottom: 24px; border: 1px solid rgba(255,255,255,0.15);">🛒 &nbsp; E-Commerce</span>
+        <span class="srv-hero-badge" style="display: inline-flex; align-items: center; padding: 8px 18px; border-radius: 999px; background: rgba(255, 255, 255, 0.1); color: #ffffff; font-weight: 700; font-size: 0.95rem; margin-bottom: 24px; border: 1px solid rgba(255,255,255,0.15);">ðŸ›’ &nbsp; E-Commerce</span>
         <h1 class="srv-hero-headline">E-Commerce <br><span class="srv-hero-headline-bold">Development</span></h1>
         <p class="srv-hero-subtext">Full-featured online stores powered by human-centred design, seamless checkout flows, and scalable product management.</p>
     </div>

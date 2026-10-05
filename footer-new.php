@@ -2,6 +2,8 @@
 $footer_logo = 'assets/image/ms.png';
 $footer_phone = '+91 99719 21698';
 $footer_email = 'info@mithilasoftech.com';
+$footer_google_rating = '4.9';
+$footer_gmb_url = 'https://share.google/IWC8YzERNbFqa1PDW';
 
 $footer_sections = [
     [
@@ -19,7 +21,8 @@ $footer_sections = [
             ['label' => 'Digital Advertising', 'href' => 'digital-ads'],
             ['label' => 'Ecommerce', 'href' => 'ecommerce-development'],
             ['label' => 'SEO Services', 'href' => 'seo-services'],
-            ['label' => 'Web Development', 'href' => 'services']
+            ['label' => 'Web Development', 'href' => 'services'],
+            ['label' => 'Software Testing & QA', 'href' => 'software-testing']
         ]
     ]
 ];
@@ -153,6 +156,65 @@ $footer_socials = [
         box-shadow: 0 6px 15px rgba(30, 136, 229, 0.4);
     }
 
+    .footer-find-us { margin-top: 8px; }
+    .footer-find-title { margin: 0 0 12px; font-size: 1.05rem; font-weight: 600; color: #222; }
+    .footer-review-row { display: flex; flex-wrap: wrap; gap: 12px; }
+    .footer-review-pill { display: flex; align-items: center; gap: 8px; padding: 8px; background: #ffffff; border-radius: 12px; text-decoration: none; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06); transition: transform 0.25s ease, box-shadow 0.25s ease; }
+    .footer-review-pill:hover { transform: translateY(-3px); box-shadow: 0 10px 22px rgba(0, 0, 0, 0.12); }
+    .footer-review-logo, .footer-review-pill .ig-review-logo { width: 32px; height: 32px; flex-shrink: 0; }
+    .footer-review-star { display: flex; align-items: center; gap: 8px; padding-left: 10px; border-left: 1px solid rgba(0, 0, 0, 0.12); }
+    .footer-review-num { font-size: 1rem; font-weight: 600; color: #222; line-height: 1.2; }
+    .footer-review-starbox { display: flex; align-items: center; justify-content: center; padding: 8px; background: #fff6dc; border-radius: 8px; }
+    .footer-gmb-badge {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        align-self: flex-start;
+        margin-top: 6px;
+        padding: 12px 18px;
+        background: #ffffff;
+        border: 1px solid rgba(0, 0, 0, 0.08);
+        border-left: 4px solid #fbbc04;
+        border-radius: 10px;
+        text-decoration: none;
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+        transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .footer-gmb-badge:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 22px rgba(0, 0, 0, 0.14);
+    }
+
+    .footer-gmb-badge .gmb-g {
+        width: 34px;
+        height: 34px;
+        flex-shrink: 0;
+    }
+
+    .footer-gmb-badge .gmb-title {
+        display: block;
+        font-size: 0.9rem;
+        font-weight: 700;
+        color: #222;
+        line-height: 1.2;
+    }
+
+    .footer-gmb-badge .gmb-stars {
+        display: block;
+        color: #fbbc04;
+        font-size: 1.15rem;
+        letter-spacing: 3px;
+        line-height: 1.3;
+    }
+
+    .footer-gmb-badge .gmb-text {
+        display: block;
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: #1e88e5;
+    }
+
     .footer-bottom {
         display: flex;
         justify-content: space-between;
@@ -208,7 +270,7 @@ $footer_socials = [
         <div class="footer-new-top">
             <!-- Brand & Contact -->
             <div class="footer-brand">
-                <img src="<?php echo htmlspecialchars($footer_logo); ?>" alt="Mithila Softech" style="width: 120px; height: auto;">
+                <img src="<?php echo htmlspecialchars($footer_logo); ?>" alt="Mithila Softech" width="120" height="36" loading="lazy" decoding="async" style="width: 120px; height: auto;">
                 
                 <div class="footer-brand-info">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -224,6 +286,19 @@ $footer_socials = [
                     </svg>
                     <a href="mailto:<?php echo htmlspecialchars($footer_email); ?>"><?php echo htmlspecialchars($footer_email); ?></a>
                 </div>
+                <div class="footer-find-us">
+                    <p class="footer-find-title">Find Us On Different Platforms</p>
+                    <div class="footer-review-row">
+                        <a href="<?php echo htmlspecialchars($footer_gmb_url); ?>" class="footer-review-pill" target="_blank" rel="noopener noreferrer nofollow" title="Google Reviews" aria-label="Mithila Softech Google Reviews">
+                            <svg class="ig-review-logo" width="32" height="32" viewBox="0 0 48 48"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg>
+                            <span class="footer-review-star">
+                                <?php if ($footer_google_rating !== ''): ?><span class="footer-review-num"><?php echo htmlspecialchars($footer_google_rating); ?></span><?php endif; ?>
+                                <span class="footer-review-starbox"><svg width="20" height="20" viewBox="0 0 24 24" fill="#fbbc04"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
             </div>
 
             <!-- Navigation Sections -->
@@ -268,3 +343,74 @@ $footer_socials = [
     <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
   </svg>
 </a>
+
+<!-- Universal Scroll Reveal & Animated Number Counter Engine -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    // 1. Scroll-Reveal Observer
+    if ('IntersectionObserver' in window) {
+        const revealObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('is-revealed');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, {
+            rootMargin: '150px 0px 50px 0px',
+            threshold: 0
+        });
+
+        document.querySelectorAll('.ms-reveal').forEach(el => revealObserver.observe(el));
+
+        // 2. Animated Number Counters
+        const counterObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const el = entry.target;
+                    const targetStr = el.getAttribute('data-target') || el.innerText;
+                    const targetNum = parseFloat(targetStr.replace(/[^0-9.]/g, ''));
+                    const prefix = el.getAttribute('data-prefix') || '';
+                    const suffix = el.getAttribute('data-suffix') || '';
+                    const hasDecimals = targetStr.includes('.');
+                    const duration = 1800; // ms
+                    const startTime = performance.now();
+
+                    if (!isNaN(targetNum)) {
+                        function updateCount(currentTime) {
+                            const elapsed = currentTime - startTime;
+                            const progress = Math.min(elapsed / duration, 1);
+                            // Easing: easeOutExpo
+                            const easeProgress = progress === 1 ? 1 : 1 - Math.pow(2, -10 * progress);
+                            const currentNum = targetNum * easeProgress;
+
+                            if (hasDecimals) {
+                                el.innerText = prefix + currentNum.toFixed(1) + suffix;
+                            } else {
+                                el.innerText = prefix + Math.floor(currentNum).toLocaleString() + suffix;
+                            }
+
+                            if (progress < 1) {
+                                requestAnimationFrame(updateCount);
+                            } else {
+                                if (hasDecimals) {
+                                    el.innerText = prefix + targetNum.toFixed(1) + suffix;
+                                } else {
+                                    el.innerText = prefix + targetNum.toLocaleString() + suffix;
+                                }
+                            }
+                        }
+                        requestAnimationFrame(updateCount);
+                    }
+                    observer.unobserve(el);
+                }
+            });
+        }, { threshold: 0.3 });
+
+        document.querySelectorAll('[data-counter]').forEach(el => counterObserver.observe(el));
+    } else {
+        // Fallback for older browsers
+        document.querySelectorAll('.ms-reveal').forEach(el => el.classList.add('is-revealed'));
+    }
+});
+</script>

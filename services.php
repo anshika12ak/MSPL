@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $activePage = 'services';
 $title = 'Our Services | Mithila Softech';
 
@@ -30,10 +30,10 @@ $categories = [
 ];
 
 $tab_desc = [
-  'web' => 'Our web and e-commerce agency transforms how clients and customers meet online — creating aesthetically functional experiences that grow your business.',
-  'mktg' => 'Data-driven marketing strategies tailored for the Indian market — build your brand story and turn clicks into loyal customers.',
-  'app' => 'We specialise in Flutter and React Native app development — delivering cross-platform mobile apps with native performance, beautiful UI, and end-to-end support.',
-  'tech' => 'Cutting-edge technology solutions — from custom software to AI — engineered to streamline your operations and accelerate growth.',
+  'web' => 'Our web and e-commerce agency transforms how clients and customers meet online â€” creating aesthetically functional experiences that grow your business.',
+  'mktg' => 'Data-driven marketing strategies tailored for the Indian market â€” build your brand story and turn clicks into loyal customers.',
+  'app' => 'We specialise in Flutter and React Native app development â€” delivering cross-platform mobile apps with native performance, beautiful UI, and end-to-end support.',
+  'tech' => 'Cutting-edge technology solutions â€” from custom software to AI â€” engineered to streamline your operations and accelerate growth.',
 ];
 
 $services = [
@@ -50,10 +50,11 @@ $services = [
   'app' => [
     ['title' => 'Cross-Platform Development', 'link' => 'app-development', 'desc' => 'Build stunning, natively compiled apps for Android & iOS from a single codebase using React Native & Flutter.', 'color' => '#E31E24', 'icon' => '<rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line>'],
     ['title' => 'UI/UX Design & Prototyping', 'link' => 'ui-ux-design', 'desc' => 'User-centred mobile design with interactive Figma prototypes, wireframes, user-flow mapping.', 'color' => '#E31E24', 'icon' => '<rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line>'],
-    ['title' => 'App Deployment & Support', 'link' => 'app-support', 'desc' => 'End-to-end launch support — app store listing, ASO, CI/CD pipelines, bug fixes, and feature updates.', 'color' => '#E31E24', 'icon' => '<rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line>'],
+    ['title' => 'App Deployment & Support', 'link' => 'app-support', 'desc' => 'End-to-end launch support â€” app store listing, ASO, CI/CD pipelines, bug fixes, and feature updates.', 'color' => '#E31E24', 'icon' => '<rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line>'],
   ],
   'tech' => [
     ['title' => 'Custom Software Solutions', 'link' => 'custom-software', 'desc' => 'Bespoke ERP, CRM and SaaS products engineered to your exact business processes and scale effortlessly.', 'color' => '#22a84b', 'icon' => '<polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline>'],
+    ['title' => 'Software Testing & QA', 'link' => 'software-testing', 'desc' => 'Full-cycle automated and manual testing, API validation, and performance audits ensuring bug-free releases.', 'color' => '#1D4E9E', 'icon' => '<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>'],
   ],
 ];
 ?>
@@ -68,7 +69,7 @@ $services = [
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" href="assets/image/favicon.jpg" type="image/jpeg">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="assets/css/style.css?v=2.2">
     <style>
         /* Specific Styles for Services Page Header & Tabs */
         .srv-bg-orb {
@@ -264,13 +265,13 @@ $services = [
     <div class="srv-hero-bg-orb1"></div>
     <div class="srv-hero-bg-orb2"></div>
     <div class="container" style="position: relative; z-index: 2;">
-        <span class="srv-hero-badge">💡 &nbsp; What We Offer</span>
+        <span class="srv-hero-badge">ðŸ’¡ &nbsp; What We Offer</span>
         <h1 class="srv-hero-headline">Complete IT Services &amp; <br><span class="srv-hero-headline-bold">Digital Solutions <span class="srv-hero-headline-accent">in India</span></span></h1>
-        <p class="srv-hero-subtext">A complete suite of digital solutions — from responsive websites and mobile apps to cutting-edge IT services — tailored to accelerate your business growth.</p> 
+        <p class="srv-hero-subtext">A complete suite of digital solutions â€” from responsive websites and mobile apps to cutting-edge IT services â€” tailored to accelerate your business growth.</p> 
     </div>
 </section>
 
-<!-- ── Detailed Service Sections ── -->
+<!-- â”€â”€ Detailed Service Sections â”€â”€ -->
 <?php foreach ($categories as $index => $cat): 
     $cat_id = $cat['id'];
     $cat_desc = $tab_desc[$cat_id];
@@ -324,14 +325,14 @@ $services = [
 </section>
 <?php endforeach; ?>
 
-<!-- ── Contact CTA Section ── -->
+<!-- â”€â”€ Contact CTA Section â”€â”€ -->
 <section class="section contact-section" id="contact" style="position: relative; border-top: 1px solid rgba(255,255,255,0.05); padding: 60px 0;">
     <!-- Decorative Glowing Orb -->
     <div style="position: absolute; top: 50%; right: 0; width: 800px; height: 800px; background: radial-gradient(circle, rgba(56,189,248,0.12) 0%, transparent 70%); transform: translateY(-50%); pointer-events: none; z-index: 0;"></div>
     
     <div class="container" style="max-width: 650px; position: relative; z-index: 2;">
         <div class="section-heading center reveal" style="text-align: center; margin-bottom: 24px;">
-            <span class="eyebrow" style="background: rgba(56,189,248,0.1); color: #38bdf8; border: 1px solid rgba(56,189,248,0.3); margin-bottom: 12px; display: inline-flex;">🚀 Ready to scale?</span>
+            <span class="eyebrow" style="background: rgba(56,189,248,0.1); color: #38bdf8; border: 1px solid rgba(56,189,248,0.3); margin-bottom: 12px; display: inline-flex;">ðŸš€ Ready to scale?</span>
             <h2 style="color: #ffffff; font-size: clamp(1.8rem, 4vw, 2.5rem); margin-bottom: 12px; font-weight: 800;">
                 Let's build something <br>
                 <span style="background: linear-gradient(135deg, #38bdf8 0%, #bfdbfe 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">extraordinary</span>

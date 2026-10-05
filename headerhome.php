@@ -36,10 +36,12 @@ $nav_items = [
             ['label' => 'Mobile App Development', 'href' => 'app-development', 'key' => 'services'],
             ['label' => 'Digital Marketing', 'href' => 'digital-marketing', 'key' => 'services'],
             ['label' => 'Custom IT Solutions', 'href' => 'custom-software', 'key' => 'services'],
+            ['label' => 'Software Testing', 'href' => 'software-testing', 'key' => 'services'],
             ['label' => 'Recruitment Services', 'href' => 'recruitment-services', 'key' => 'services']
         ]
     ],
     ['label' => 'Blog', 'href' => 'blog', 'key' => 'blog'],
+    ['label' => 'Hire', 'href' => 'hire-dedicated-developers', 'key' => 'hire'],
     [
         'label' => 'Career',
         'href' => '#',
@@ -51,6 +53,7 @@ $nav_items = [
     ],
 ];
 ?>
+<?php if (!in_array($_SERVER['REMOTE_ADDR'] ?? '', ['127.0.0.1', '::1']) && !in_array($_SERVER['HTTP_HOST'] ?? '', ['localhost', '127.0.0.1'])): ?>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0EK82RV731"></script>
 <script>
@@ -59,6 +62,7 @@ $nav_items = [
   gtag('js', new Date());
   gtag('config', 'G-0EK82RV731');
 </script>
+<?php endif; ?>
 <style>
     /* Base Header Dependencies */
     body { padding-top: 92px; margin: 0; }
@@ -101,13 +105,18 @@ $nav_items = [
     .top-contact, .top-links { display: flex; gap: 24px; }
     .top-bar a { color: rgba(255, 255, 255, 0.85); text-decoration: none; transition: color 0.2s ease; }
     .top-bar a:hover { color: #ffffff; }
+    .top-bar a.book-call-btn { display: inline-flex; align-items: center; background: #f97316; color: #ffffff; font-weight: 700; font-size: 0.78rem; letter-spacing: 0.02em; padding: 4px 16px; border-radius: 4px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25); animation: bookCallBlink 2.5s ease-in-out infinite; transition: background 0.25s ease, transform 0.25s ease; }
+    .top-bar a.book-call-btn:hover { background: #ea580c; color: #ffffff; transform: translateY(-1px); }
+    @keyframes bookCallBlink { 0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(249, 115, 22, 0.5); } 50% { opacity: 0.85; box-shadow: 0 0 0 5px rgba(249, 115, 22, 0); } }
+    .top-bar a.book-call-btn svg { margin-right: 6px; }
 
-    .site-header { position: fixed; top: 34px; left: 0; right: 0; z-index: 30; background: rgba(255, 255, 255, 0.95); border-bottom: 1px solid rgba(29, 78, 158, 0.1); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); box-shadow: 0 10px 30px rgba(15, 23, 42, 0.04); animation: headerSlideIn 0.7s cubic-bezier(0.22, 1, 0.36, 1); font-family: 'Inter', sans-serif; }
+    .site-header { position: fixed; top: 34px; left: 0; right: 0; z-index: 30; background: rgba(255, 255, 255, 0.95); border-bottom: 1px solid rgba(29, 78, 158, 0.1); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); box-shadow: 0 10px 30px rgba(15, 23, 42, 0.04); font-family: 'Inter', sans-serif; }
     .nav-wrap-header { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 24px; padding: 4px clamp(20px, 6vw, 100px); max-width: 100%; margin: 0 auto; }
     
     .brand { display: inline-flex; align-items: center; gap: 12px; text-decoration: none; }
     .brand img { height: 48px; width: auto; object-fit: contain; transition: transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1); }
     .brand:hover img { transform: scale(1.06) rotate(-2deg); }
+    .site-header .brand { margin: 0; }
 
     .site-nav-main { display: flex; justify-content: space-evenly; align-items: center; padding-left: 0; flex-wrap: nowrap; gap: clamp(16px, 2.5vw, 40px); color: #120b1f; font-weight: 600; white-space: nowrap; width: 100%; margin: 0; list-style: none; }
     .site-nav-main > a, .nav-dropdown > a {
@@ -119,6 +128,10 @@ $nav_items = [
     }
     .site-nav-main > a:hover, .site-nav-main > a:focus-visible, .site-nav-main > a.is-current, .nav-dropdown > a:hover, .nav-dropdown > a.is-current { color: var(--blue, #9837d4); transform: translateY(-2px); box-shadow: 0 12px 24px rgba(29, 78, 158, 0.12); }
     .site-nav-main > a:hover span, .site-nav-main > a:focus-visible span, .site-nav-main > a.is-current span, .nav-dropdown > a:hover span, .nav-dropdown > a.is-current span { transform: translateX(4px); }
+    @media (min-width: 1200px) {
+        .site-nav-main > a, .nav-dropdown > a, .site-nav-main > a:hover, .site-nav-main > a:focus-visible, .nav-dropdown > a:hover { transform: none !important; box-shadow: none !important; }
+        .site-nav-main > a span, .nav-dropdown > a span, .site-nav-main > a:hover span, .site-nav-main > a:focus-visible span, .nav-dropdown > a:hover span { transform: none !important; }
+    }
     .site-nav-main > a:hover::before, .site-nav-main > a:focus-visible::before, .site-nav-main > a.is-current::before, .nav-dropdown > a:hover::before, .nav-dropdown > a.is-current::before { opacity: 1; transform: scale(1); }
 
     .header-actions { display: flex; align-items: center; gap: 16px; margin-left: auto; }
@@ -237,6 +250,38 @@ $nav_items = [
             display: block;
             width: 100%;
         }
+
+        /* Cleaner open dropdown on mobile */
+        .nav-dropdown.is-open .nav-dropdown-menu {
+            margin: 4px 0 8px 8px;
+            padding: 6px 0 6px 10px;
+            width: calc(100% - 8px);
+            background: rgba(29, 78, 158, 0.04);
+            border-left: 3px solid var(--blue, #1d4e9e);
+            border-radius: 0 10px 10px 0;
+            max-height: 60vh;
+            overflow-y: auto;
+            animation: navSubOpen 0.25s ease;
+        }
+        .nav-dropdown-menu a {
+            box-sizing: border-box;
+            font-size: 0.95rem;
+            line-height: 1.35;
+            padding: 11px 12px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+            border-radius: 0;
+            opacity: 1;
+            transform: none;
+        }
+        .nav-dropdown-menu a:last-child { border-bottom: 0; }
+        .nav-dropdown-menu a:hover,
+        .nav-dropdown-menu a:active {
+            background-color: rgba(29, 78, 158, 0.08);
+            color: var(--blue, #1d4e9e);
+            padding-left: 12px;
+        }
+        .site-nav-main .nav-dropdown.is-open > a { color: var(--blue, #1d4e9e); border-bottom-color: transparent; }
+        @keyframes navSubOpen { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: translateY(0); } }
     }
 
     @media (max-width: 640px) {
@@ -251,14 +296,14 @@ $nav_items = [
             <a href="tel:+919971921698">&#128222; +91 99719 21698</a>
         </div>
         <div class="top-links">
-            <a href="<?php echo $base_link; ?>#contact">Support</a>
+            <a href="https://calendly.com/mithilasoftech" target="_blank" rel="noopener noreferrer" class="book-call-btn"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px; margin-right:6px;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>Book a Call</a>
         </div>
     </div> 
 </div>
 <header class="site-header">
     <div class="container nav-wrap nav-wrap-header">
         <a class="brand" href="<?php echo $home_link; ?>">
-            <img src="<?php echo htmlspecialchars($logo_path ?? 'assets/image/ms.png'); ?>" alt="<?php echo htmlspecialchars($company ?? 'Mithila Softech'); ?> Logo">
+            <img src="<?php echo htmlspecialchars($logo_path ?? 'assets/image/ms.png'); ?>" alt="<?php echo htmlspecialchars($company ?? 'Mithila Softech'); ?> Logo" width="160" height="48" fetchpriority="high" decoding="async">
         </a>
         <nav class="site-nav site-nav-main" id="main-nav">
             <?php foreach ($nav_items as $item): ?>
@@ -340,20 +385,19 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
 
-        // Mobile Dropdown Toggle (Tap once to open, tap again to navigate)
+        // Dropdown Toggle (click to open or close)
         mainNav.querySelectorAll('.nav-dropdown > a').forEach(dropdownToggle => {
             dropdownToggle.addEventListener('click', (e) => {
-                if (window.innerWidth <= 1199) {
-                    const parent = dropdownToggle.parentElement;
-                    if (!parent.classList.contains('is-open')) {
-                        e.preventDefault(); // Stop navigation to open the menu
-                        mainNav.querySelectorAll('.nav-dropdown').forEach(dropdown => {
-                            if (dropdown !== parent) {
-                                dropdown.classList.remove('is-open');
-                            }
-                        });
-                        parent.classList.add('is-open');
-                    }
+                e.preventDefault(); // The parent link is a menu toggle.
+                const parent = dropdownToggle.parentElement;
+                const shouldOpen = !parent.classList.contains('is-open');
+                mainNav.querySelectorAll('.nav-dropdown').forEach(dropdown => {
+                    dropdown.classList.remove('is-open');
+                    dropdown.querySelector(':scope > a')?.setAttribute('aria-expanded', 'false');
+                });
+                if (shouldOpen) {
+                    parent.classList.add('is-open');
+                    dropdownToggle.setAttribute('aria-expanded', 'true');
                 }
             });
         });

@@ -1,11 +1,11 @@
-<?php
+﻿<?php
 $activePage = 'blog';
 $title = 'Nike Digital Marketing Case Study & Online Growth Lessons for Modern Brands | Mithila Softech';
 
 $base_dir = str_replace('\\', '/', dirname($_SERVER['SCRIPT_NAME']));
 $base_url = $base_dir === '/' ? '/' : $base_dir . '/';
 
-$hero_badge = '🏘️ &nbsp; Case Study';
+$hero_badge = 'ðŸ˜ï¸ &nbsp; Case Study';
 $hero_title = 'Nike Digital Marketing Case Study & Online Growth Lessons for Modern Brands';
 $hero_subtext = 'Explore how Nike became a global digital marketing leader through SEO, social media, influencer marketing, and data-driven campaigns. Learn key online growth strategies.';
 $hero_bg_image = 'assets/image/nikecase.png?v=20260610-1659';
@@ -24,15 +24,15 @@ $all_blogs = [
         "link" => "nike-digital-marketing-case-study.php",
     ],
     [
-        "title" => "How a Real Estate Brand Generated ₹3.2 Crore Through Strategic Digital Marketing",
-        "excerpt" => "Learn how Mithila Softech helped a real estate developer generate ₹3.2 crore in property sales through SEO, AEO, social media campaigns, and performance marketing strategies.",
+        "title" => "How a Real Estate Brand Generated â‚¹3.2 Crore Through Strategic Digital Marketing",
+        "excerpt" => "Learn how Mithila Softech helped a real estate developer generate â‚¹3.2 crore in property sales through SEO, AEO, social media campaigns, and performance marketing strategies.",
         "date" => "September 24, 2026",
         "category" => "Case Study",
         "img" => "assets/image/realestateblog.png?v=20260610-1659",
         "link" => "real-estate-digital-marketing-case-study-property-sales.php",
     ],
     [
-        "title" => "SEO Company in Delhi – AI Powered SEO Services for Small Businesses in India",
+        "title" => "SEO Company in Delhi â€“ AI Powered SEO Services for Small Businesses in India",
         "excerpt" => "Mithila Softech is a leading SEO company in Delhi offering AI SEO services, digital marketing strategies, and affordable SEO services for small businesses across India.",
         "date" => "June 1, 2026",
         "category" => "Digital Marketing",
@@ -55,7 +55,7 @@ $all_blogs = [
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="assets/image/favicon.jpg" type="image/jpeg">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="assets/css/style.css?v=2.2">
     <style>
         .blog-content-wrap { padding: 80px 0; background: #ffffff; }
         .blog-main .blog-body { max-width: 800px; margin: 0 auto; font-size: 1.1rem; line-height: 1.8; color: var(--text); padding-left: 0 !important; padding-right: 0 !important; }
@@ -103,11 +103,11 @@ $all_blogs = [
                     
                     <img src="assets/image/nikecase.png?v=20260610-1659" alt="Nike Digital Marketing Strategy" class="blog-image" onerror="this.onerror=null;this.src='<?php echo $fallbackImg; ?>';">
                     
-                    <p>In the digital era, brands no longer grow only through traditional advertising. Today’s fastest-growing companies build their success through data-driven marketing, social media engagement, SEO, paid advertising, influencer collaborations, and personalized customer experiences.</p>
-                    <p>One of the best examples of this transformation is Nike — a brand that successfully evolved into a digital-first global powerhouse through innovative marketing strategies.</p>
+                    <p>In the digital era, brands no longer grow only through traditional advertising. Todayâ€™s fastest-growing companies build their success through data-driven marketing, social media engagement, SEO, paid advertising, influencer collaborations, and personalized customer experiences.</p>
+                    <p>One of the best examples of this transformation is Nike â€” a brand that successfully evolved into a digital-first global powerhouse through innovative marketing strategies.</p>
                     <p>This case study explores how Nike leveraged digital marketing to dominate the online market and how businesses today can apply similar strategies with the help of <strong>Mithila Softech</strong>.</p>
 
-                    <h2>About Nike’s Digital Transformation</h2>
+                    <h2>About Nikeâ€™s Digital Transformation</h2>
                     <p>Nike transformed its business model by shifting focus toward:</p>
                     <ul>
                         <li>Direct-to-consumer sales</li>
@@ -117,7 +117,7 @@ $all_blogs = [
                         <li>Personalized digital experiences</li>
                         <li>Data-driven advertising</li>
                     </ul>
-                    <p>The company understood early that modern consumers wanted experiences, community engagement, and emotional connection — not just products. This digital-first mindset helped Nike become one of the world’s most influential online brands.</p>
+                    <p>The company understood early that modern consumers wanted experiences, community engagement, and emotional connection â€” not just products. This digital-first mindset helped Nike become one of the worldâ€™s most influential online brands.</p>
 
                     <h2>The Biggest Challenges Nike Faced</h2>
                     <p>Even a globally recognized brand like Nike faced major digital challenges:</p>
@@ -128,7 +128,7 @@ $all_blogs = [
                         <li><strong>Need for Brand Personalization:</strong> Consumers expected customized experiences and targeted offers.</li>
                     </ul>
 
-                    <h2>Nike’s Winning Digital Marketing Strategy</h2>
+                    <h2>Nikeâ€™s Winning Digital Marketing Strategy</h2>
                     
                     <h3>1. Social Media Storytelling</h3>
                     <p>Nike stopped using social media only for product promotion. Instead, they focused on motivation, athlete stories, and community empowerment. This helped Nike create deeper emotional connections with customers.</p>
@@ -189,7 +189,7 @@ $all_blogs = [
                     <p>Our team combines technology, creativity, and data-driven marketing to help businesses scale faster online.</p>
 
                     <h2>Final Thoughts</h2>
-                    <p>Nike’s journey proves that strategic digital marketing can transform a brand into a global leader. While not every business has Nike’s budget, every business can apply the same growth principles with the right digital partner.</p>
+                    <p>Nikeâ€™s journey proves that strategic digital marketing can transform a brand into a global leader. While not every business has Nikeâ€™s budget, every business can apply the same growth principles with the right digital partner.</p>
                     <p>If your business wants to grow digitally, <strong>Mithila Softech</strong> provides customized solutions designed to increase traffic, leads, and long-term business success.</p>
 
                     <hr style="border: 0; border-top: 1px solid #e5e7eb; margin: 40px 0;">

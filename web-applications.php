@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $activePage = 'services';
 $title = 'Dynamic Web Applications | Mithila Softech';
 ?>
@@ -12,7 +12,7 @@ $title = 'Dynamic Web Applications | Mithila Softech';
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="assets/image/favicon.jpg" type="image/jpeg">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="assets/css/style.css?v=2.2">
     <style>
         .srv-hero-wrapper {
             text-align: center; overflow: hidden;
@@ -190,7 +190,7 @@ $title = 'Dynamic Web Applications | Mithila Softech';
 <?php include 'headerhome.php'; ?>
 
 <?php 
-$hero_badge = '💻 &nbsp; Web Apps';
+$hero_badge = 'ðŸ’» &nbsp; Web Apps';
 $hero_title = 'Dynamic Web <br><span class="hero-headline-bold">Applications</span>';
 $hero_subtext = 'Data-driven portals, dashboards and PWAs that go beyond static pages to deliver real-time experiences.';
 include 'heropage.php'; 

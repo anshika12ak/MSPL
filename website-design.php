@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $activePage = 'services';
 $title = 'Website Design & Development | Mithila Softech';
 ?>
@@ -12,7 +12,7 @@ $title = 'Website Design & Development | Mithila Softech';
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="assets/image/favicon.jpg" type="image/jpeg">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="assets/css/style.css?v=2.2">
     <style>
         .srv-hero-wrapper {
             text-align: center; overflow: hidden;
@@ -175,7 +175,7 @@ $title = 'Website Design & Development | Mithila Softech';
 <?php include 'headerhome.php'; ?>
 
 <?php 
-$hero_badge = '🌐 &nbsp; Web Services';
+$hero_badge = 'ðŸŒ &nbsp; Web Services';
 $hero_title = 'Professional Web <br><span class="hero-headline-bold">Development <span class="hero-headline-accent">Services in India</span></span>';
 $hero_subtext = 'Custom websites, e-commerce portals, admin dashboards & PWAs built with modern tech stacks.';
 include 'heropage.php'; 
@@ -189,7 +189,7 @@ include 'heropage.php';
             <div class="intro-text">
                 <span class="eyebrow reveal">Web Services</span>
                 <h2 class="reveal" style="transition-delay: 0.05s;">Transform Your Digital Presence with <span>Expert Web Development</span></h2>
-                <p class="reveal" style="transition-delay: 0.15s;">In today's digital-first world, your website is the face of your business. It’s often the first touchpoint for potential customers and plays a critical role in establishing trust and driving conversions. At Mithila Softech, we specialize in building visually stunning, highly functional, and fast-loading web experiences tailored to your brand’s unique goals.</p>
+                <p class="reveal" style="transition-delay: 0.15s;">In today's digital-first world, your website is the face of your business. Itâ€™s often the first touchpoint for potential customers and plays a critical role in establishing trust and driving conversions. At Mithila Softech, we specialize in building visually stunning, highly functional, and fast-loading web experiences tailored to your brandâ€™s unique goals.</p>
                 <p class="reveal" style="transition-delay: 0.25s;">Whether you need a sleek corporate website, a complex dynamic web application, or a high-converting e-commerce portal, our expert developers use the latest frameworks to deliver a seamless user experience across all devices.</p>
             </div>
             <div class="intro-image-wrap reveal" style="transition-delay: 0.3s;">

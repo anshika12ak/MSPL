@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $activePage = 'blog';
 $title = 'Best Software Development Services in UK: How to Choose the Right Technology Partner | Mithila Softech';
 $hero_title = 'Best Software Development Services in UK: A Complete Guide for Modern Businesses';
@@ -41,7 +41,7 @@ $recent_blogs = [
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="shortcut icon" href="assets/image/favicon.jpg" type="image/jpeg">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
+<link rel="stylesheet" href="assets/css/style.css?v=2.2">
 <style>
 .blog-content-wrap{padding:80px 0;background:#fff}.blog-layout{display:flex;gap:40px;align-items:flex-start}.blog-main{flex:1;min-width:0}.blog-sidebar{width:360px;flex-shrink:0;position:sticky;top:120px;display:flex;flex-direction:column;gap:40px}.blog-body{font-size:1.1rem;line-height:1.8;color:var(--text)}.blog-body h2{font-size:2rem;color:var(--blue-dark);margin:40px 0 20px}.blog-body h3{font-size:1.5rem;color:var(--text);margin:30px 0 15px}.blog-body p,.blog-body ul{margin-bottom:24px;color:var(--muted)}.blog-body ul{padding-left:24px}.blog-body li{margin-bottom:10px;color:var(--muted)}.blog-body a{color:var(--blue-dark);font-weight:600;text-decoration:underline}.blog-image{width:100%;height:auto;max-height:520px;object-fit:cover;border-radius:16px;margin-bottom:40px;box-shadow:var(--shadow);transition:transform .5s ease,box-shadow .5s ease}.blog-image:hover{transform:scale(1.02);box-shadow:0 20px 40px -10px rgba(0,0,0,.15)}.sidebar-widget{background:#fff;border-radius:16px;padding:28px;border:1px solid #e5e7eb;box-shadow:0 4px 6px -1px rgba(0,0,0,.05)}.widget-title{font-size:1.25rem;font-weight:800;color:var(--blue-dark);margin-bottom:24px;padding-bottom:12px;border-bottom:2px solid var(--green);display:inline-block;text-transform:uppercase;letter-spacing:.5px}.recent-post-item{display:flex;gap:16px;margin-bottom:24px;align-items:center}.recent-post-item:last-child{margin-bottom:0}.recent-post-thumb{width:80px;height:80px;border-radius:8px;object-fit:cover;object-position:center;flex-shrink:0;background:#020617}.recent-post-info h4{font-size:.95rem;margin:0 0 6px;line-height:1.4;font-weight:600}.recent-post-info a{color:#111827;text-decoration:none;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.recent-post-info a:hover{color:var(--green)}.recent-post-date{font-size:.8rem;color:#6b7280;display:block}@media(max-width:991px){.blog-layout{flex-direction:column}.blog-sidebar{width:100%;position:static}}
 </style>
