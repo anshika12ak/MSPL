@@ -17,10 +17,11 @@ $tracks = [
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   
-  <title>Internships at Mithila Softech | IT Training Programs</title>
-  <meta name="description" content="Apply for internships and gain real-world experience in IT and software development.">
-  <meta name="keywords" content="IT internships India">
+  <title>IT Internships in India | Top Internship Programs - Mithila Softech</title>
+  <meta name="description" content="Start your career with top IT internships at Mithila Softech. Gain hands-on experience in web development, software testing, digital marketing and HR.">
+  <meta name="keywords" content="IT internships India, software development internship, web development internship, software testing internship, digital marketing internship, best IT internships">
     <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
+  <link rel="canonical" href="https://www.mithilasoftech.com/internships">
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

@@ -6,6 +6,22 @@
 
 $blogs = [
     [
+        "title" => "Custom Software Development Services for Growing Businesses | Mithila Softech",
+        "excerpt" => "Discover how custom software development services can help businesses streamline operations, automate processes, improve productivity, and build scalable digital solutions tailored to their specific requirements.",
+        "date" => "October 6, 2026",
+        "category" => "Technology",
+        "img" => "assets/image/custom-software-development-services-banner.jpg?v=20261009",
+        "link" => "custom-software-development-services",
+    ],
+    [
+        "title" => "How to Reduce Manual Data Entry Errors with Business Automation | Mithila Softech",
+        "excerpt" => "Learn how businesses can reduce manual data entry errors, improve productivity, and streamline workflows with business automation software.",
+        "date" => "October 8, 2026",
+        "category" => "Technology",
+        "img" => "assets/image/reduce-manual-data-entry-errors-hero-banner.jpg?v=20261009",
+        "link" => "reduce-manual-data-entry-errors-business-automation",
+    ],
+    [
         "title" => "How App Development Solves Common Business Problems | Mithila Softech",
         "excerpt" => "Discover how custom app development can solve business problems like manual processes, poor customer engagement, slow communication, and inefficient operations.",
         "date" => "October 3, 2026",

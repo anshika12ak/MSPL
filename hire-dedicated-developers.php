@@ -680,12 +680,14 @@ $hx_wa = 'https://wa.me/919971921698';
 if ($is_specific_role) {
     $page_title = $role['meta_title'];
     $meta_desc = $role['meta_desc'];
+    $meta_keywords = "hire dedicated developers, hire remote developers India, hire React developers, hire Laravel developers, hire Node.js developers, hire Flutter developers, hire PHP developers, dedicated development team";
     $canonical_slug = array_search($role, $hire_roles);
     $canonical_url = "https://www.mithilasoftech.com/" . $canonical_slug;
     $current_role_name = $role['name'];
 } else {
-    $page_title = "Hire Dedicated Developers India | Dedicated Development Teams | Mithila Softech";
-    $meta_desc = "Hire dedicated developers and remote software engineering teams from Mithila Softech. Top 1% vetted React, Node.js, PHP, Laravel, Flutter developers with flexible models.";
+    $page_title = "Hire Dedicated Developers India | Top Developers - Mithila Softech";
+    $meta_desc = "Hire top dedicated developers in India from Mithila Softech. Get best full-stack, mobile, frontend and backend developers with flexible hiring models.";
+    $meta_keywords = "hire dedicated developers, dedicated developers India, hire developers India, dedicated development team, top developers India, best software developers";
     $canonical_url = "https://www.mithilasoftech.com/hire-dedicated-developers";
     $current_role_name = "Dedicated Developers";
 }
@@ -697,7 +699,7 @@ if ($is_specific_role) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo htmlspecialchars($page_title); ?></title>
     <meta name="description" content="<?php echo htmlspecialchars($meta_desc); ?>">
-    <meta name="keywords" content="hire dedicated developers, hire remote developers India, hire React developers, hire Laravel developers, hire Node.js developers, hire Flutter developers, hire PHP developers, dedicated development team">
+    <meta name="keywords" content="<?php echo htmlspecialchars($meta_keywords); ?>">
     <link rel="canonical" href="<?php echo htmlspecialchars($canonical_url); ?>">
     <link rel="shortcut icon" href="assets/image/favicon.jpg" type="image/jpeg">
 

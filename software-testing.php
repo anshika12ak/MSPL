@@ -1,15 +1,15 @@
 <?php
 $activePage = 'services';
-$title = 'Software Testing & QA Services | Mithila Softech';
+$title = 'Software Testing Services India | Top QA Company - Mithila Softech';
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Software Testing &amp; QA Services | Mithila Softech</title>
-    <meta name="description" content="End-to-end software testing and QA services from Mithila Softech. Automated testing, manual QA, API testing, mobile app testing, performance & security audits. Ship bug-free software faster.">
-    <meta name="keywords" content="software testing services, QA testing company, automation testing, manual testing, API testing, mobile app testing, performance testing JMeter, security testing VAPT, software quality assurance India">
+    <title>Software Testing Services India | Top QA Company - Mithila Softech</title>
+    <meta name="description" content="Get top software testing services in India with manual and automated QA, API, mobile, performance and security testing to deliver reliable, high-quality software.">
+    <meta name="keywords" content="software testing services, software testing company India, QA services India, automated testing services, manual testing services, software QA company">
     <link rel="canonical" href="https://www.mithilasoftech.com/software-testing" />
     <link rel="shortcut icon" href="assets/image/favicon.jpg" type="image/jpeg">
 

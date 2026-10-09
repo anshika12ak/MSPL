@@ -17,9 +17,9 @@ $benefits = [
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   
-  <title>Careers at Mithila Softech | IT Jobs India</title>
-  <meta name="description" content="Join Mithila Softech and build your career in software development and IT services.">
-  <meta name="keywords" content="IT jobs India, careers software company">
+  <title>IT Careers in India | Best Jobs at Mithila Softech</title>
+  <meta name="description" content="Explore the best IT career opportunities at Mithila Softech. Join a growth-focused team, work on real projects and build your career with experienced professionals.">
+  <meta name="keywords" content="IT careers India, IT jobs India, software jobs India, careers in IT, software developer jobs, Mithila Softech careers">
     <meta name="google-site-verification" content="1SrAUt6GmwQvp5YRcm5h9gDUgdBxu4AaoeSRf5FZLLw" />
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
