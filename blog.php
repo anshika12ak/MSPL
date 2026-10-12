@@ -121,9 +121,12 @@ if ($search_query !== '') {
             margin-bottom: 0;
         }
         
-        .blog-thumb-wrap { width: 100%; height: auto; aspect-ratio: 1659 / 948; overflow: hidden; position: relative; border-radius: 20px; margin-bottom: 24px; background: #020617; border: 1px solid rgba(15, 23, 42, 0.12); box-shadow: 0 14px 34px rgba(15, 23, 42, 0.12); }
-        .blog-thumb { width: 100%; height: 100%; object-fit: cover; object-position: center; transition: none; background: #020617; border-radius: inherit; }
-        .blog-thumb.blog-thumb-contain { object-fit: contain; object-position: center; background: #020617; }
+        .blog-thumb-wrap { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; overflow: hidden; position: relative; border-radius: 20px; margin-bottom: 24px; background: #020617; border: 1px solid rgba(15, 23, 42, 0.12); box-shadow: 0 14px 34px rgba(15, 23, 42, 0.12); }
+        .blog-thumb-wrap > a { display: block; width: 100%; height: 100%; }
+        .blog-thumb { display: block; width: 100% !important; height: 100% !important; max-width: none !important; object-fit: cover !important; object-position: center; transition: none; background: #020617; border-radius: inherit; }
+        .blog-thumb-wrap.is-wide { aspect-ratio: 2 / 1 !important; background: #fff; }
+        .blog-thumb-wrap.is-wide .blog-thumb { background: #fff; }
+        .blog-thumb.blog-thumb-contain { object-fit: contain !important; object-position: center; background: #020617; }
         .blog-post-item:hover .blog-thumb,
         .blog-post-item:hover .blog-thumb.blog-thumb-contain { transform: none; }
         
@@ -322,7 +325,7 @@ if ($search_query !== '') {
                     <?php else: ?>
                     <?php foreach ($display_blogs as $blog): ?>
                         <article class="blog-post-item blog-reveal" onclick="window.location.href='<?= e($blog['link'] ?? '#') ?>'" style="cursor: pointer;">
-                            <div class="blog-thumb-wrap">
+                            <div class="blog-thumb-wrap<?= !empty($blog['wide']) ? ' is-wide' : '' ?>">
                                 <span class="blog-category-badge"><?= e($blog['category']) ?></span>
                                 <a href="<?= e($blog['link'] ?? '#') ?>" style="display: block; width: 100%; height: 100%;">
                                     <img class="blog-thumb" src="<?= e($blog['img']) ?>" alt="<?= e($blog['title']) ?>" loading="lazy" onerror="this.onerror=null;this.src='<?= e($fallbackImg) ?>';" />

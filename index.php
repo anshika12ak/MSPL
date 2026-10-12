@@ -56,6 +56,9 @@ $clients = [
     ["name" => "NYC", "img" => "assets/image/nyclogo.png"], 
     ["name" => "Think Sys", "img" => "assets/image/thinksys.jpg"],
     ["name" => "Aski Inc", "img" => "assets/image/askilogoo.png"],
+    ["name" => "Looks Salon - Bailey Road", "img" => "assets/image/looks-salon-bailey-road.jpg"],
+    ["name" => "Somnath Group", "img" => "assets/image/somnath-group-logo.png"],
+    ["name" => "India Cultural and Spiritual Center", "img" => "assets/image/icsc-logo.jpeg"],
 ];
 $partners = [
     ["name" => "AWS"],

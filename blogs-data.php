@@ -6,6 +6,15 @@
 
 $blogs = [
     [
+        "title" => "Why Business Software Creates More Work: Solutions for Owners | Mithila Softech",
+        "excerpt" => "Is your business software creating more work instead of saving time? Learn how disconnected tools, manual data entry, and inefficient workflows affect productivity and how practical software improvements can help.",
+        "date" => "October 9, 2026",
+        "category" => "Technology",
+        "img" => "assets/image/business-software-workflow-problems-hero-banner.png?v=20261009",
+        "link" => "business-software-workflow-problems-solutions",
+        "wide" => true,
+    ],
+    [
         "title" => "Custom Software Development Services for Growing Businesses | Mithila Softech",
         "excerpt" => "Discover how custom software development services can help businesses streamline operations, automate processes, improve productivity, and build scalable digital solutions tailored to their specific requirements.",
         "date" => "October 6, 2026",

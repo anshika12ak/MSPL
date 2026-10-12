@@ -108,7 +108,7 @@ $recent_blogs = $recent_blogs ?? [
 
 <?php if (!empty($hero_image_only)): ?>
 <section class="blog-article-hero blog-article-hero-image-only" aria-label="<?php echo e($hero_title); ?>">
-    <img src="<?php echo e($hero_bg_image); ?>" alt="Custom software development services banner showing a team planning, designing, developing, and growing with tailored software" class="blog-hero-banner" fetchpriority="high" decoding="async">
+    <img src="<?php echo e($hero_bg_image); ?>" alt="<?php echo e($hero_alt ?? "Custom software development services banner showing a team planning, designing, developing, and growing with tailored software"); ?>" class="blog-hero-banner" fetchpriority="high" decoding="async">
     <h1 class="blog-hero-hidden-title"><?php echo e($hero_title); ?></h1>
 </section>
 <?php else: ?>
@@ -131,7 +131,7 @@ $recent_blogs = $recent_blogs ?? [
                     $body_featured_img = isset($featured_image) ? $featured_image : $hero_bg_image;
                     if (!empty($body_featured_img) && $body_featured_img !== false): 
                     ?>
-                        <img src="<?php echo e($body_featured_img); ?>" alt="<?php echo e($hero_title); ?>" class="blog-image" fetchpriority="high" decoding="async" onerror="this.onerror=null;this.src='<?php echo e($fallbackImg); ?>';">
+                        <img src="<?php echo e($body_featured_img); ?>" alt="<?php echo e($hero_title); ?>" class="blog-image"<?php if (!empty($featured_image_max_width)): ?> style="max-width: <?php echo (int)$featured_image_max_width; ?>px !important; display: block; margin-left: auto; margin-right: auto;"<?php endif; ?> fetchpriority="high" decoding="async" onerror="this.onerror=null;this.src='<?php echo e($fallbackImg); ?>';">
                     <?php endif; ?>
 
                     <?php foreach ($content_blocks as $block): ?>
@@ -150,7 +150,7 @@ $recent_blogs = $recent_blogs ?? [
                                 <?php foreach ($block['items'] as $item): ?><li><?php echo $item; ?></li><?php endforeach; ?>
                             </ol>
                         <?php elseif ($block['type'] === 'img'): ?>
-                            <img src="<?php echo e($block['src']); ?>" alt="<?php echo e($block['alt'] ?? ''); ?>" class="blog-internal-image" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='<?php echo e($fallbackImg); ?>';">
+                            <img src="<?php echo e($block['src']); ?>" alt="<?php echo e($block['alt'] ?? ''); ?>" class="blog-internal-image"<?php if (!empty($block['max_width'])): ?> style="max-width: <?php echo (int)$block['max_width']; ?>px !important;"<?php endif; ?> loading="lazy" decoding="async" onerror="this.onerror=null;this.src='<?php echo e($fallbackImg); ?>';">
                         <?php elseif ($block['type'] === 'table'): ?>
                             <table class="comparison-table">
                                 <thead><tr><?php foreach ($block['headers'] as $header): ?><th><?php echo e($header); ?></th><?php endforeach; ?></tr></thead>

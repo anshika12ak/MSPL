@@ -24,6 +24,9 @@ $clients = [
     ["name" => "Avia", "img" => "assets/image/avia.png", "bg" => "#c5daff"],
     ["name" => "Think Sys", "img" => "assets/image/Thinksys.png", "bg" => "#ffffff"],
     ["name" => "Aski Inc", "img" => "assets/image/askilogoo.png", "bg" => "#bdd4ff"],
+    ["name" => "Looks Salon - Bailey Road", "img" => "assets/image/looks-salon-bailey-road.jpg", "bg" => "#ffffff"],
+    ["name" => "Somnath Group", "img" => "assets/image/somnath-group-logo.png", "bg" => "#ffffff"],
+    ["name" => "India Cultural and Spiritual Center", "img" => "assets/image/icsc-logo.jpeg", "bg" => "#ffffff"],
 ];
 
 $stats = [
