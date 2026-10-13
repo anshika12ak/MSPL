@@ -59,6 +59,8 @@ $clients = [
     ["name" => "Looks Salon - Bailey Road", "img" => "assets/image/looks-salon-bailey-road.jpg"],
     ["name" => "Somnath Group", "img" => "assets/image/somnath-group-logo.png"],
     ["name" => "India Cultural and Spiritual Center", "img" => "assets/image/icsc-logo.jpeg"],
+    ["name" => "New World Condo 3", "img" => "assets/image/new-world-condo-3-logo.jpg"],
+    ["name" => "MSIX Engineering & Design Solution", "img" => "assets/image/msix-engineering-design-solution-logo.png"],
 ];
 $partners = [
     ["name" => "AWS"],
@@ -77,6 +79,8 @@ $partners = [
 require_once __DIR__ . '/blogs-data.php';
 $testimonials = [
     ["name" => "Info somnath", "role" => "Customer", "text" => "Outstanding SEO agency! Mithila Softech helped us fix our website's technical SEO, optimize our content, and significantly increase our organic search traffic. They provide excellent monthly reports, clear communication, and most importantly real results. If you want your website to rank higher on Google, they are the team to trust.", "link" => "", "img" => "assets/image/ms.png"],
+    ["name" => "Asena Bulbul", "role" => "Customer", "text" => "I’m absolutely thrilled with my new website! Manish and his team did such an amazing job from start to finish. They were incredibly thorough, professional and attentive to every little detail. They really took the time to understand my vision and brought it to life perfectly. The whole process was so smooth and enjoyable, and I’m beyond happy with the final result. The website looks professional, modern and exactly how I envisioned it. I would highly recommend Manish and his team to anyone looking for a new website or wanting to give their current website a complete refresh. They are fantastic to work with!", "link" => "", "img" => "assets/image/ms.png"],
+    ["name" => "Bluebird9896", "role" => "Customer", "text" => "I was looking for website, every vendor just saying we will create without my discussion. As their Mithila Softech representative contacted me, first they did R&D, all that they do hard work before making site. Then proper discussion with them, they made a website truly. I really like that type of vendors who find out solution first rather than just selling services. Really like.", "link" => "", "img" => "assets/image/ms.png"],
     ["name" => "Deepak Mishra", "role" => "Customer", "text" => "I had a really good experience with Mithila Softtech Company. The team is helpful, friendly, and easy to communicate with. They understand requirements well and deliver the work on time without compromising on quality. Overall, it's a reliable company with a positive work approach. I would definitely recommend Mithila Softtech to others.", "link" => "https://share.google/PYO50A25Sab77pOy5", "img" => "assets/image/deepak_mishra.jpg"],
     ["name" => "Pramod Kumar", "role" => "Customer", "text" => "Good experience overall. The team was cooperative, patient, and focused on understanding our business requirements before starting the work.", "link" => "https://share.google/mRT25cRYPsquMdwQT", "img" => "assets/image/pramod_kumar.jpg"],
     ["name" => "Namrata", "role" => "Customer", "text" => "Mithila Softech helped improve our website structure and local SEO. We noticed better engagement after implementing their suggestions.", "link" => "https://share.google/J6DHkkc3mdBdsAuPv", "img" => "assets/image/namrata.jpg"],
@@ -332,6 +336,9 @@ $testimonials = [
         .blog-thumb-wrap { width: 100%; height: auto; aspect-ratio: 16 / 9; overflow: hidden; position: relative; z-index: 2; background: #020617; border-radius: 20px; border: 1px solid rgba(15, 23, 42, 0.12); box-shadow: 0 14px 34px rgba(15, 23, 42, 0.12); }
         .blog-thumb { width: 100%; height: 100%; object-fit: contain; transition: none; background: #020617; border-radius: inherit; }
         .blog-thumb.blog-thumb-contain { object-fit: contain; background: #020617; }
+        .blog-card .blog-thumb-wrap, .blog-card .blog-thumb-wrap .blog-thumb { background: #fff !important; }
+        .blog-thumb-wrap.is-wide { aspect-ratio: 2 / 1 !important; background: #fff !important; }
+        .blog-thumb-wrap.is-wide .blog-thumb { background: #fff !important; object-fit: cover !important; }
         .blog-card:hover .blog-thumb { transform: none !important; }
         .blog-card:hover .blog-thumb.blog-thumb-contain { transform: none !important; }
         .blog-content { padding: 28px; display: flex; flex-direction: column; gap: 14px; flex-grow: 1; position: relative; overflow: hidden; z-index: 2; background: #fff; }
@@ -452,7 +459,7 @@ $testimonials = [
                     <?php foreach($blogs as $index => $blog): ?>
                         <article class="blog-card reveal" style="--delay: <?php echo ($index * 0.1); ?>s;" onclick="window.location.href='<?php echo htmlspecialchars($blog['link'] ?? 'https://www.mithilasoftech.com/blog'); ?>'">
                             <div class="blog-card-accent"></div>
-                            <div class="blog-thumb-wrap">
+                            <div class="blog-thumb-wrap<?php echo !empty($blog['wide']) ? ' is-wide' : ''; ?>">
                                 <a href="<?php echo htmlspecialchars($blog['link'] ?? 'https://www.mithilasoftech.com/blog'); ?>" style="display: block; width: 100%; height: 100%;">
                                     <img class="blog-thumb blog-thumb-contain" src="<?php echo htmlspecialchars($blog['img']); ?>" alt="<?php echo htmlspecialchars($blog['title']); ?>" loading="lazy" onerror="this.onerror=null;this.src='https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';" />
                                 </a>

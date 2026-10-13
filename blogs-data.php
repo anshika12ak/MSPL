@@ -6,6 +6,14 @@
 
 $blogs = [
     [
+        "title" => "Best Software Testing Services to Prevent Costly Business Errors",
+        "excerpt" => "Software bugs can lead to failed transactions, frustrated customers, security risks, and expensive repairs. Learn how software testing services help businesses identify problems before launch, improve application performance, and deliver reliable digital products.",
+        "date" => "October 13, 2026",
+        "category" => "Technology",
+        "img" => "assets/image/software-testing-services-hero-banner.png?v=20261013",
+        "link" => "software-testing-services-prevent-costly-business-errors",
+    ],
+    [
         "title" => "Why Business Software Creates More Work: Solutions for Owners | Mithila Softech",
         "excerpt" => "Is your business software creating more work instead of saving time? Learn how disconnected tools, manual data entry, and inefficient workflows affect productivity and how practical software improvements can help.",
         "date" => "October 9, 2026",
@@ -13,6 +21,7 @@ $blogs = [
         "img" => "assets/image/business-software-workflow-problems-hero-banner.png?v=20261009",
         "link" => "business-software-workflow-problems-solutions",
         "wide" => true,
+        "thumb_bg" => "#ffffff",
     ],
     [
         "title" => "Custom Software Development Services for Growing Businesses | Mithila Softech",

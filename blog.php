@@ -124,6 +124,7 @@ if ($search_query !== '') {
         .blog-thumb-wrap { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; overflow: hidden; position: relative; border-radius: 20px; margin-bottom: 24px; background: #020617; border: 1px solid rgba(15, 23, 42, 0.12); box-shadow: 0 14px 34px rgba(15, 23, 42, 0.12); }
         .blog-thumb-wrap > a { display: block; width: 100%; height: 100%; }
         .blog-thumb { display: block; width: 100% !important; height: 100% !important; max-width: none !important; object-fit: cover !important; object-position: center; transition: none; background: #020617; border-radius: inherit; }
+        .blog-post-item .blog-thumb-wrap, .blog-post-item .blog-thumb-wrap .blog-thumb { background: #fff !important; }
         .blog-thumb-wrap.is-wide { aspect-ratio: 2 / 1 !important; background: #fff; }
         .blog-thumb-wrap.is-wide .blog-thumb { background: #fff; }
         .blog-thumb.blog-thumb-contain { object-fit: contain !important; object-position: center; background: #020617; }
