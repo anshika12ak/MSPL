@@ -78,10 +78,9 @@ $partners = [
 ];
 require_once __DIR__ . '/blogs-data.php';
 $testimonials = [
-    ["name" => "Info somnath", "role" => "Customer", "text" => "Outstanding SEO agency! Mithila Softech helped us fix our website's technical SEO, optimize our content, and significantly increase our organic search traffic. They provide excellent monthly reports, clear communication, and most importantly real results. If you want your website to rank higher on Google, they are the team to trust.", "link" => "", "img" => "assets/image/ms.png"],
-    ["name" => "Asena Bulbul", "role" => "Customer", "text" => "I’m absolutely thrilled with my new website! Manish and his team did such an amazing job from start to finish. They were incredibly thorough, professional and attentive to every little detail. They really took the time to understand my vision and brought it to life perfectly. The whole process was so smooth and enjoyable, and I’m beyond happy with the final result. The website looks professional, modern and exactly how I envisioned it. I would highly recommend Manish and his team to anyone looking for a new website or wanting to give their current website a complete refresh. They are fantastic to work with!", "link" => "", "img" => "assets/image/ms.png"],
-    ["name" => "Bluebird9896", "role" => "Customer", "text" => "I was looking for website, every vendor just saying we will create without my discussion. As their Mithila Softech representative contacted me, first they did R&D, all that they do hard work before making site. Then proper discussion with them, they made a website truly. I really like that type of vendors who find out solution first rather than just selling services. Really like.", "link" => "", "img" => "assets/image/ms.png"],
-    ["name" => "Deepak Mishra", "role" => "Customer", "text" => "I had a really good experience with Mithila Softtech Company. The team is helpful, friendly, and easy to communicate with. They understand requirements well and deliver the work on time without compromising on quality. Overall, it's a reliable company with a positive work approach. I would definitely recommend Mithila Softtech to others.", "link" => "https://share.google/PYO50A25Sab77pOy5", "img" => "assets/image/deepak_mishra.jpg"],
+    ["name" => "Info somnath", "role" => "Customer", "text" => "Outstanding SEO agency! Mithila Softech helped us fix our website's technical SEO, optimize our content, and significantly increase our organic search traffic. They provide excellent monthly reports, clear communication, and most importantly real results. If you want your website to rank higher on Google, they are the team to trust.", "link" => "", "img" => "assets/image/ms.png", "company_name" => "Somnath Enterprises (Patna, Bihar)", "company_logo" => "assets/image/somnath-group-logo.png"],
+    ["name" => "Asena Bulbul", "role" => "Customer", "text" => "I’m absolutely thrilled with my new website! Manish and his team did such an amazing job from start to finish. They were incredibly thorough, professional and attentive to every little detail. They really took the time to understand my vision and brought it to life perfectly. The whole process was so smooth and enjoyable, and I’m beyond happy with the final result. The website looks professional, modern and exactly how I envisioned it. I would highly recommend Manish and his team to anyone looking for a new website or wanting to give their current website a complete refresh. They are fantastic to work with!", "link" => "", "img" => "assets/image/ms.png", "company_name" => "Mirawellness ( Australia)", "company_bold" => true],
+    ["name" => "Deepak Mishra", "role" => "Founder and CEO", "text" => "I had a really good experience with Mithila Softtech Company. The team is helpful, friendly, and easy to communicate with. They understand requirements well and deliver the work on time without compromising on quality. Overall, it's a reliable company with a positive work approach. I would definitely recommend Mithila Softtech to others.", "link" => "https://share.google/PYO50A25Sab77pOy5", "img" => "assets/image/deepak_mishra.jpg", "company_name" => "OGRIC (Forbesganj, Araria, Bihar , India)", "company_logo" => "assets/image/ogric-logo.png"],
     ["name" => "Pramod Kumar", "role" => "Customer", "text" => "Good experience overall. The team was cooperative, patient, and focused on understanding our business requirements before starting the work.", "link" => "https://share.google/mRT25cRYPsquMdwQT", "img" => "assets/image/pramod_kumar.jpg"],
     ["name" => "Namrata", "role" => "Customer", "text" => "Mithila Softech helped improve our website structure and local SEO. We noticed better engagement after implementing their suggestions.", "link" => "https://share.google/J6DHkkc3mdBdsAuPv", "img" => "assets/image/namrata.jpg"],
     ["name" => "Anshika Singh", "role" => "Customer", "text" => "Had a great experience working with Mithila Softech. Their team explained the SEO process clearly and helped improve our website visibility. Communication was smooth throughout the project.", "link" => "https://share.google/vOJPK0RddwMq5CkKd", "img" => "assets/image/anshika_singh.jpg"],
@@ -302,6 +301,9 @@ $testimonials = [
         .author-avatar { width: 36px; height: 36px; border-radius: 50%; background: linear-gradient(135deg, var(--green), var(--blue)); color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 0.9rem; box-shadow: 0 4px 10px rgba(29, 78, 158, 0.3); flex-shrink: 0; }
         .author-info h4 { margin: 0 0 2px 0; font-size: 0.9rem; color: var(--text); font-weight: 800; }
         .author-info span { font-size: 0.75rem; color: var(--blue); font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
+        .reviewer-company { display: flex; align-items: center; gap: 8px; margin-top: 6px; color: var(--muted); font-size: 0.8rem; font-weight: 600; }
+        .reviewer-company img { width: 28px; height: 28px; object-fit: contain; border-radius: 4px; }
+        .reviewer-role { margin-top: 4px; color: var(--muted); font-size: 0.8rem; font-weight: 500; }
         @media (max-width: 991px) { .testimonials-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
         @media (max-width: 768px) { .testimonials-grid { grid-template-columns: 1fr; } .testimonial-card { padding: 22px 18px; } }
 
@@ -643,6 +645,13 @@ $testimonials = [
                                                 <?php echo htmlspecialchars($t['name']); ?>
                                             <?php endif; ?>
                                         </h4>
+                                        <?php if (!empty($t['role']) && $t['role'] !== 'Customer'): ?><div class="reviewer-role"><?php echo htmlspecialchars($t['role']); ?></div><?php endif; ?>
+                                        <?php if (!empty($t['company_name'])): ?>
+                                            <div class="reviewer-company">
+                                                <?php if (!empty($t['company_logo'])): ?><img src="<?php echo htmlspecialchars($t['company_logo']); ?>" alt="<?php echo htmlspecialchars($t['company_name']); ?> logo" loading="lazy" decoding="async"><?php endif; ?>
+                                                <span><?php echo !empty($t['company_bold']) ? '<strong>' . htmlspecialchars($t['company_name']) . '</strong>' : htmlspecialchars($t['company_name']); ?></span>
+                                            </div>
+                                        <?php endif; ?>
                                     </div>
                                 </div>
                             </article>
@@ -650,7 +659,7 @@ $testimonials = [
                     </div>
                     <?php if (count($testimonials) > 3): ?>
                     <div class="testimonial-action-center">
-                        <button type="button" class="button button-primary" style="border-radius: 999px; padding: 12px 36px; font-weight: 700;" onclick="toggleTestimonials('testimonialTrack', this)">View More</button>
+                        <a href="https://www.google.com/search?kgmid=/g/11jyz0dkq2&amp;hl=en-IN&amp;q=Mithila+Softech&amp;shem=epsd1,esd2e,ltae,rimspwouoe&amp;shndl=30&amp;source=sh/x/loc/osrp/m5/1&amp;kgs=3d630f2ec21d4450&amp;utm_source=epsd1,esd2e,ltae,rimspwouoe,sh/x/loc/osrp/m5/1" class="button button-primary" style="border-radius: 999px; padding: 12px 36px; font-weight: 700;" target="_blank" rel="noopener noreferrer">View More</a>
                     </div>
                     <?php endif; ?>
                 </div>
