@@ -4,7 +4,29 @@
  * Shared across Homepage, Blog Hub, and Related Articles
  */
 
+if (!function_exists('local_blog_image')) {
+    function local_blog_image($preferred, $fallback) {
+        return file_exists(__DIR__ . '/' . $preferred) ? $preferred : $fallback;
+    }
+}
+
 $blogs = [
+    [
+        "title" => "How to Connect Business Systems Without Replacing Existing Software",
+        "excerpt" => "Discover how business system integration links existing software, eliminates double entry, unifies reporting, and cuts costs without expensive replacements.",
+        "date" => "October 17, 2026",
+        "category" => "Technology",
+        "img" => "assets/image/business-system-integration-hero-new.png?v=20261021",
+        "link" => "business-system-integration-guide",
+    ],
+    [
+        "title" => "Why Software Projects Go Over Budget: 7 Problems Businesses Should Fix Before Development",
+        "excerpt" => "Software projects often exceed budgets due to vague requirements, scope creep, integration bottlenecks, and deferred testing. Discover seven practical solutions to keep development on track.",
+        "date" => "October 15, 2026",
+        "category" => "Technology",
+        "img" => "assets/image/software-project-budget-hero-new.png?v=20261021",
+        "link" => "software-project-budget-management",
+    ],
     [
         "title" => "Best Software Testing Services to Prevent Costly Business Errors",
         "excerpt" => "Software bugs can lead to failed transactions, frustrated customers, security risks, and expensive repairs. Learn how software testing services help businesses identify problems before launch, improve application performance, and deliver reliable digital products.",
