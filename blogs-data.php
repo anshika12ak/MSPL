@@ -12,6 +12,14 @@ if (!function_exists('local_blog_image')) {
 
 $blogs = [
     [
+        "title" => "How Customer Portals Help Businesses Win More Sales",
+        "excerpt" => "Customers expect a simple and convenient buying experience. A well-designed customer portal helps businesses share product information, manage enquiries, simplify ordering, and improve customer satisfaction. Discover how custom portal development can remove buying barriers and support sales growth.",
+        "date" => "October 24, 2026",
+        "category" => "Technology",
+        "img" => "assets/image/customer-portal-sales-growth-hero.png",
+        "link" => "customer-portal-development-for-sales-growth",
+    ],
+    [
         "title" => "How to Choose Software That Solves Real Business Problems",
         "excerpt" => "Choosing the wrong software can increase costs, slow down employees, and create unnecessary complexity. Learn how to identify your business needs, evaluate software solutions, and invest in technology that improves productivity and supports long-term growth.",
         "date" => "October 22, 2026",

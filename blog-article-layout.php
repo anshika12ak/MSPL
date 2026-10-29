@@ -6,26 +6,21 @@ if (!function_exists('e')) {
     function e($v){ return htmlspecialchars((string)$v, ENT_QUOTES, "UTF-8"); }
 }
 
-$recent_blogs = $recent_blogs ?? [
-    [
-        "title" => "Best Website Development Services in Dubai for Business Growth | Mithila Softech",
-        "date" => "September 5, 2026",
-        "img" => "assets/image/best-website-development-services-dubai.jpg",
-        "link" => "best-website-development-services-dubai",
-    ],
-    [
-        "title" => "Best Digital Marketing Agency in India for Business Growth | Mithila Softech",
-        "date" => "September 3, 2026",
-        "img" => "assets/image/best-digital-marketing-agency-in-india.jpg",
-        "link" => "best-digital-marketing-agency-in-india",
-    ],
-    [
-        "title" => "Best Website Designing Company in India for Modern Business Websites | Mithila Softech",
-        "date" => "September 1, 2026",
-        "img" => "assets/image/best-website-designing-company-in-india.jpg",
-        "link" => "best-website-designing-company-in-india",
-    ],
-];
+if (empty($recent_blogs)) {
+    require_once __DIR__ . '/blogs-data.php';
+    $current_file = basename($_SERVER['PHP_SELF'], '.php');
+    $filtered = [];
+    if (!empty($blogs)) {
+        foreach ($blogs as $b) {
+            $blink = basename($b['link'], '.php');
+            if ($blink !== $current_file) {
+                $filtered[] = $b;
+            }
+            if (count($filtered) >= 3) break;
+        }
+    }
+    $recent_blogs = $filtered;
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -41,7 +36,7 @@ $recent_blogs = $recent_blogs ?? [
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="assets/image/favicon.jpg" type="image/jpeg">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="preload" as="image" href="<?php echo e($hero_bg_image); ?>" fetchpriority="high">
+    <link rel="preload" as="image" href="<?php echo e($hero_visual_image ?? $hero_bg_image); ?>" fetchpriority="high">
     <link rel="stylesheet" href="assets/css/style.css?v=20260905">
     <style>
         .blog-content-wrap { padding: 80px 0; background: #ffffff; }
@@ -112,11 +107,14 @@ $recent_blogs = $recent_blogs ?? [
     <h1 class="blog-hero-hidden-title"><?php echo e($hero_title); ?></h1>
 </section>
 <?php else: ?>
-<section class="srv-hero-wrapper blog-article-hero" style="background-color: #020617; background-image: linear-gradient(135deg, rgba(2, 6, 23, 0.76), rgba(21, 58, 117, 0.58)), url('<?php echo e($hero_bg_image); ?>'); background-position: center, center; background-size: cover, cover; background-repeat: no-repeat, no-repeat; text-align: left; padding: 120px 0 100px; color: #fff;">
+<section class="srv-hero-wrapper blog-article-hero" style="background-color: #020617; background-image: <?php echo !empty($hero_visual_image) ? 'linear-gradient(135deg, rgba(2, 6, 23, 0.76), rgba(21, 58, 117, 0.58))' : "linear-gradient(135deg, rgba(2, 6, 23, 0.76), rgba(21, 58, 117, 0.58)), url('" . e($hero_bg_image) . "')"; ?>; background-position: center, center; background-size: cover, cover; background-repeat: no-repeat, no-repeat; text-align: left; padding: 120px 0 100px; color: #fff;">
     <div class="container">
         <span style="display: inline-flex; padding: 8px 18px; border-radius: 999px; background: rgba(255,255,255,0.12); font-weight: 700; margin-bottom: 22px;"><?php echo e($category); ?></span>
         <h1 class="blog-article-title"><?php echo e($hero_title); ?></h1>
         <p class="blog-article-subtitle"><?php echo e($hero_subtext); ?></p>
+        <?php if (!empty($hero_visual_image)): ?>
+            <img src="<?php echo e($hero_visual_image); ?>" alt="<?php echo e($hero_visual_alt ?? $hero_title); ?>" class="blog-hero-banner" style="max-width: 900px; margin-top: 24px;" fetchpriority="high" decoding="async">
+        <?php endif; ?>
     </div>
 </section>
 <?php endif; ?>
@@ -220,5 +218,3 @@ $recent_blogs = $recent_blogs ?? [
 
 </body>
 </html>
-
-

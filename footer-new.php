@@ -12,7 +12,8 @@ $footer_sections = [
             ['label' => 'About Us', 'href' => 'about'],
             ['label' => 'Our Approach', 'href' => 'about'],
             ['label' => 'Our Values', 'href' => 'about'],
-            ['label' => 'Industries We Serve', 'href' => 'industry']
+            ['label' => 'Industries We Serve', 'href' => 'industry'],
+            ['label' => 'Contact Us', 'href' => 'contact']
         ]
     ],
     [
