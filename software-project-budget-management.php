@@ -103,7 +103,7 @@ $content_blocks = [
 
     ['type' => 'h2', 'text' => 'How to Keep Your Next Software Project on Budget'],
     ['type' => 'p', 'html' => 'Businesses can reduce financial uncertainty and maintain project control by following a disciplined development roadmap.'],
-    ['type' => 'img', 'max_width' => 700, 'src' => 'assets/image/software-project-budget-management-hero-banner.png?v=20261015', 'alt' => 'Infographic displaying a 7-step guide to keep software projects on budget: Define Objective, Document Requirements, Estimate Realistically, Prioritize MVP, Review Progress, Test Continuously, and Measure Business Value.'],
+    ['type' => 'img', 'max_width' => 600, 'src' => 'assets/image/software-project-budget-management-hero-banner.png?v=20261015', 'alt' => 'Infographic displaying a 7-step guide to keep software projects on budget: Define Objective, Document Requirements, Estimate Realistically, Prioritize MVP, Review Progress, Test Continuously, and Measure Business Value.'],
     ['type' => 'ol', 'items' => [
         '<strong>Step 1: Define the business objective.</strong> Identify the specific operational problem, customer need, or commercial opportunity the software must address.',
         '<strong>Step 2: Document the requirements.</strong> Establish essential features, user roles, integrations, and expected outcomes.',

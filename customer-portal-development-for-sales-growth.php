@@ -9,13 +9,14 @@ $category = 'Technology';
 $hero_title = 'How Customer Portals Help Businesses Win More Sales';
 $hero_subtext = 'Customers expect a simple and convenient buying experience. A well-designed customer portal helps businesses share product information, manage enquiries, simplify ordering, and improve customer satisfaction. Discover how custom portal development can remove buying barriers and support sales growth.';
 $hero_bg_image = 'assets/image/customer-portal-sales-growth-hero.png';
-$featured_image = false;
+$featured_image = $hero_bg_image;
+$featured_image_max_width = 720;
 $fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 
 $content_blocks = [
     ['type' => 'p', 'html' => 'Winning a new customer is not just about offering a good product or service. Businesses must also make it easy for potential buyers to understand their offerings, request information, compare options, and complete a purchase. When these steps become complicated, customers may leave without making an enquiry or placing an order.'],
     ['type' => 'p', 'html' => 'Many companies still depend on emails, phone calls, spreadsheets, and manual processes to handle customer requests. These methods can work initially, but they may become difficult to manage as the business grows.'],
-    ['type' => 'img', 'max_width' => 720, 'src' => 'assets/image/customer-portal-development-for-sales-growth.png', 'alt' => 'Infographic showing how customer portals improve access to information, quotations, ordering, order tracking, documents, and support to help businesses win more sales.'],
+    ['type' => 'img', 'max_width' => 600, 'src' => 'assets/image/customer-portal-development-for-sales-growth.png', 'alt' => 'Infographic showing how customer portals improve access to information, quotations, ordering, order tracking, documents, and support to help businesses win more sales.'],
     ['type' => 'p', 'html' => 'A customer portal offers a more organized way to help customers interact with a business. By providing access to relevant information and useful online features, companies can simplify the buying journey and create more opportunities to convert interested prospects into paying customers.'],
 
     ['type' => 'h2', 'text' => 'What Is a Customer Portal?'],

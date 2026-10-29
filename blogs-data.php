@@ -12,6 +12,14 @@ if (!function_exists('local_blog_image')) {
 
 $blogs = [
     [
+        "title" => "Best Software Development Company in Dubai for Business Growth",
+        "excerpt" => "Looking to grow your business with technology? Learn how to choose the right software development partner in Dubai to streamline operations, improve productivity, and build scalable digital solutions.",
+        "date" => "October 27, 2026",
+        "category" => "Technology",
+        "img" => "assets/image/best-software-development-company-dubai-hero.png",
+        "link" => "best-software-development-company-dubai",
+    ],
+    [
         "title" => "How Customer Portals Help Businesses Win More Sales",
         "excerpt" => "Customers expect a simple and convenient buying experience. A well-designed customer portal helps businesses share product information, manage enquiries, simplify ordering, and improve customer satisfaction. Discover how custom portal development can remove buying barriers and support sales growth.",
         "date" => "October 24, 2026",
