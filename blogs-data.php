@@ -12,6 +12,22 @@ if (!function_exists('local_blog_image')) {
 
 $blogs = [
     [
+        "title" => "B2B Marketplace Development in Dubai: Build a Digital Platform That Drives Business Growth",
+        "excerpt" => "Discover how a custom B2B marketplace can help businesses in Dubai connect with suppliers, attract business buyers, simplify transactions, and unlock new revenue opportunities through scalable digital technology.",
+        "date" => "November 2, 2026",
+        "category" => "Technology",
+        "img" => "assets/image/b2b-marketplace-development-dubai-hero.png",
+        "link" => "b2b-marketplace-development-dubai",
+    ],
+    [
+        "title" => "Is Your Business Outgrowing Spreadsheets? When to Invest in Custom Business Software",
+        "excerpt" => "Spreadsheets are useful for starting a business, but growing operations often need something more reliable. Discover the signs that your company needs custom software to manage data, teams, customers, and daily workflows more efficiently.",
+        "date" => "October 30, 2026",
+        "category" => "Technology",
+        "img" => "assets/image/when-to-invest-in-custom-business-software-hero.png",
+        "link" => "when-to-invest-in-custom-business-software",
+    ],
+    [
         "title" => "Best Software Development Company in Dubai for Business Growth",
         "excerpt" => "Looking to grow your business with technology? Learn how to choose the right software development partner in Dubai to streamline operations, improve productivity, and build scalable digital solutions.",
         "date" => "October 27, 2026",
