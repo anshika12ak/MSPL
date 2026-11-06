@@ -12,6 +12,14 @@ if (!function_exists('local_blog_image')) {
 
 $blogs = [
     [
+        "title" => "How Inventory Management Software Helps Businesses Reduce Stock Losses and Improve Efficiency",
+        "excerpt" => "Managing inventory manually can lead to stock shortages, excess inventory, misplaced products, and costly errors. Discover how custom inventory management software helps businesses track stock, automate operations, improve accuracy, and make better purchasing decisions.",
+        "date" => "November 5, 2026",
+        "category" => "Technology",
+        "img" => "assets/image/inventory-management-software-development-services-hero.jpg",
+        "link" => "inventory-management-software-development-services",
+    ],
+    [
         "title" => "B2B Marketplace Development in Dubai: Build a Digital Platform That Drives Business Growth",
         "excerpt" => "Discover how a custom B2B marketplace can help businesses in Dubai connect with suppliers, attract business buyers, simplify transactions, and unlock new revenue opportunities through scalable digital technology.",
         "date" => "November 2, 2026",

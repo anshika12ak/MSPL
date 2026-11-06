@@ -92,6 +92,20 @@ $benefits = [
     }
     .life-grid img:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(0,0,0,0.12); }
 
+    /* Diwali gallery - full images, no cropping */
+    .diwali-gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 48px; }
+    .diwali-card {
+        position: relative; height: 300px; margin: 0; overflow: hidden; border-radius: 16px;
+        box-shadow: var(--shadow); background: #0f172a;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .diwali-card::before {
+        content: ""; position: absolute; inset: -20px; background: var(--bg) center/cover no-repeat;
+        filter: blur(22px) brightness(0.9); transform: scale(1.1);
+    }
+    .diwali-card img { position: relative; width: 100%; height: 100%; object-fit: contain; display: block; }
+    .diwali-card:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(0,0,0,0.12); }
+
     /* Benefits Grid */
     .benefit-grid {
         display: grid;
@@ -204,13 +218,24 @@ $benefits = [
       <img src="assets/image/team-meeting.jpg" alt="Mithila Softech Team Meeting" loading="lazy" style="object-position: center 35%;" />
       <img src="assets/image/team-cake-celebration.jpg" alt="Mithila Softech Team Celebration" loading="lazy" style="object-position: center 28%;" />
     </div>
+    <div class="section-heading center reveal" style="margin-top:56px;">
+      <h2>Diwali <span>Celebration</span></h2>
+      <p>Festive gifts, smiles, and moments shared with the whole team.</p>
+    </div>
+    <div class="diwali-gallery reveal" style="--delay:150ms;">
+      <?php for ($i = 1; $i <= 21; $i++): ?>
+        <figure class="diwali-card" style="--bg:url('assets/image/life/diwali-celebration-<?= $i ?>.jpg');">
+          <img src="assets/image/life/diwali-celebration-<?= $i ?>.jpg" alt="Mithila Softech Diwali celebration <?= $i ?>" loading="lazy" />
+        </figure>
+      <?php endfor; ?>
+    </div>
   </div>
 </section>
 
 <section class="section" style="background: var(--bg-alt);">
   <div class="container">
     <div class="section-heading center reveal">
-      <h2>Why <span>Join Us</span></h2>
+      <h2>Why<span>Join Us</span></h2>
       <p>We combine startup speed with structured engineering discipline.</p>
     </div>
     <div class="benefit-grid">
