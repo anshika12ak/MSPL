@@ -12,6 +12,22 @@ if (!function_exists('local_blog_image')) {
 
 $blogs = [
     [
+        "title" => "CRM Data Migration: How Businesses Can Move Customer Data Without Losing Important Information",
+        "excerpt" => "Moving customer information from an old CRM system to a new platform requires careful planning. Learn how CRM data migration helps businesses transfer customer records, maintain data accuracy, reduce operational disruptions, and prepare for better business management.",
+        "date" => "November 12, 2026",
+        "category" => "Technology",
+        "img" => "assets/image/crm-data-migration-services-dubai-hero.png",
+        "link" => "crm-data-migration-services-dubai",
+    ],
+    [
+        "title" => "Custom Software vs Off-the-Shelf Software: Which Is Better for Growing Businesses?",
+        "excerpt" => "Choosing the right software can significantly influence how efficiently a business operates and grows. While off-the-shelf software offers ready-to-use functionality, custom software provides solutions designed around specific business requirements. Explore their differences, advantages, limitations, and how to choose the right option for your organization.",
+        "date" => "November 7, 2026",
+        "category" => "Technology",
+        "img" => "assets/image/custom-software-vs-off-the-shelf-software-hero.jpg",
+        "link" => "custom-software-vs-off-the-shelf-software",
+    ],
+    [
         "title" => "How Inventory Management Software Helps Businesses Reduce Stock Losses and Improve Efficiency",
         "excerpt" => "Managing inventory manually can lead to stock shortages, excess inventory, misplaced products, and costly errors. Discover how custom inventory management software helps businesses track stock, automate operations, improve accuracy, and make better purchasing decisions.",
         "date" => "November 5, 2026",

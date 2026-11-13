@@ -1225,6 +1225,41 @@ p, li {
     }
 }
 
+/* Hero Section for all Blog Pages */
+body:has(.blog-content-wrap) .srv-hero-wrapper,
+body:has(.blog-content-wrap) .inner-hero-wrapper,
+.srv-hero-wrapper.blog-article-hero {
+    min-height: 0 !important;
+    padding: 60px 0 50px !important;
+}
+
+body:has(.blog-content-wrap) .srv-hero-wrapper .srv-hero-badge,
+body:has(.blog-content-wrap) .inner-hero-wrapper .inner-hero-badge {
+    padding: 6px 16px !important;
+    font-size: 0.86rem !important;
+    margin-bottom: 16px !important;
+}
+
+body:has(.blog-content-wrap) .srv-hero-wrapper h1,
+body:has(.blog-content-wrap) .inner-hero-wrapper h1,
+body:has(.blog-content-wrap) .blog-article-title {
+    font-size: clamp(1.85rem, 3.2vw, 2.75rem) !important;
+    line-height: 1.18 !important;
+    margin-bottom: 16px !important;
+}
+
+body:has(.blog-content-wrap) .srv-hero-wrapper p,
+body:has(.blog-content-wrap) .inner-hero-wrapper p,
+body:has(.blog-content-wrap) .blog-article-subtitle {
+    font-size: 1.05rem !important;
+    line-height: 1.65 !important;
+    margin-bottom: 0 !important;
+}
+
+body:has(.blog-content-wrap) .blog-content-wrap {
+    padding-top: 50px !important;
+}
+
 @media (max-width: 640px) {
     body:has(.blog-content-wrap) .srv-hero-wrapper {
         width: 100% !important;

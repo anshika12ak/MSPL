@@ -49,7 +49,7 @@ if ($search_query !== '') {
     <link rel="stylesheet" href="assets/css/style.css?v=20260905">
     <style>
         .blog-content-wrap {
-            padding: 80px 0;
+            padding: 40px 0;
             background: #ffffff;
         }
         .blog-body {
@@ -284,14 +284,14 @@ if ($search_query !== '') {
         .srv-hero-wrapper {
             text-align: center; overflow: hidden;
             background: linear-gradient(135deg, rgba(2, 6, 23, 0.92), rgba(21, 58, 117, 0.85)), url('assets/image/digitalseva.jpg') center/cover no-repeat;
-            color: #ffffff; font-family: 'Inter', sans-serif; position: relative; z-index: 1; padding: 120px 0 100px;
+            color: #ffffff; font-family: 'Inter', sans-serif; position: relative; z-index: 1; padding: 68px 0 56px;
         }
-        .srv-hero-headline { font-size: clamp(2.6rem, 5vw, 5rem); font-weight: 800; line-height: 1.02; margin: 0 0 20px 0; color: #fff; }
+        .srv-hero-headline { font-size: clamp(2rem, 3.8vw, 3rem); font-weight: 800; line-height: 1.18; margin: 0 auto 16px; color: #fff; max-width: 850px; }
         .srv-hero-headline-accent { background: linear-gradient(135deg, #38bdf8 0%, #bfdbfe 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
-        .srv-hero-subtext { font-size: 1.125rem; color: rgba(255, 255, 255, 0.8); line-height: 1.75; margin: 0 auto 36px; max-width: 700px; }
+        .srv-hero-subtext { font-size: 1.05rem; color: rgba(255, 255, 255, 0.85); line-height: 1.65; margin: 0 auto; max-width: 720px; }
         .srv-hero-badge {
-            display: inline-flex; align-items: center; padding: 8px 18px; border-radius: 999px;
-            background: rgba(255, 255, 255, 0.1); color: #ffffff; font-weight: 700; font-size: 0.95rem; margin-bottom: 24px;
+            display: inline-flex; align-items: center; padding: 6px 16px; border-radius: 999px;
+            background: rgba(255, 255, 255, 0.1); color: #ffffff; font-weight: 700; font-size: 0.86rem; margin-bottom: 16px;
             border: 1px solid rgba(255,255,255,0.15);
         }
     </style>

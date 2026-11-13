@@ -39,14 +39,15 @@ if (empty($recent_blogs)) {
     <link rel="preload" as="image" href="<?php echo e($hero_visual_image ?? $hero_bg_image); ?>" fetchpriority="high">
     <link rel="stylesheet" href="assets/css/style.css?v=20260905">
     <style>
-        .blog-content-wrap { padding: 80px 0; background: #ffffff; }
+        .blog-content-wrap { padding: 60px 0; background: #ffffff; }
         .blog-content-wrap .container { margin-left: 0 !important; max-width: 100% !important; padding-left: 20px !important; padding-right: 20px !important; }
         .blog-layout { display: flex; gap: 40px; align-items: flex-start; }
         .blog-main { flex: 1; min-width: 0; }
         .blog-main .blog-body { max-width: 100%; margin: 0; font-size: 1.1rem; line-height: 1.8; color: var(--text); text-align: left !important; }
-        .blog-article-title { font-size: clamp(2.2rem, 4vw, 4.2rem); font-weight: 800; line-height: 1.08; margin: 0 0 22px 0; max-width: 100%; text-align: left !important; }
-        .blog-article-subtitle { max-width: 100%; margin: 0 0 30px 0; color: rgba(255,255,255,0.84); line-height: 1.75; font-size: 1.08rem; text-align: left !important; }
-        .blog-hero-banner { display: block; width: 100%; max-width: 1440px; height: auto; margin: 0 auto; object-fit: contain; border: 1px solid rgba(15, 23, 42, 0.12); border-radius: 20px; box-shadow: 0 16px 40px rgba(15, 23, 42, 0.14); }
+        .blog-article-hero { padding: 60px 0 50px !important; }
+        .blog-article-title { font-size: clamp(1.85rem, 3.2vw, 2.75rem) !important; font-weight: 800; line-height: 1.18; margin: 0 0 16px 0 !important; max-width: 100%; text-align: left !important; }
+        .blog-article-subtitle { max-width: 820px; margin: 0 !important; color: rgba(255,255,255,0.85); line-height: 1.65; font-size: 1.05rem; text-align: left !important; }
+        .blog-hero-banner { display: block; width: 100%; max-width: 750px; height: auto; margin: 0 auto; object-fit: contain; border: 1px solid rgba(15, 23, 42, 0.12); border-radius: 14px; box-shadow: 0 10px 24px rgba(15, 23, 42, 0.12); }
         .blog-hero-hidden-title { position: absolute !important; width: 1px !important; height: 1px !important; padding: 0 !important; margin: -1px !important; overflow: hidden !important; clip: rect(0, 0, 0, 0) !important; white-space: nowrap !important; border: 0 !important; }
         .blog-body h2 { font-size: 1.8rem; color: var(--blue-dark); margin: 40px 0 20px; text-align: left !important; }
         .blog-body h3 { font-size: 1.25rem; color: var(--text); margin: 28px 0 12px; text-align: left !important; }
@@ -107,13 +108,13 @@ if (empty($recent_blogs)) {
     <h1 class="blog-hero-hidden-title"><?php echo e($hero_title); ?></h1>
 </section>
 <?php else: ?>
-<section class="srv-hero-wrapper blog-article-hero" style="background-color: #020617; background-image: <?php echo !empty($hero_visual_image) ? 'linear-gradient(135deg, rgba(2, 6, 23, 0.76), rgba(21, 58, 117, 0.58))' : "linear-gradient(135deg, rgba(2, 6, 23, 0.76), rgba(21, 58, 117, 0.58)), url('" . e($hero_bg_image) . "')"; ?>; background-position: center, center; background-size: cover, cover; background-repeat: no-repeat, no-repeat; text-align: left; padding: 120px 0 100px; color: #fff;">
+<section class="srv-hero-wrapper blog-article-hero" style="background-color: #020617; background-image: <?php echo !empty($hero_visual_image) ? 'linear-gradient(135deg, rgba(2, 6, 23, 0.76), rgba(21, 58, 117, 0.58))' : "linear-gradient(135deg, rgba(2, 6, 23, 0.76), rgba(21, 58, 117, 0.58)), url('" . e($hero_bg_image) . "')"; ?>; background-position: center, center; background-size: cover, cover; background-repeat: no-repeat, no-repeat; text-align: left; padding: 60px 0 50px; color: #fff;">
     <div class="container">
-        <span style="display: inline-flex; padding: 8px 18px; border-radius: 999px; background: rgba(255,255,255,0.12); font-weight: 700; margin-bottom: 22px;"><?php echo e($category); ?></span>
+        <span style="display: inline-flex; padding: 6px 16px; border-radius: 999px; background: rgba(255,255,255,0.12); font-weight: 700; font-size: 0.86rem; margin-bottom: 16px;"><?php echo e($category); ?></span>
         <h1 class="blog-article-title"><?php echo e($hero_title); ?></h1>
         <p class="blog-article-subtitle"><?php echo e($hero_subtext); ?></p>
         <?php if (!empty($hero_visual_image)): ?>
-            <img src="<?php echo e($hero_visual_image); ?>" alt="<?php echo e($hero_visual_alt ?? $hero_title); ?>" class="blog-hero-banner" style="max-width: 900px; margin-top: 24px;" fetchpriority="high" decoding="async">
+            <img src="<?php echo e($hero_visual_image); ?>" alt="<?php echo e($hero_visual_alt ?? $hero_title); ?>" class="blog-hero-banner" style="max-width: 700px; margin-top: 20px;" fetchpriority="high" decoding="async">
         <?php endif; ?>
     </div>
 </section>
