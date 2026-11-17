@@ -12,6 +12,14 @@ if (!function_exists('local_blog_image')) {
 
 $blogs = [
     [
+        "title" => "How Legacy Software Modernization Helps Australian Businesses Stay Competitive",
+        "excerpt" => "Outdated software can slow down business operations, increase maintenance costs, and create security risks. Discover how software modernization helps Australian businesses upgrade legacy systems, improve performance, and build scalable digital solutions for long-term growth.",
+        "date" => "November 14, 2026",
+        "category" => "Technology",
+        "img" => "assets/image/best-software-development-company-australia-hero.jpg",
+        "link" => "best-software-development-company-australia",
+    ],
+    [
         "title" => "CRM Data Migration: How Businesses Can Move Customer Data Without Losing Important Information",
         "excerpt" => "Moving customer information from an old CRM system to a new platform requires careful planning. Learn how CRM data migration helps businesses transfer customer records, maintain data accuracy, reduce operational disruptions, and prepare for better business management.",
         "date" => "November 12, 2026",
