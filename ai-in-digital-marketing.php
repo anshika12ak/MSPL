@@ -7,12 +7,18 @@ $canonical = 'https://www.mithilasoftech.com/ai-in-digital-marketing';
 $category = 'Digital Marketing';
 $hero_title = 'How AI Is Transforming Digital Marketing: 10 Strategies Every Business Should Adopt in 2026';
 $hero_subtext = 'Artificial Intelligence is revolutionizing digital marketing by making campaigns smarter, faster, and more personalized. Learn how businesses can use AI to improve SEO, content creation, advertising, customer engagement, and overall marketing performance.';
-$hero_bg_image = 'assets/image/how-ai-is-transforming-digital-marketing-10-strategies-every-business-should-adopt-in-2026.png';
+$hero_bg_image = 'assets/image/blog-banners/ai-in-digital-marketing.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/ai-in-digital-marketing.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/ai-in-digital-marketing.jpg') : '20261118');
+$hero_image_only = true;
+$hero_alt = 'How AI Is Transforming Digital Marketing: 10 Strategies Every Business Should Adopt in 2026';
+$featured_image = false;
+$fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 
 $content_blocks = [
     ['type' => 'p', 'html' => 'Digital marketing has evolved significantly over the past decade. Businesses no longer rely solely on intuition or manual processes to attract customers. Today, Artificial Intelligence (AI) is reshaping the marketing landscape by enabling companies to analyze data, automate repetitive tasks, personalize customer experiences, and make faster, data-driven decisions.'],
     ['type' => 'p', 'html' => 'From <a href="seo-services">search engine optimization</a> and content creation to paid advertising and customer service, AI in Digital Marketing is becoming an essential tool for businesses of all sizes. Companies that embrace AI can improve efficiency, reduce costs, and stay ahead of the competition.'],
     ['type' => 'p', 'html' => 'In this blog, we\'ll explore how AI is transforming <a href="digital-marketing-company-india">digital marketing</a> and the strategies businesses should adopt in 2026.'],
+
+    ['type' => 'img', 'max_width' => 440, 'src' => 'assets/image/ai-in-digital-marketing-infographic.png', 'alt' => 'AI Digital Marketing Transformation'],
 
     ['type' => 'h2', 'text' => '1. AI-Powered Customer Insights'],
     ['type' => 'p', 'html' => 'Understanding customer behavior is the foundation of successful marketing. AI analyzes browsing history, purchase patterns, demographics, and online interactions to provide valuable insights into customer preferences.'],

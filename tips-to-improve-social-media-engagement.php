@@ -1,4 +1,5 @@
 <?php
+$activePage = 'blog';
 $title = "Tips to Improve Social Media Engagement for Your Business in 2026 | Mithila Softech";
 $meta_description = "Discover proven tips to improve social media engagement, increase brand awareness, and grow your business with expert social media marketing strategies from Mithila Softech.";
 $meta_keywords = "Social media engagement tips, Social media marketing services, Increase social media engagement, Social media strategy, Social media marketing company, AI social media marketing, Content marketing, Digital marketing services, Social media management, Business social media growth";
@@ -6,13 +7,17 @@ $canonical = "https://mithilasoftech.com/tips-to-improve-social-media-engagement
 $hero_title = "Tips to Improve Social Media Engagement for Your Business";
 $hero_subtext = "Want to increase likes, comments, shares, and conversions? Learn the best social media engagement strategies that help businesses build stronger relationships, improve brand visibility, and achieve sustainable growth.";
 $category = "Social Media";
-$hero_bg_image = "assets/image/social-media-engagement-hero-new.jpg";
+$hero_bg_image = 'assets/image/blog-banners/tips-to-improve-social-media-engagement.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/tips-to-improve-social-media-engagement.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/tips-to-improve-social-media-engagement.jpg') : '20261118');
+$hero_image_only = true;
+$hero_alt = 'Tips to Improve Social Media Engagement for Your Business in 2026 | Mithila Softech';
+$featured_image = false;
+$fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 
 $content_blocks = [
     ['type' => 'p', 'html' => "Social media has evolved into one of the most powerful digital marketing channels for businesses of every size. It is no longer just a platform for posting updates - it is where customers discover brands, compare products, read reviews, and interact with businesses in real time. High engagement on social media not only increases your visibility but also builds trust, strengthens customer relationships, and creates more opportunities for lead generation and sales."],
     ['type' => 'p', 'html' => "However, gaining meaningful engagement requires more than posting regularly. Today's algorithms reward content that sparks conversations, provides value, and encourages interaction. Whether you are managing Facebook, Instagram, LinkedIn, X, or other platforms, a strategic approach is essential. Here are practical tips that can help your business improve social media engagement and achieve better marketing results."],
     
-    ['type' => 'p', 'html' => "<img src='assets/image/social-media-engagement-body-new.jpg' alt='10 Tips to Improve Social Media Engagement' class='blog-internal-image'>"],
+    ['type' => 'img', 'max_width' => 450, 'src' => 'assets/image/social-media-engagement-body-new.jpg', 'alt' => '10 Tips to Improve Social Media Engagement'],
 
     ['type' => 'h2', 'text' => "1. Understand Your Target Audience"],
     ['type' => 'p', 'html' => "Successful social media marketing begins with knowing who your audience is. Research their interests, demographics, online behavior, and the type of content they engage with most."],

@@ -7,12 +7,18 @@ $canonical = 'https://www.mithilasoftech.com/progressive-web-app-development-com
 $category = 'Technology';
 $hero_title = 'Progressive Web App Development Company in India: Why PWAs Are the Future of Business Growth';
 $hero_subtext = "Discover how Progressive Web Applications (PWAs) combine the speed of mobile apps with the accessibility of websites. Learn why businesses are investing in PWA development to improve customer experience, boost conversions, and reduce development costs.";
-$hero_bg_image = 'assets/image/progressive-web-app-development-company-india.png';
+$hero_bg_image = 'assets/image/blog-banners/progressive-web-app-development-company-india.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/progressive-web-app-development-company-india.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/progressive-web-app-development-company-india.jpg') : '20261118');
+$hero_image_only = true;
+$hero_alt = 'Progressive Web App Development Company in India: Why PWAs Are the Future of Business Growth';
+$featured_image = false;
+$fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 
 $content_blocks = [
     ['type' => 'p', 'html' => "The way customers interact with businesses has changed dramatically over the past few years. Users expect websites to load instantly, work flawlessly on mobile devices, and provide an app-like experience without requiring downloads. Businesses that fail to meet these expectations often experience higher bounce rates and lower customer engagement."],
     ['type' => 'p', 'html' => 'This is where Progressive Web Applications (PWAs) are making a significant impact. A Progressive Web App combines the best features of websites and mobile applications into a single solution. Instead of developing separate Android, iOS, and web applications, businesses can provide a seamless digital experience through one powerful <a href="web-application-development-company">web application development</a> platform.'],
     ['type' => 'p', 'html' => "As companies continue their digital transformation journey, investing in Progressive Web App Development has become one of the smartest decisions for long-term growth."],
+
+    ['type' => 'img', 'max_width' => 440, 'src' => 'assets/image/progressive-web-app-development-company-india-infographic.png', 'alt' => 'PWA (Progressive Web App) Framework'],
 
     ['type' => 'h2', 'text' => 'What Is a Progressive Web Application?'],
     ['type' => 'p', 'html' => 'A Progressive Web Application is a website built using modern web technologies that behaves like a native mobile application. Users can access it directly through a browser while enjoying features commonly found in mobile apps.'],

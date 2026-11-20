@@ -7,13 +7,19 @@ $canonical = 'https://www.mithilasoftech.com/custom-crm-software-development-ser
 $category = 'Technology';
 $hero_title = 'Custom CRM Software Development Services: The Complete Guide for Modern Businesses';
 $hero_subtext = 'Discover how custom CRM software improves customer relationships, boosts sales, automates workflows, and helps businesses grow efficiently.';
-$hero_bg_image = file_exists(__DIR__ . '/assets/image/custom-crm-software-development-services.png') ? 'assets/image/custom-crm-software-development-services.png' : 'assets/image/crm-software-app-development.png?v=20260703';
+$hero_bg_image = 'assets/image/blog-banners/custom-crm-software-development-services.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/custom-crm-software-development-services.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/custom-crm-software-development-services.jpg') : '20261118');
+$hero_image_only = true;
+$hero_alt = 'Custom CRM Software Development Services: The Complete Guide for Modern Businesses';
+$featured_image = false;
+$fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 
 $content_blocks = [
     ['type' => 'p', 'html' => 'Customer relationships are the foundation of every successful business, but managing leads, sales, follow-ups, and customer interactions manually can become overwhelming as your business grows. <a href="custom-software">Custom CRM software development</a> provides a centralized solution that helps businesses organize customer data, automate repetitive tasks, improve communication, and increase sales efficiency. A well-designed <a href="customer-portal-development-for-sales-growth">customer portal</a> can extend those workflows to customers and make ordering, enquiries, and support more convenient.'],
     ['type' => 'p', 'html' => 'In today\'s competitive market, customer experience is one of the biggest factors influencing business success. Whether you run a startup, retail business, healthcare organization, educational institution, or enterprise, maintaining strong customer relationships is essential for long-term growth.'],
     ['type' => 'p', 'html' => 'Many businesses still rely on spreadsheets, emails, and disconnected tools to manage customer information. This often leads to missed follow-ups, lost sales opportunities, duplicate data, and poor communication between teams.'],
     ['type' => 'p', 'html' => 'Custom CRM software development solves these challenges by providing a centralized platform where businesses can manage leads, customers, sales activities, support tickets, and <a href="digital-marketing">marketing campaigns</a> from one place. Unlike off-the-shelf CRM systems, custom CRM software is designed around your unique workflows, allowing you to automate repetitive tasks, improve team collaboration, and gain valuable customer insights.'],
+    ['type' => 'img', 'max_width' => 440, 'src' => 'assets/image/custom-crm-software-development-services-infographic.png', 'alt' => 'Custom CRM Development Life Cycle'],
+
     ['type' => 'h2', 'text' => 'What Is CRM Software?'],
     ['type' => 'p', 'html' => '<a href="crm-software-development-company-app-development-company-india">Customer Relationship Management (CRM) software</a> helps businesses organize and manage customer interactions throughout the entire customer lifecycle. It stores customer information, tracks communication history, manages sales pipelines, automates follow-ups, and generates performance reports.'],
     ['type' => 'ul', 'items' => ['Capture leads', 'Track sales opportunities', 'Manage customer communication', 'Schedule follow-ups', 'Automate workflows', 'Generate reports', 'Improve customer service']],

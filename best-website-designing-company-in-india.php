@@ -1,4 +1,5 @@
 <?php
+$activePage = 'blog';
 $title = "Best Website Designing Company in India for Modern Business Websites | Mithila Softech";
 $meta_description = "Looking for the best website designing company in India? Discover how professional website design can improve your brand, user experience, visibility, and business growth.";
 $meta_keywords = "Best Website Designing Company in India, Website Designing Company in India, Web Design Company India, Website Design Services India, Professional Website Designing Services, Responsive Website Design India, Custom Website Design India, Business Website Design India";
@@ -6,13 +7,19 @@ $canonical = "https://www.mithilasoftech.com/blog/best-website-designing-company
 $hero_title = "Best Website Designing Company in India: Build a Website That Helps Your Business Grow";
 $hero_subtext = "Looking for the best website designing company in India? Learn what makes a professional web design company different and how a well-designed, responsive, and SEO-friendly website can help your business attract visitors, build trust, and generate more leads.";
 $category = "Web Design";
-$hero_bg_image = "assets/image/best-website-designing-company-in-india.jpg";
+$hero_bg_image = 'assets/image/blog-banners/best-website-designing-company-in-india.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/best-website-designing-company-in-india.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/best-website-designing-company-in-india.jpg') : '20261118');
+$hero_image_only = true;
+$hero_alt = 'Best Website Designing Company in India for Modern Business Websites | Mithila Softech';
+$featured_image = false;
+$fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 
 $content_blocks = [
     ['type' => 'p', 'html' => "Your website is often the first place potential customers go when they want to know more about your business. Before making a call, sending an enquiry, or buying a product, people usually check a company's website to understand what it offers and whether it looks trustworthy."],
     ['type' => 'p', 'html' => "This is why choosing the <a href='https://www.mithilasoftech.com/website-design' style='color: var(--blue-dark); text-decoration: underline; font-weight: 600;'>best website designing company in India</a> is more than simply finding someone who can create attractive web pages. A successful business website needs to combine design, usability, speed, mobile responsiveness, SEO, security, and a clear strategy for converting visitors into customers."],
     ['type' => 'p', 'html' => "India has become a major destination for website design and development services, with companies serving startups, small businesses, established brands, and international clients. However, with so many options available, selecting the right web design partner can be challenging."],
     ['type' => 'p', 'html' => "Let's understand what you should look for when choosing a website designing company and how professional website design can contribute to your business growth."],
+    ['type' => 'img', 'max_width' => 440, 'src' => 'assets/image/best-website-designing-company-in-india-infographic.png', 'alt' => 'High-Converting Web Design Architecture'],
+
     ['type' => 'h2', 'text' => "Why Professional Website Design Matters"],
     ['type' => 'p', 'html' => "A website is not just an online brochure. It is an important part of your digital marketing strategy."],
     ['type' => 'p', 'html' => "A professionally designed website can help your business:"],

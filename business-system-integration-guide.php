@@ -7,9 +7,10 @@ $canonical = 'https://www.mithilasoftech.com/business-system-integration-guide';
 $category = 'Technology';
 $hero_title = 'How to Connect Business Systems Without Replacing Existing Software';
 $hero_subtext = 'Learn how business system integration connects existing software, reduces duplicate data entry, improves reporting, and streamlines daily operations.';
-$hero_bg_image = 'assets/image/business-system-integration-hero-new.png?v=20261021';
-$featured_image = 'assets/image/business-system-integration-hero-new.png?v=20261021';
-$featured_image_max_width = 720;
+$hero_bg_image = 'assets/image/blog-banners/business-system-integration-guide.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/business-system-integration-guide.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/business-system-integration-guide.jpg') : '20261118');
+$hero_image_only = true;
+$hero_alt = 'How to Connect Business Systems Without Replacing Existing Software';
+$featured_image = false;
 $fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 
 $content_blocks = [

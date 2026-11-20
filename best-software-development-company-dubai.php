@@ -7,9 +7,10 @@ $canonical = 'https://www.mithilasoftech.com/best-software-development-company-d
 $category = 'Technology';
 $hero_title = 'How to Choose the Best Software Development Company in Dubai to Scale Your Business';
 $hero_subtext = 'Looking to grow your business with technology? Learn how to choose the right software development partner in Dubai to streamline operations, improve productivity, and build scalable digital solutions.';
-$hero_bg_image = 'assets/image/best-software-development-company-dubai-hero.png';
-$featured_image = $hero_bg_image;
-$featured_image_max_width = 720;
+$hero_bg_image = 'assets/image/blog-banners/best-software-development-company-dubai.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/best-software-development-company-dubai.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/best-software-development-company-dubai.jpg') : '20261118');
+$hero_image_only = true;
+$hero_alt = 'How to Choose the Best Software Development Company in Dubai to Scale Your Business';
+$featured_image = false;
 $fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 
 $content_blocks = [

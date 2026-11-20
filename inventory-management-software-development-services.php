@@ -7,9 +7,10 @@ $canonical = 'https://www.mithilasoftech.com/inventory-management-software-devel
 $category = 'Technology';
 $hero_title = 'How Inventory Management Software Helps Businesses Reduce Stock Losses and Improve Efficiency';
 $hero_subtext = 'Managing inventory manually can lead to stock shortages, excess inventory, misplaced products, and costly errors. Discover how custom inventory management software helps businesses track stock, automate operations, improve accuracy, and make better purchasing decisions.';
-$hero_bg_image = 'assets/image/inventory-management-software-development-services-hero.jpg';
-$featured_image = $hero_bg_image;
-$featured_image_max_width = 720;
+$hero_bg_image = 'assets/image/blog-banners/inventory-management-software-development-services.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/inventory-management-software-development-services.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/inventory-management-software-development-services.jpg') : '20261118');
+$hero_image_only = true;
+$hero_alt = 'How Inventory Management Software Helps Businesses Reduce Stock Losses and Improve Efficiency';
+$featured_image = false;
 $fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 
 $content_blocks = [

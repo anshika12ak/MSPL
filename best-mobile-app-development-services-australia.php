@@ -1,4 +1,5 @@
 <?php
+$activePage = 'blog';
 $title = "Best Mobile App Development Services in Australia | Mithila Softech";
 $meta_description = "Explore mobile app development services in Australia for scalable Android and iOS apps with intuitive UX, secure technology, and reliable support.";
 $meta_keywords = "mobile app development services Australia, best mobile app development company Australia, mobile app development company Australia, app development services Australia, mobile application development Australia";
@@ -6,7 +7,11 @@ $canonical = "https://www.mithilasoftech.com/blog/best-mobile-app-development-se
 $hero_title = "Best Mobile App Development Services in Australia";
 $hero_subtext = "Looking for reliable mobile app development services in Australia? Discover how custom Android, iOS, and cross-platform apps can help businesses improve customer engagement, automate processes, and support long-term growth.";
 $category = "Technology";
-$hero_bg_image = "assets/image/australia-app-hero.png";
+$hero_bg_image = 'assets/image/blog-banners/best-mobile-app-development-services-australia.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/best-mobile-app-development-services-australia.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/best-mobile-app-development-services-australia.jpg') : '20261118');
+$hero_image_only = true;
+$hero_alt = 'Best Mobile App Development Services in Australia | Mithila Softech';
+$featured_image = false;
+$fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 
 $content_blocks = [
     ['type' => 'h2', 'text' => "Best Mobile App Development Services in Australia: A Complete Guide"],

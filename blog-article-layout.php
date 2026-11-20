@@ -37,18 +37,25 @@ if (empty($recent_blogs)) {
     <link rel="shortcut icon" href="assets/image/favicon.jpg" type="image/jpeg">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="preload" as="image" href="<?php echo e($hero_visual_image ?? $hero_bg_image); ?>" fetchpriority="high">
-    <link rel="stylesheet" href="assets/css/style.css?v=20260905">
+    <link rel="stylesheet" href="assets/css/style.css?v=20261118b">
     <style>
-        .blog-content-wrap { padding: 60px 0; background: #ffffff; }
-        .blog-content-wrap .container { margin-left: 0 !important; max-width: 100% !important; padding-left: 20px !important; padding-right: 20px !important; }
+        .blog-content-wrap { padding: 24px 0 60px; background: #ffffff; }
+        .blog-content-wrap .container { width: 100% !important; max-width: 100% !important; margin: 0 !important; padding-left: 4vw !important; padding-right: 4vw !important; }
         .blog-layout { display: flex; gap: 40px; align-items: flex-start; }
         .blog-main { flex: 1; min-width: 0; }
         .blog-main .blog-body { max-width: 100%; margin: 0; font-size: 1.1rem; line-height: 1.8; color: var(--text); text-align: left !important; }
         .blog-article-hero { padding: 60px 0 50px !important; }
+        .blog-article-hero.blog-article-hero-image-only { padding: 0 !important; margin: 0 !important; width: 100% !important; max-width: 100% !important; background: transparent !important; overflow: hidden !important; line-height: 0 !important; aspect-ratio: 16 / 5 !important; max-height: 650px !important; }
+        .blog-hero-banner { display: block; width: 100%; max-width: 100%; height: auto; margin: 0 auto; object-fit: cover; border: none; border-radius: 0; box-shadow: none; }
+        .blog-article-hero-image-only .blog-hero-banner { width: 100% !important; max-width: 100% !important; min-width: 100% !important; height: 100% !important; aspect-ratio: 16 / 5 !important; max-height: 650px !important; object-fit: cover !important; object-position: center !important; margin: 0 !important; border: none !important; border-radius: 0 !important; box-shadow: none !important; display: block !important; }
+        .blog-hero-text-section { width: 100% !important; max-width: 100% !important; padding: 36px 4vw 16px !important; background: #ffffff !important; box-sizing: border-box !important; text-align: center !important; }
+        .blog-hero-text-section .container { width: 100% !important; max-width: 100% !important; margin: 0 auto !important; padding: 0 !important; text-align: center !important; }
+        .blog-hero-text-section .blog-hero-badge { display: inline-flex; align-items: center; padding: 6px 16px; border-radius: 999px; background: rgba(21, 58, 117, 0.08); color: var(--blue-dark); font-size: 0.86rem; font-weight: 700; margin: 0 auto 14px auto; letter-spacing: 0.3px; }
+        .blog-hero-text-section .blog-hero-title { width: 100% !important; max-width: 1100px !important; font-size: clamp(1.85rem, 3.2vw, 2.75rem); font-weight: 800; line-height: 1.22; color: var(--blue-dark); margin: 0 auto 16px auto !important; text-align: center !important; }
+        .blog-hero-text-section .blog-hero-subtitle { width: 100% !important; max-width: 920px !important; font-size: 1.12rem; line-height: 1.75; color: var(--muted); margin: 0 auto !important; text-align: center !important; font-weight: 500; }
+        .blog-hero-hidden-title { position: absolute !important; width: 1px !important; height: 1px !important; padding: 0 !important; margin: -1px !important; overflow: hidden !important; clip: rect(0, 0, 0, 0) !important; white-space: nowrap !important; border: 0 !important; }
         .blog-article-title { font-size: clamp(1.85rem, 3.2vw, 2.75rem) !important; font-weight: 800; line-height: 1.18; margin: 0 0 16px 0 !important; max-width: 100%; text-align: left !important; }
         .blog-article-subtitle { max-width: 820px; margin: 0 !important; color: rgba(255,255,255,0.85); line-height: 1.65; font-size: 1.05rem; text-align: left !important; }
-        .blog-hero-banner { display: block; width: 100%; max-width: 750px; height: auto; margin: 0 auto; object-fit: contain; border: 1px solid rgba(15, 23, 42, 0.12); border-radius: 14px; box-shadow: 0 10px 24px rgba(15, 23, 42, 0.12); }
-        .blog-hero-hidden-title { position: absolute !important; width: 1px !important; height: 1px !important; padding: 0 !important; margin: -1px !important; overflow: hidden !important; clip: rect(0, 0, 0, 0) !important; white-space: nowrap !important; border: 0 !important; }
         .blog-body h2 { font-size: 1.8rem; color: var(--blue-dark); margin: 40px 0 20px; text-align: left !important; }
         .blog-body h3 { font-size: 1.25rem; color: var(--text); margin: 28px 0 12px; text-align: left !important; }
         .blog-body p { margin-bottom: 24px; color: var(--muted); text-align: left !important; }
@@ -83,14 +90,18 @@ if (empty($recent_blogs)) {
         .sidebar-form button { background: var(--blue-dark); color: #fff; border: none; border-radius: 8px; padding: 12px; font-weight: 600; font-size: 1rem; cursor: pointer; margin-top: 4px; }
         @media (max-width: 991px) { .blog-layout { flex-direction: column; } .blog-sidebar { width: 100%; position: static; } }
         @media (max-width: 640px) {
-            .blog-content-wrap { width: 100%; padding: 28px 0 44px; overflow: hidden; }
-            .blog-content-wrap > .container,
-            .blog-article-hero > .container { width: 100% !important; max-width: 100% !important; padding-left: 14px !important; padding-right: 14px !important; }
+            .blog-content-wrap { width: 100%; padding: 18px 0 44px; overflow: hidden; }
+            .blog-content-wrap > .container { width: 100% !important; max-width: 100% !important; padding-left: 14px !important; padding-right: 14px !important; margin: 0 !important; }
             .blog-main .blog-body { width: 100% !important; max-width: 100% !important; padding-left: 0 !important; padding-right: 0 !important; font-size: 0.94rem; line-height: 1.65; }
-            .blog-article-hero { width: 100%; padding: 34px 0 36px !important; background-size: cover, contain !important; background-position: center, center top !important; overflow: hidden; }
-            .blog-article-hero.blog-article-hero-image-only { padding: 0 !important; background: none !important; overflow: visible !important; }
-            .blog-article-title { font-size: clamp(1.45rem, 8vw, 2rem) !important; line-height: 1.14 !important; margin-bottom: 14px !important; max-width: 100% !important; }
-            .blog-article-subtitle { font-size: 0.82rem !important; line-height: 1.55 !important; max-width: 100% !important; }
+            .blog-article-hero { width: 100%; padding: 0 !important; background: none !important; }
+            .blog-article-hero.blog-article-hero-image-only { padding: 0 !important; margin: 0 !important; width: 100% !important; max-width: 100% !important; background: none !important; line-height: 0 !important; aspect-ratio: 16 / 5 !important; }
+            .blog-hero-banner { width: 100% !important; max-width: 100% !important; height: auto !important; border-radius: 0 !important; margin: 0 !important; }
+            .blog-article-hero-image-only .blog-hero-banner { width: 100% !important; max-width: 100% !important; aspect-ratio: 16 / 5 !important; object-fit: cover !important; object-position: center !important; height: 100% !important; border-radius: 0 !important; margin: 0 !important; display: block !important; }
+            .blog-hero-text-section { width: 100% !important; max-width: 100% !important; padding: 20px 14px 6px !important; text-align: center !important; }
+            .blog-hero-text-section .container { width: 100% !important; max-width: 100% !important; padding: 0 !important; margin: 0 auto !important; text-align: center !important; }
+            .blog-hero-text-section .blog-hero-badge { font-size: 0.8rem; padding: 4px 12px; margin: 0 auto 10px auto; }
+            .blog-hero-text-section .blog-hero-title { font-size: clamp(1.4rem, 6.5vw, 1.85rem) !important; line-height: 1.25 !important; margin: 0 auto 12px auto !important; text-align: center !important; }
+            .blog-hero-text-section .blog-hero-subtitle { font-size: 0.96rem !important; line-height: 1.65 !important; margin: 0 auto !important; text-align: center !important; }
             .blog-body p { margin-bottom: 18px; }
             .blog-body h2 { font-size: 1.35rem; margin: 28px 0 14px; line-height: 1.25; }
             .blog-image { display: block; width: 100% !important; max-width: 100% !important; height: auto !important; object-fit: contain; border-radius: 12px; margin-bottom: 22px; box-shadow: 0 10px 24px rgba(15, 23, 42, 0.14); }
@@ -102,11 +113,23 @@ if (empty($recent_blogs)) {
 
 <?php include 'headerhome.php'; ?>
 
-<?php if (!empty($hero_image_only)): ?>
+<?php if (!isset($hero_image_only) || !empty($hero_image_only)): ?>
 <section class="blog-article-hero blog-article-hero-image-only" aria-label="<?php echo e($hero_title); ?>">
-    <img src="<?php echo e($hero_bg_image); ?>" alt="<?php echo e($hero_alt ?? "Custom software development services banner showing a team planning, designing, developing, and growing with tailored software"); ?>" class="blog-hero-banner" fetchpriority="high" decoding="async">
-    <h1 class="blog-hero-hidden-title"><?php echo e($hero_title); ?></h1>
+    <img src="<?php echo e($hero_bg_image); ?>" alt="<?php echo e($hero_alt ?? $hero_title); ?>" class="blog-hero-banner" width="1920" height="600" fetchpriority="high" decoding="async">
 </section>
+<?php if (!empty($hero_title)): ?>
+<section class="blog-hero-text-section" aria-label="<?php echo e($hero_title); ?>">
+    <div class="container">
+        <?php if (!empty($category)): ?>
+            <span class="blog-hero-badge"><?php echo e($category); ?></span>
+        <?php endif; ?>
+        <h1 class="blog-hero-title"><?php echo e($hero_title); ?></h1>
+        <?php if (!empty($hero_subtext)): ?>
+            <p class="blog-hero-subtitle"><?php echo e($hero_subtext); ?></p>
+        <?php endif; ?>
+    </div>
+</section>
+<?php endif; ?>
 <?php else: ?>
 <section class="srv-hero-wrapper blog-article-hero" style="background-color: #020617; background-image: <?php echo !empty($hero_visual_image) ? 'linear-gradient(135deg, rgba(2, 6, 23, 0.76), rgba(21, 58, 117, 0.58))' : "linear-gradient(135deg, rgba(2, 6, 23, 0.76), rgba(21, 58, 117, 0.58)), url('" . e($hero_bg_image) . "')"; ?>; background-position: center, center; background-size: cover, cover; background-repeat: no-repeat, no-repeat; text-align: left; padding: 60px 0 50px; color: #fff;">
     <div class="container">
@@ -125,10 +148,9 @@ if (empty($recent_blogs)) {
         <div class="blog-layout">
             <main class="blog-main">
                 <div class="blog-body">
-                    <a href="blog" style="display: inline-block; margin-bottom: 20px; color: var(--blue-dark); font-weight: 600; text-decoration: none;">&larr; Back to Blogs</a>
                     <?php 
-                    $body_featured_img = isset($featured_image) ? $featured_image : $hero_bg_image;
-                    if (!empty($body_featured_img) && $body_featured_img !== false): 
+                    $body_featured_img = (!empty($featured_image) && $featured_image !== false && $featured_image !== $hero_bg_image) ? $featured_image : false;
+                    if (!empty($body_featured_img)): 
                     ?>
                         <img src="<?php echo e($body_featured_img); ?>" alt="<?php echo e($hero_title); ?>" class="blog-image"<?php if (!empty($featured_image_max_width)): ?> style="max-width: <?php echo (int)$featured_image_max_width; ?>px !important; display: block; margin-left: auto; margin-right: auto;"<?php endif; ?> fetchpriority="high" decoding="async" onerror="this.onerror=null;this.src='<?php echo e($fallbackImg); ?>';">
                     <?php endif; ?>
@@ -188,7 +210,7 @@ if (empty($recent_blogs)) {
                     <h3 class="widget-title">Recent Posts</h3>
                     <div class="recent-posts">
                         <?php foreach (array_slice($recent_blogs, 0, 3) as $recent): ?>
-                            <div class="recent-post-item">
+                            <div class="recent-post-item" onclick="window.location.href='<?= e($recent['link'] ?? '#') ?>'" style="cursor: pointer;">
                                 <a href="<?= e($recent['link'] ?? '#') ?>" style="display: block; flex-shrink: 0;">
                                     <img src="<?= e($recent['img']) ?>" alt="<?= e($recent['title']) ?>" class="recent-post-thumb" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='<?= e($fallbackImg) ?>';">
                                 </a>

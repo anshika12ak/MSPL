@@ -7,9 +7,10 @@ $canonical = 'https://www.mithilasoftech.com/business-software-workflow-problems
 $category = 'Technology';
 $hero_title = 'Why Your Business Software Creates More Work Than It Saves';
 $hero_subtext = 'Is your business software creating more work instead of saving time? Learn how disconnected tools, manual data entry, and inefficient workflows affect productivity and how practical software improvements can help.';
-$hero_bg_image = 'assets/image/custom-software-development-services-banner.jpg?v=20261009';
-$featured_image = 'assets/image/business-software-workflow-problems-hero-banner.png?v=20261009';
-$featured_image_max_width = 720;
+$hero_bg_image = 'assets/image/blog-banners/business-software-workflow-problems-solutions.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/business-software-workflow-problems-solutions.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/business-software-workflow-problems-solutions.jpg') : '20261118');
+$hero_image_only = true;
+$hero_alt = 'Why Business Software Creates More Work: Solutions for Owners';
+$featured_image = false;
 $fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 
 $content_blocks = [

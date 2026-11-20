@@ -7,9 +7,10 @@ $canonical = 'https://www.mithilasoftech.com/best-software-development-company-a
 $category = 'Technology';
 $hero_title = 'How Legacy Software Modernization Helps Australian Businesses Stay Competitive';
 $hero_subtext = 'Outdated software can slow down business operations, increase maintenance costs, and create security risks. Discover how software modernization helps Australian businesses upgrade legacy systems, improve performance, and build scalable digital solutions for long-term growth.';
-$hero_bg_image = 'assets/image/best-software-development-company-australia-hero.jpg';
-$featured_image = $hero_bg_image;
-$featured_image_max_width = 720;
+$hero_bg_image = 'assets/image/blog-banners/best-software-development-company-australia.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/best-software-development-company-australia.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/best-software-development-company-australia.jpg') : '20261118');
+$hero_image_only = true;
+$hero_alt = 'How Legacy Software Modernization Helps Australian Businesses Stay Competitive';
+$featured_image = false;
 $fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 
 $content_blocks = [

@@ -7,7 +7,10 @@ $canonical = 'https://www.mithilasoftech.com/custom-software-development-service
 $category = 'Technology';
 $hero_title = 'Custom Software Development Services: Building Solutions Around Your Business Needs';
 $hero_subtext = 'Discover how tailored software can streamline operations, automate processes, improve productivity, and support sustainable business growth.';
-$hero_bg_image = 'assets/image/custom-software-development-services-banner.jpg?v=20261009';
+$hero_bg_image = 'assets/image/blog-banners/custom-software-development-services.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/custom-software-development-services.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/custom-software-development-services.jpg') : '20261118');
+$hero_image_only = true;
+$hero_alt = 'Custom Software Development Services for Growing Businesses | Mithila Softech';
+$featured_image = false;
 $fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 
 $content_blocks = [

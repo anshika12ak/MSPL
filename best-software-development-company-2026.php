@@ -1,4 +1,5 @@
 <?php
+$activePage = 'blog';
 $title = "Best Software Development Company in 2026 | Mithila Softech";
 $meta_description = "Discover how custom software development helps UK businesses automate operations, improve efficiency, enhance security, and achieve scalable growth in 2026.";
 $meta_keywords = "Best software development company in 2026, custom software development UK, software development company UK, custom software development company, software development services UK";
@@ -6,7 +7,11 @@ $canonical = "https://www.mithilasoftech.com/blog/best-software-development-comp
 $hero_title = "Best Software Development Company in 2026";
 $hero_subtext = "Discover why custom software development is becoming essential for UK businesses in 2026 and how the right software development partner can improve efficiency, security, automation, and long-term growth.";
 $category = "Technology";
-$hero_bg_image = "assets/image/uk-software-hero-2026.png";
+$hero_bg_image = 'assets/image/blog-banners/best-software-development-company-2026.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/best-software-development-company-2026.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/best-software-development-company-2026.jpg') : '20261118');
+$hero_image_only = true;
+$hero_alt = 'Best Software Development Company in 2026 | Mithila Softech';
+$featured_image = false;
+$fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 
 $content_blocks = [
     ['type' => 'h2', 'text' => "Best Software Development Company in 2026: Why Custom Software Development Matters for UK Businesses"],

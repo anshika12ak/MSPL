@@ -7,9 +7,10 @@ $canonical = 'https://www.mithilasoftech.com/crm-data-migration-services-dubai';
 $category = 'Technology';
 $hero_title = 'CRM Data Migration: How Businesses Can Move Customer Data Without Losing Important Information';
 $hero_subtext = 'Moving customer information from an old CRM system to a new platform requires careful planning. Learn how CRM data migration helps businesses transfer customer records, maintain data accuracy, reduce operational disruptions, and prepare for better business management.';
-$hero_bg_image = 'assets/image/crm-data-migration-services-dubai-hero.png';
-$featured_image = $hero_bg_image;
-$featured_image_max_width = 720;
+$hero_bg_image = 'assets/image/blog-banners/crm-data-migration-services-dubai.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/crm-data-migration-services-dubai.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/crm-data-migration-services-dubai.jpg') : '20261118');
+$hero_image_only = true;
+$hero_alt = 'CRM Data Migration: How Businesses Can Move Customer Data Without Losing Important Information';
+$featured_image = false;
 $fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 
 $content_blocks = [

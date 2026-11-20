@@ -6,8 +6,9 @@ $meta_keywords = 'business automation software, reduce data entry errors, automa
 $canonical = 'https://www.mithilasoftech.com/reduce-manual-data-entry-errors-business-automation';
 $hero_title = 'How to Reduce Manual Data Entry Errors with Business Automation';
 $hero_subtext = 'Learn how to reduce repetitive data work, improve accuracy, and build more efficient business workflows.';
-$hero_bg_image = 'assets/image/reduce-manual-data-entry-errors-hero-banner.jpg?v=20261009';
+$hero_bg_image = 'assets/image/blog-banners/reduce-manual-data-entry-errors-business-automation.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/reduce-manual-data-entry-errors-business-automation.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/reduce-manual-data-entry-errors-business-automation.jpg') : '20261118');
 $hero_image_only = true;
+$hero_alt = 'How to Reduce Manual Data Entry Errors with Business Automation | Mithila Softech';
 $featured_image = false;
 $fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 

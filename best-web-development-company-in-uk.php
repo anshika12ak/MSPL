@@ -1,4 +1,5 @@
 <?php
+$activePage = 'blog';
 $title = "Best Web Development Company in the UK for Businesses | Mithila Softech";
 $meta_description = "Discover how to choose the best web development company in the UK for secure, scalable, SEO-friendly, and high-performing business websites.";
 $meta_keywords = "Best Web Development Company in UK, Web Development Company UK, Website Development Company UK, Best Web Development Services UK, Custom Web Development UK, Web Development Agency UK, Professional Web Development Services, Custom Website Development Company";
@@ -6,7 +7,11 @@ $canonical = "https://mithilasoftech.com/blog/best-web-development-company-in-uk
 $hero_title = "Best Web Development Company in UK: How to Choose the Right Partner";
 $hero_subtext = "Choosing the best web development company in the UK can significantly impact your online growth. Learn what to look for in a web development partner and how the right team can build a secure, scalable, and SEO-friendly website.";
 $category = "Web Development";
-$hero_bg_image = "assets/image/best-web-dev-uk-2.png";
+$hero_bg_image = 'assets/image/blog-banners/best-web-development-company-in-uk.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/best-web-development-company-in-uk.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/best-web-development-company-in-uk.jpg') : '20261118');
+$hero_image_only = true;
+$hero_alt = 'Best Web Development Company in UK: How to Choose the Right Partner';
+$featured_image = false;
+$fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 
 $content_blocks = [
     ['type' => 'p', 'html' => "A professional website is no longer simply an online presence for a business. It is often the first place potential customers interact with a brand, research its services, compare competitors, and decide whether to make an enquiry or purchase."],

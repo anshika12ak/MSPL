@@ -46,7 +46,7 @@ if ($search_query !== '') {
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="assets/image/favicon.jpg" type="image/jpeg">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css?v=20260905">
+    <link rel="stylesheet" href="assets/css/style.css?v=20261118b">
     <style>
         .blog-content-wrap {
             padding: 40px 0;

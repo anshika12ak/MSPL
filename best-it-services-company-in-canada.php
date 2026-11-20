@@ -1,4 +1,5 @@
 <?php
+$activePage = 'blog';
 $title = "Best IT Services Company in Canada | Reliable IT Solutions - Mithila Softech";
 $meta_description = "Looking for the best IT services company in Canada? Mithila Softech delivers reliable, scalable, and cost-effective IT solutions for businesses of all sizes.";
 $meta_keywords = "best IT services company in Canada, IT services Canada, IT solutions Canada, software development Canada, IT consulting Canada, custom software development Canada, web development Canada, mobile app development Canada";
@@ -6,7 +7,11 @@ $canonical = "https://www.mithilasoftech.com/blog/best-it-services-company-in-ca
 $hero_title = "Best IT Services Company in Canada: Driving Digital Success for Modern Businesses";
 $hero_subtext = "Discover why businesses looking for the best IT services company in Canada need a technology partner that combines software development, web solutions, mobile apps, digital transformation, and business-focused IT services.";
 $category = "Technology";
-$hero_bg_image = "assets/image/new_blog25_0.png";
+$hero_bg_image = 'assets/image/blog-banners/best-it-services-company-in-canada.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/best-it-services-company-in-canada.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/best-it-services-company-in-canada.jpg') : '20261118');
+$hero_image_only = true;
+$hero_alt = 'Best IT Services Company in Canada | Reliable IT Solutions - Mithila Softech';
+$featured_image = false;
+$fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 
 $content_blocks = [
     ['type' => 'p', 'html' => "Technology is no longer simply a support function - it is a critical part of business growth. From websites and mobile applications to custom software, automation, cybersecurity, and digital marketing, Canadian businesses need technology solutions that are reliable, scalable, and aligned with their goals."],

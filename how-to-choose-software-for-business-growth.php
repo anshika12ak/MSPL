@@ -7,9 +7,10 @@ $canonical = 'https://www.mithilasoftech.com/how-to-choose-software-for-business
 $category = 'Technology';
 $hero_title = 'How to Choose Software That Solves Real Business Problems';
 $hero_subtext = 'Choosing the wrong software can increase costs and create complexity. Learn how to identify your needs, evaluate solutions, and invest in technology that supports long-term growth.';
-$hero_bg_image = 'assets/image/how-to-choose-software-for-business-growth-hero-new.png?v=20261023';
-$featured_image = 'assets/image/how-to-choose-software-for-business-growth-hero-new.png?v=20261023';
-$featured_image_max_width = 720;
+$hero_bg_image = 'assets/image/blog-banners/how-to-choose-software-for-business-growth.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/how-to-choose-software-for-business-growth.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/how-to-choose-software-for-business-growth.jpg') : '20261118');
+$hero_image_only = true;
+$hero_alt = 'How to Choose Software That Solves Real Business Problems';
+$featured_image = false;
 $fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 
 $content_blocks = [

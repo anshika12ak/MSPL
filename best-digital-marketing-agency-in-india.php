@@ -1,4 +1,5 @@
 <?php
+$activePage = 'blog';
 $title = "Best Digital Marketing Agency in India for Business Growth | Mithila Softech";
 $meta_description = "Looking for the best digital marketing agency in India? Discover how SEO, Google Ads, social media, content marketing, and analytics can help grow your business online.";
 $meta_keywords = "best digital marketing agency in India, digital marketing agency in India, digital marketing services, SEO services in India, social media marketing, Google Ads services, online marketing company";
@@ -6,7 +7,11 @@ $canonical = "https://www.mithilasoftech.com/blog/best-digital-marketing-agency-
 $hero_title = "Best Digital Marketing Agency in India: What Your Business Really Needs";
 $hero_subtext = "Getting customers online is no longer just about having a website. Discover how SEO, Google Ads, social media, content marketing, and analytics can help grow your business online.";
 $category = "Digital Marketing";
-$hero_bg_image = "assets/image/best-digital-marketing-agency-in-india.jpg";
+$hero_bg_image = 'assets/image/blog-banners/best-digital-marketing-agency-in-india.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/best-digital-marketing-agency-in-india.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/best-digital-marketing-agency-in-india.jpg') : '20261118');
+$hero_image_only = true;
+$hero_alt = 'Best Digital Marketing Agency in India for Business Growth | Mithila Softech';
+$featured_image = false;
+$fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 
 $content_blocks = [
     ['type' => 'p', 'html' => "Getting customers online is no longer just about having a website. Your potential customers are searching on Google, checking social media, comparing competitors, reading reviews, and looking for information before they decide to contact a business."],

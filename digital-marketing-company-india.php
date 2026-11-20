@@ -7,13 +7,19 @@ $canonical = 'https://www.mithilasoftech.com/digital-marketing-company-india';
 $category = 'Digital Marketing';
 $hero_title = 'Why Hiring a Digital Marketing Company in India Can Transform Your Business in 2026';
 $hero_subtext = "A strong digital presence is essential for business success in 2026. Learn how a Digital Marketing Company in India can help you attract customers, improve search rankings, and maximize your marketing ROI with customized strategies.";
-$hero_bg_image = 'assets/image/digital-marketing-company-in-india-can-transform-your-business-in-2026.png';
+$hero_bg_image = 'assets/image/blog-banners/digital-marketing-company-india.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/digital-marketing-company-india.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/digital-marketing-company-india.jpg') : '20261118');
+$hero_image_only = true;
+$hero_alt = 'Why Hiring a Digital Marketing Company in India Can Transform Your Business in 2026';
+$featured_image = false;
+$fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 
 $content_blocks = [
     ['type' => 'p', 'html' => "The digital world has completely changed how customers discover, evaluate, and purchase products or services. Whether you own a startup, a local business, an eCommerce store, or a large enterprise, your online presence directly impacts your business growth."],
     ['type' => 'p', 'html' => "Consumers now rely on search engines, social media platforms, online reviews, and digital advertisements before making purchasing decisions. Businesses that fail to build a strong digital presence often struggle to compete in today's fast-paced market."],
     ['type' => 'p', 'html' => 'This is why partnering with a Best <a href="digital-marketing">Digital Marketing Company in India</a> has become one of the smartest investments businesses can make. With the right strategy, businesses can reach their target audience, generate quality leads, improve conversions, and achieve long-term growth.'],
     ['type' => 'p', 'html' => 'In this article, we\'ll explore why digital marketing matters, the services offered by a professional agency, and how Mithila Softech helps businesses succeed online.'],
+
+    ['type' => 'img', 'max_width' => 440, 'src' => 'assets/image/digital-marketing-company-india-infographic.png', 'alt' => 'Strategic Digital Marketing Growth Framework'],
 
     ['type' => 'h2', 'text' => 'Why Digital Marketing Is Essential for Modern Businesses'],
     ['type' => 'p', 'html' => 'Traditional advertising methods like newspapers, radio, and television still have value, but they often lack the precision and measurable results that digital marketing provides.'],

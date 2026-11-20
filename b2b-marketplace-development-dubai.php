@@ -7,9 +7,10 @@ $canonical = 'https://www.mithilasoftech.com/b2b-marketplace-development-dubai';
 $category = 'Technology';
 $hero_title = 'B2B Marketplace Development in Dubai: Build a Digital Platform That Drives Business Growth';
 $hero_subtext = 'Discover how a custom B2B marketplace can help businesses in Dubai connect with suppliers, attract business buyers, simplify transactions, and unlock new revenue opportunities through scalable digital technology.';
-$hero_bg_image = 'assets/image/b2b-marketplace-development-dubai-hero.png';
-$featured_image = $hero_bg_image;
-$featured_image_max_width = 720;
+$hero_bg_image = 'assets/image/blog-banners/b2b-marketplace-development-dubai.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/b2b-marketplace-development-dubai.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/b2b-marketplace-development-dubai.jpg') : '20261118');
+$hero_image_only = true;
+$hero_alt = 'B2B Marketplace Development in Dubai: Build a Digital Platform That Drives Business Growth';
+$featured_image = false;
 $fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 
 $content_blocks = [

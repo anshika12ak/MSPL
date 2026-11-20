@@ -1,4 +1,5 @@
 <?php
+$activePage = 'blog';
 $title = "Technical SEO Agency: How AI is Transforming Digital Marketing in 2026";
 $meta_description = "Discover how a technical SEO agency uses AI powered digital marketing, voice search optimization services, featured snippet optimization, and AI content optimization to improve rankings and business growth.";
 $meta_keywords = "Technical SEO agency, AI powered digital marketing, Voice search optimization services, Featured snippet optimization, AI content optimization";
@@ -6,7 +7,11 @@ $canonical = "https://www.mithilasoftech.com/technical-seo-agency-ai-powered-dig
 $category = "Technical SEO";
 $hero_title = "Technical SEO Agency: How AI is Transforming Digital Marketing in 2026";
 $hero_subtext = "Discover how a Technical SEO agency combines AI powered digital marketing, voice search optimization services, featured snippet optimization, and AI content optimization to improve website performance, increase organic rankings, and drive sustainable business growth in 2026.";
-$hero_bg_image = "assets/image/twentythirdblog.png";
+$hero_bg_image = 'assets/image/blog-banners/technical-seo-agency-ai-powered-digital-marketing.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/technical-seo-agency-ai-powered-digital-marketing.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/technical-seo-agency-ai-powered-digital-marketing.jpg') : '20261118');
+$hero_image_only = true;
+$hero_alt = 'Technical SEO Agency: How AI is Transforming Digital Marketing in 2026';
+$featured_image = false;
+$fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 
 $content_blocks = [
     [
@@ -21,6 +26,8 @@ $content_blocks = [
         'type' => 'p',
         'html' => 'In this guide, we\'ll explore how AI and technical SEO work together to help businesses dominate search results.'
     ],
+    ['type' => 'img', 'max_width' => 440, 'src' => 'assets/image/technical-seo-agency-ai-powered-digital-marketing-infographic.png', 'alt' => 'Technical SEO Architecture Framework'],
+
     [
         'type' => 'h2',
         'text' => 'What is a Technical SEO Agency?'

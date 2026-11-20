@@ -1,4 +1,5 @@
 <?php
+$activePage = 'blog';
 $title = "AI Powered Digital Marketing: How AI Content Optimization & Featured Snippets Drive SEO Success in 2026";
 $meta_description = "Discover how AI powered digital marketing, AI content optimization, featured snippet optimization, and voice search optimization services in UK help businesses improve rankings, increase traffic, and generate quality leads.";
 $meta_keywords = "AI powered digital marketing, Voice search optimization services in UK, Featured snippet optimization, AI content optimization";
@@ -6,7 +7,11 @@ $canonical = "https://www.mithilasoftech.com/blog/ai-powered-digital-marketing-f
 $category = "Digital Marketing";
 $hero_title = "AI Powered Digital Marketing: The Future of SEO and Online Business Growth";
 $hero_subtext = "Artificial Intelligence is reshaping digital marketing by helping businesses improve SEO, create optimized content, and capture more organic traffic. Learn how AI-powered digital marketing, voice search optimization, and featured snippet optimization can help your business grow online.";
-$hero_bg_image = "assets/image/twentyoneblog.png";
+$hero_bg_image = 'assets/image/blog-banners/ai-powered-digital-marketing-featured-snippet-optimization.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/ai-powered-digital-marketing-featured-snippet-optimization.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/ai-powered-digital-marketing-featured-snippet-optimization.jpg') : '20261118');
+$hero_image_only = true;
+$hero_alt = 'AI Powered Digital Marketing: How AI Content Optimization & Featured Snippets Drive SEO Success in 2026';
+$featured_image = false;
+$fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 
 $content_blocks = [
     [
@@ -17,6 +22,8 @@ $content_blocks = [
         'type' => 'p',
         'html' => 'As search engines continue to evolve, traditional SEO practices alone are no longer enough. Modern businesses need AI-driven strategies that improve visibility, enhance user experience, and generate measurable results. Whether you\'re targeting local customers or expanding into international markets, AI can significantly improve your online presence.'
     ],
+    ['type' => 'img', 'max_width' => 440, 'src' => 'assets/image/ai-powered-digital-marketing-featured-snippet-optimization-infographic.png', 'alt' => 'AI Search & Featured Snippet Optimization'],
+
     [
         'type' => 'h2',
         'text' => 'What is AI Powered Digital Marketing?'

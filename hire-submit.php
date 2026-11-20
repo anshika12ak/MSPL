@@ -1,11 +1,10 @@
 <?php
 
-ini_set('display_errors', '1');
-ini_set('display_startup_errors', '1');
+ini_set('display_errors', '0');
+ini_set('log_errors', '1');
 error_reporting(E_ALL);
 
 header('Content-Type: text/plain');
-echo "1. PHP started\n";
 $hostname = 'localhost';
 $username = 'u912883576_mithilasoftech';
 $password = 'Mithilasoftech_2023';
@@ -13,8 +12,6 @@ $database = 'u912883576_mithilasoftech';
 
 
 try {
-
-    echo "2. Starting database connection\n";
 
     $pdo = new PDO(
         "mysql:host=$hostname;dbname=$database;charset=utf8mb4",
@@ -26,21 +23,12 @@ try {
         ]
     );
 
-    echo "3. Database connected\n";
-
     $name = trim($_POST['your_name'] ?? '');
     $email = trim($_POST['your_email'] ?? '');
     $country_code = trim($_POST['countryCode'] ?? '');
     $mobile = trim($_POST['phone_number'] ?? '');
     $role = trim($_POST['hireDevelopers'] ?? '');
     $hiring_model = trim($_POST['hireDeveloperType'] ?? '');
-
-    echo "4. Form data received\n";
-    echo "Name: $name\n";
-    echo "Email: $email\n";
-    echo "Mobile: $country_code $mobile\n";
-    echo "Role: $role\n";
-    echo "Hiring model: $hiring_model\n";
 
     $pdo->exec("
         CREATE TABLE IF NOT EXISTS gs_hire_developers (
@@ -62,8 +50,6 @@ try {
         (:name, :mobile, :country_code, :email, :role, :hiring_model)
     ");
 
-    echo "5. Query prepared\n";
-
     $stmt->execute([
         ':name' => $name,
         ':mobile' => $mobile,
@@ -73,10 +59,11 @@ try {
         ':hiring_model' => $hiring_model
     ]);
 
-    echo "6. INSERT successful\n";
+    // The hire form's JavaScript checks for this exact text.
+    echo "INSERT successful";
 
 } catch (Throwable $e) {
 
-    echo "ERROR:\n";
-    echo $e->getMessage();
+    error_log('hire-submit: ' . $e->getMessage());
+    echo "ERROR";
 }

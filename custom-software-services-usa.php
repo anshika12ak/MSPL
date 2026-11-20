@@ -1,4 +1,5 @@
 <?php
+$activePage = 'blog';
 $title = "Custom Software Services for Businesses in the USA | Mithila Softech";
 $meta_description = "Discover how custom software services help USA businesses automate processes, improve customer experiences, analyze data, and grow with scalable solutions.";
 $meta_keywords = "Custom Software Services, Custom Software Development USA, Software Development Services USA, AI Software Development USA, Custom AI Solutions USA, Business Automation Software USA";
@@ -6,7 +7,11 @@ $canonical = "https://www.mithilasoftech.com/blog/custom-software-services-usa";
 $hero_title = "Custom Software Services: Building Smarter Solutions for Modern Businesses";
 $hero_subtext = "Custom software helps businesses automate repetitive tasks, analyze data, improve decision-making, and deliver smarter customer experiences. Discover how tailored software solutions can support business growth.";
 $category = "Technology";
-$hero_bg_image = "assets/image/custom-software-services-usa-hero.jpg";
+$hero_bg_image = 'assets/image/blog-banners/custom-software-services-usa.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/custom-software-services-usa.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/custom-software-services-usa.jpg') : '20261118');
+$hero_image_only = true;
+$hero_alt = 'Custom Software Services: Building Smarter Solutions for Modern Businesses | Mithila Softech';
+$featured_image = false;
+$fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 
 $content_blocks = [
     ['type' => 'p', 'html' => "Artificial intelligence is changing the way businesses work. From automating repetitive tasks to analyzing large amounts of data, is helping companies save time, improve productivity, and make better decisions."],

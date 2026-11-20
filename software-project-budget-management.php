@@ -7,8 +7,11 @@ $canonical = 'https://www.mithilasoftech.com/software-project-budget-management'
 $category = 'Technology';
 $hero_title = 'Why Software Projects Go Over Budget: 7 Problems Businesses Should Fix Before Development';
 $hero_subtext = 'Software projects often exceed their budgets because of unclear requirements, changing features, poor planning, and overlooked testing costs. Learn seven practical ways to prevent expensive mistakes and keep your development project on track.';
-$hero_bg_image = 'assets/image/software-project-budget-hero-new.png?v=20261021';
-$featured_image = 'assets/image/software-project-budget-hero-new.png?v=20261021';
+$hero_bg_image = 'assets/image/blog-banners/software-project-budget-management.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/software-project-budget-management.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/software-project-budget-management.jpg') : '20261118');
+$hero_image_only = true;
+$hero_alt = 'Why Software Projects Go Over Budget: 7 Problems Businesses Should Fix Before Development';
+$featured_image = false;
+$featured_image = 'assets/image/blog-banners/software-project-budget-management.jpg';
 $featured_image_max_width = 720;
 $fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 

@@ -1,4 +1,5 @@
 <?php
+$activePage = 'blog';
 $title = "Best Web Development Services in Australia | Mithila Softech";
 $meta_description = "Looking for the best web development services in Australia? Discover how Mithila Softech builds responsive, scalable, secure, and SEO-friendly websites for modern businesses.";
 $meta_keywords = "best web development services in Australia, web development services Australia, web development company Australia, website development company Australia, website development services Australia, custom web development Australia, responsive web development Australia, eCommerce web development Australia, web application development Australia, professional web developers Australia, affordable web development services Australia";
@@ -6,7 +7,11 @@ $canonical = "https://www.mithilasoftech.com/best-web-development-services-in-au
 $hero_title = "Best Web Development Services in Australia: How to Choose the Right Web Development Company";
 $hero_subtext = "Choosing the right web development partner can have a major impact on your online visibility, customer experience, and business growth. Explore the key web development services Australian businesses need and learn how Mithila Softech can help create responsive, scalable, secure, and business-focused digital solutions.";
 $category = "Technology";
-$hero_bg_image = "assets/image/blog_image_2.png";
+$hero_bg_image = 'assets/image/blog-banners/best-web-development-services-in-australia.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/best-web-development-services-in-australia.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/best-web-development-services-in-australia.jpg') : '20261118');
+$hero_image_only = true;
+$hero_alt = 'Best Web Development Services in Australia | Mithila Softech';
+$featured_image = false;
+$fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 
 $content_blocks = [
     ['type' => 'p', 'html' => "A professional website is no longer simply an online business card. For Australian businesses, it can be a powerful tool for generating leads, selling products, communicating with customers, and building long-term brand credibility."],

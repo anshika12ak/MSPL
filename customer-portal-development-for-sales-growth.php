@@ -8,9 +8,10 @@ $canonical = 'https://www.mithilasoftech.com/customer-portal-development-for-sal
 $category = 'Technology';
 $hero_title = 'How Customer Portals Help Businesses Win More Sales';
 $hero_subtext = 'Customers expect a simple and convenient buying experience. A well-designed customer portal helps businesses share product information, manage enquiries, simplify ordering, and improve customer satisfaction. Discover how custom portal development can remove buying barriers and support sales growth.';
-$hero_bg_image = 'assets/image/customer-portal-sales-growth-hero.png';
-$featured_image = $hero_bg_image;
-$featured_image_max_width = 720;
+$hero_bg_image = 'assets/image/blog-banners/customer-portal-development-for-sales-growth.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/customer-portal-development-for-sales-growth.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/customer-portal-development-for-sales-growth.jpg') : '20261118');
+$hero_image_only = true;
+$hero_alt = 'How Customer Portals Help Businesses Win More Sales';
+$featured_image = false;
 $fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 
 $content_blocks = [

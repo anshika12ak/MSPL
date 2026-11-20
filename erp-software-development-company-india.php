@@ -7,13 +7,19 @@ $canonical = 'https://www.mithilasoftech.com/erp-software-development-company-in
 $category = 'Technology';
 $hero_title = 'ERP Software Development Company in India: Complete Guide to Custom ERP Solutions for Businesses';
 $hero_subtext = 'Discover how custom ERP solutions streamline operations, improve productivity, reduce operational costs, and support data-driven business growth.';
-$hero_bg_image = file_exists(__DIR__ . '/assets/image/erp-software-development-company-india.png') ? 'assets/image/erp-software-development-company-india.png' : 'assets/image/customit.png?v=20260702';
+$hero_bg_image = 'assets/image/blog-banners/erp-software-development-company-india.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/erp-software-development-company-india.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/erp-software-development-company-india.jpg') : '20261118');
+$hero_image_only = true;
+$hero_alt = 'ERP Software Development Company in India: Complete Guide to Custom ERP Solutions for Businesses';
+$featured_image = false;
+$fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 
 $content_blocks = [
     ['type' => 'p', 'html' => 'Modern businesses generate massive amounts of data across finance, inventory, sales, human resources, customer service, procurement, and operations. Managing these departments with multiple disconnected applications often results in duplicate work, delayed reporting, and reduced productivity.'],
     ['type' => 'p', 'html' => 'This is where an <a href="software-development-company-india-seo-app-development">ERP software development company in India</a> can make a significant difference. Enterprise Resource Planning (ERP) software integrates all essential business functions into a centralized platform, enabling organizations to automate workflows, improve collaboration, and access real-time business insights.'],
     ['type' => 'p', 'html' => 'Unlike ready-made ERP systems, <a href="custom-software">custom ERP software</a> is designed around your specific business processes, making it easier to scale, integrate with existing tools, and adapt as your organization grows.'],
     ['type' => 'p', 'html' => 'Whether you are in manufacturing, healthcare, retail, logistics, education, or real estate, a tailored ERP solution helps streamline operations while reducing manual effort and operational costs.'],
+    ['type' => 'img', 'max_width' => 440, 'src' => 'assets/image/erp-software-development-company-india-infographic.png', 'alt' => 'Enterprise ERP Software Architecture'],
+
     ['type' => 'h2', 'text' => 'What Is ERP Software?'],
     ['type' => 'p', 'html' => 'Enterprise Resource Planning (ERP) software is an integrated <a href="custom-software">business management system</a> that connects different departments through a single database. Instead of maintaining separate software for accounting, inventory, payroll, customer management, and procurement, businesses can manage everything through one centralized platform.'],
     ['type' => 'p', 'html' => 'This centralized approach improves communication, increases operational efficiency, and supports better decision-making.'],

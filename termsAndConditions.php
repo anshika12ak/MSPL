@@ -12,7 +12,7 @@ $title = 'Terms and Conditions | Mithila Softech';
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="assets/image/favicon.jpg" type="image/jpeg">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css?v=2.2">
+    <link rel="stylesheet" href="assets/css/style.css?v=20261118b">
     <style>
         .policy-content h2 { margin-top: 40px; margin-bottom: 16px; font-size: 1.75rem; text-align: left; color: var(--text); }
         .policy-content p { margin-bottom: 20px; text-align: left; color: var(--muted); line-height: 1.75; }

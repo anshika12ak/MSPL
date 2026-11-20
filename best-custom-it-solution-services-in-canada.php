@@ -1,4 +1,5 @@
 <?php
+$activePage = 'blog';
 $title = "Best Custom IT Solution Services in Canada | Mithila Softech";
 $meta_description = "Looking for the best custom IT solution services in Canada? Discover how Mithila Softech delivers scalable software, ERP, CRM, web and mobile solutions for Canadian businesses.";
 $meta_keywords = "Best Custom IT Solution Services in Canada, Custom IT solutions Canada, Custom software development Canada, IT solutions company Canada, Custom software solutions, IT consulting services Canada, Business software development Canada, Enterprise IT solutions Canada, Custom ERP development, Custom CRM development, Mobile app development Canada, best custom IT solution services in Canada for businesses, custom software development services for Canadian businesses, how to choose a custom IT solutions company in Canada, affordable custom IT solutions for small businesses in Canada, custom ERP and CRM solutions for Canadian businesses";
@@ -6,7 +7,11 @@ $canonical = "https://www.mithilasoftech.com/blog/best-custom-it-solution-servic
 $hero_title = "Best Custom IT Solution Services in Canada: How Businesses Can Choose the Right Technology Partner";
 $hero_subtext = "Finding the best custom IT solution services in Canada can help businesses replace inefficient processes, automate operations, improve customer experiences, and build scalable digital systems. Learn how to choose the right technology partner and why customized IT solutions can be a better fit than one-size-fits-all software.";
 $category = "Technology";
-$hero_bg_image = "assets/image/blog_image_0.png";
+$hero_bg_image = 'assets/image/blog-banners/best-custom-it-solution-services-in-canada.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/best-custom-it-solution-services-in-canada.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/best-custom-it-solution-services-in-canada.jpg') : '20261118');
+$hero_image_only = true;
+$hero_alt = 'Best Custom IT Solution Services in Canada | Mithila Softech';
+$featured_image = false;
+$fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 
 $content_blocks = [
     ['type' => 'p', 'html' => "Technology is no longer simply a support function for modern businesses. It has become an important part of how companies manage operations, communicate with customers, process information, and compete in their markets."],

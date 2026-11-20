@@ -7,8 +7,11 @@ $canonical = 'https://www.mithilasoftech.com/software-testing-services-prevent-c
 $category = 'Technology';
 $hero_title = 'How Software Testing Services Help Businesses Prevent Costly Software Failures';
 $hero_subtext = 'Software bugs can lead to failed transactions, frustrated customers, security risks, and expensive repairs. Learn how software testing services help businesses identify problems before launch, improve application performance, and deliver reliable digital products.';
-$hero_bg_image = 'assets/image/software-testing-services-hero-banner.png?v=20261013';
-$featured_image = 'assets/image/software-testing-services-hero-banner.png?v=20261013';
+$hero_bg_image = 'assets/image/blog-banners/software-testing-services-prevent-costly-business-errors.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/software-testing-services-prevent-costly-business-errors.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/software-testing-services-prevent-costly-business-errors.jpg') : '20261118');
+$hero_image_only = true;
+$hero_alt = 'Best Software Testing Services to Prevent Costly Business Errors';
+$featured_image = false;
+$featured_image = 'assets/image/blog-banners/software-testing-services-prevent-costly-business-errors.jpg';
 $featured_image_max_width = 720;
 $fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 

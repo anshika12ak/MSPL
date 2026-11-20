@@ -1,4 +1,5 @@
 <?php
+$activePage = 'blog';
 $title = "Best Website Development Services in Dubai for Business Growth | Mithila Softech";
 $meta_description = "Looking for the best website development services in Dubai? Discover professional web design, custom development, eCommerce, and SEO-friendly website solutions for business growth.";
 $meta_keywords = "best website development services in Dubai, website development company in Dubai, website design services Dubai, web development company Dubai, best web design company in Dubai, custom website development Dubai, professional website development Dubai, eCommerce website development Dubai, responsive website design Dubai, affordable website development Dubai";
@@ -6,8 +7,11 @@ $canonical = "https://www.mithilasoftech.com/blog/best-website-development-servi
 $hero_title = "Best Website Development Services in Dubai for Business Growth";
 $hero_subtext = "A professional website is essential for businesses competing in Dubai's highly competitive digital market. Discover how the best website development services in Dubai can help improve your online presence, attract customers, generate leads, and support long-term business growth.";
 $category = "Web Development";
-$hero_bg_image = "assets/image/best-website-development-services-dubai.jpg";
+$hero_bg_image = 'assets/image/blog-banners/best-website-development-services-dubai.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/best-website-development-services-dubai.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/best-website-development-services-dubai.jpg') : '20261118');
+$hero_image_only = true;
+$hero_alt = 'Best Website Development Services in Dubai for Business Growth | Mithila Softech';
 $featured_image = "assets/image/dubai-website-development-featured.jpg";
+$fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 
 $content_blocks = [
     ['type' => 'p', 'html' => "Dubai is one of the world's leading business and technology hubs, with companies competing across industries to attract customers online. Whether you run a startup, eCommerce business, professional service company, real estate business, restaurant, or established enterprise, your website plays an important role in your digital presence."],

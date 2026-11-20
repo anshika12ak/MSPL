@@ -30,7 +30,7 @@ $fallbackImg = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' wid
   <link rel="shortcut icon" href="assets/image/favicon.jpg" type="image/jpeg">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   
-  <link rel="stylesheet" href="assets/css/style.css?v=2.2" />
+  <link rel="stylesheet" href="assets/css/style.css?v=20261118b" />
   <style>
     .hero-products { padding: 88px 0; background: linear-gradient(135deg, rgba(2, 6, 23, 0.85), rgba(21, 58, 117, 0.85)), url('assets/image/vidyalaybox.jpg') center/cover no-repeat; background-size: cover; color: #fff; text-align: center; }
     .hero-products h1 { font-size: clamp(30px, 4.5vw, 52px); font-weight: 800; margin-bottom: 16px; color: #fff; }

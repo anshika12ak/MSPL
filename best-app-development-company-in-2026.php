@@ -1,4 +1,5 @@
 <?php
+$activePage = 'blog';
 $title = "Best App Development Company in 2026 | Mithila Softech";
 $meta_description = "Discover what makes the best app development company in 2026. Learn about mobile app development, security, scalability, user experience, and modern app solutions.";
 $meta_keywords = "Best App Development Company, Mobile App Development Company, App Development Services";
@@ -6,13 +7,18 @@ $canonical = "https://www.mithilasoftech.com/blog/best-app-development-company-i
 $hero_title = "Best App Development Company in 2026";
 $hero_subtext = "Looking for the best app development company in 2026? Discover the key factors businesses should consider when choosing a reliable mobile app development company for secure, scalable, and user-friendly applications.";
 $category = "App Development";
-$hero_bg_image = "assets/image/app-dev-2026-img1.png";
+$hero_bg_image = 'assets/image/blog-banners/best-app-development-company-in-2026.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/best-app-development-company-in-2026.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/best-app-development-company-in-2026.jpg') : '20261118');
+$hero_image_only = true;
+$hero_alt = 'Best App Development Company in 2026 | Mithila Softech';
+$featured_image = false;
+$fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 
 $content_blocks = [
     ['type' => 'h2', 'text' => "Best App Development Company in 2026: What Makes a Company Stand Out?"],
     ['type' => 'p', 'html' => "Mobile applications have become an important part of modern business. From startups and small businesses to large enterprises, companies are using mobile apps to improve customer engagement, streamline operations, sell products, and provide convenient digital experiences."],
     ['type' => 'p', 'html' => "However, choosing the right development partner can be challenging. With numerous technology companies offering similar services, businesses need to look beyond basic development capabilities."],
     ['type' => 'p', 'html' => "The best app development company in 2026 should combine technical expertise, creative design, security, scalability, and a strong understanding of business requirements."],
+    ['type' => 'img', 'max_width' => 450, 'src' => 'assets/image/app-dev-2026-img2.png', 'alt' => 'Best App Development Company in 2026'],
 
 
     ['type' => 'h2', 'text' => "Why Is Mobile App Development Important in 2026?"],

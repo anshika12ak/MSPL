@@ -1,4 +1,5 @@
 <?php
+$activePage = 'blog';
 $title = "Best Custom Software Development Company in Canada | Mithila Softech";
 $meta_description = "Discover why Mithila Softech is a trusted custom software development company in Canada, delivering scalable, secure, and tailored software solutions for businesses.";
 $meta_keywords = "custom software development company in Canada, best custom software development company in Canada, custom software development services Canada, software development company Canada, custom software solutions Canada";
@@ -6,7 +7,11 @@ $canonical = "https://www.mithilasoftech.com/blog/best-custom-software-developme
 $hero_title = "Best Custom Software Development Company in Canada";
 $hero_subtext = "Looking for the best custom software development company in Canada? Learn how the right development partner can help businesses build secure, scalable, and customized software solutions.";
 $category = "Technology";
-$hero_bg_image = "assets/image/canada-software-hero-2026.png";
+$hero_bg_image = 'assets/image/blog-banners/best-custom-software-development-company-canada.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/best-custom-software-development-company-canada.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/best-custom-software-development-company-canada.jpg') : '20261118');
+$hero_image_only = true;
+$hero_alt = 'Best Custom Software Development Company in Canada';
+$featured_image = false;
+$fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 
 $content_blocks = [
     ['type' => 'h2', 'text' => "Best Custom Software Development Company in Canada: How to Choose the Right Partner"],

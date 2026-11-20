@@ -7,9 +7,10 @@ $canonical = 'https://www.mithilasoftech.com/when-to-invest-in-custom-business-s
 $category = 'Technology';
 $hero_title = 'Is Your Business Outgrowing Spreadsheets? When to Invest in Custom Business Software';
 $hero_subtext = 'Spreadsheets are useful for starting a business, but growing operations often need something more reliable. Discover the signs that your company needs custom software to manage data, teams, customers, and daily workflows more efficiently.';
-$hero_bg_image = 'assets/image/when-to-invest-in-custom-business-software-hero.png';
-$featured_image = $hero_bg_image;
-$featured_image_max_width = 720;
+$hero_bg_image = 'assets/image/blog-banners/when-to-invest-in-custom-business-software.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/when-to-invest-in-custom-business-software.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/when-to-invest-in-custom-business-software.jpg') : '20261118');
+$hero_image_only = true;
+$hero_alt = 'Is Your Business Outgrowing Spreadsheets? When to Invest in Custom Business Software';
+$featured_image = false;
 $fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 
 $content_blocks = [

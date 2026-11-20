@@ -7,9 +7,10 @@ $canonical = 'https://www.mithilasoftech.com/custom-software-vs-off-the-shelf-so
 $category = 'Technology';
 $hero_title = 'Custom Software vs Off-the-Shelf Software: Which Is Better for Growing Businesses?';
 $hero_subtext = 'Choosing the right software can significantly influence how efficiently a business operates and grows. While off-the-shelf software offers ready-to-use functionality, custom software provides solutions designed around specific business requirements. Explore their differences, advantages, limitations, and how to choose the right option for your organization.';
-$hero_bg_image = 'assets/image/custom-software-vs-off-the-shelf-software-hero.jpg';
-$featured_image = $hero_bg_image;
-$featured_image_max_width = 720;
+$hero_bg_image = 'assets/image/blog-banners/custom-software-vs-off-the-shelf-software.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/custom-software-vs-off-the-shelf-software.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/custom-software-vs-off-the-shelf-software.jpg') : '20261118');
+$hero_image_only = true;
+$hero_alt = 'Custom Software vs Off-the-Shelf Software: Which Is Better for Growing Businesses?';
+$featured_image = false;
 $fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 
 $content_blocks = [

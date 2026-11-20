@@ -1,4 +1,5 @@
 <?php
+$activePage = 'blog';
 $title = "Top Web Development Services in USA for Growing Businesses | Mithila Softech";
 $meta_description = "Discover the top web development services in the USA, from custom websites and eCommerce development to responsive design, CMS, and web applications.";
 $meta_keywords = "Web Development Services in USA, Web Development Company in USA, Website Development Services USA, Custom Web Development USA, Web Design and Development USA, Professional Web Development Services, eCommerce Web Development USA, Custom Website Development USA";
@@ -6,7 +7,11 @@ $canonical = "https://www.mithilasoftech.com/blog/top-web-development-services-i
 $hero_title = "Top Web Development Services in USA for Growing Businesses";
 $hero_subtext = "Explore the top web development services in the USA that help businesses build fast, secure, responsive, and user-friendly websites designed for long-term growth.";
 $category = "Web Development";
-$hero_bg_image = "assets/image/top-web-dev-services-usa-hero.jpg";
+$hero_bg_image = 'assets/image/blog-banners/top-web-development-services-in-usa.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/top-web-development-services-in-usa.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/top-web-development-services-in-usa.jpg') : '20261118');
+$hero_image_only = true;
+$hero_alt = 'Top Web Development Services in USA for Growing Businesses | Mithila Softech';
+$featured_image = false;
+$fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 
 $content_blocks = [
     ['type' => 'p', 'html' => "A website is no longer just an online presence. For most businesses in the USA, it is one of the first places where potential customers learn about a company, compare services, and decide whether to get in touch. A slow, outdated, or difficult-to-use website can quickly turn visitors away."],

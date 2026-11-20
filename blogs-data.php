@@ -12,11 +12,19 @@ if (!function_exists('local_blog_image')) {
 
 $blogs = [
     [
+        "title" => "How Industry-Specific Software Helps Australian Businesses Overcome Operational Challenges",
+        "excerpt" => "Australian businesses often struggle with disconnected tools, manual workflows, and software that cannot support their unique operations. Discover how industry-specific software solutions can simplify processes, improve productivity, and help businesses prepare for future growth.",
+        "date" => "November 17, 2026",
+        "category" => "Technology",
+        "img" => "assets/image/best-costum-software-development-services-australia-hero.jpg",
+        "link" => "best-costum-software-development-services-australia",
+    ],
+    [
         "title" => "How Legacy Software Modernization Helps Australian Businesses Stay Competitive",
         "excerpt" => "Outdated software can slow down business operations, increase maintenance costs, and create security risks. Discover how software modernization helps Australian businesses upgrade legacy systems, improve performance, and build scalable digital solutions for long-term growth.",
         "date" => "November 14, 2026",
         "category" => "Technology",
-        "img" => "assets/image/best-software-development-company-australia-hero.jpg",
+        "img" => "assets/image/blog-banners/best-software-development-company-australia.jpg?v=20261118b",
         "link" => "best-software-development-company-australia",
     ],
     [
@@ -24,7 +32,7 @@ $blogs = [
         "excerpt" => "Moving customer information from an old CRM system to a new platform requires careful planning. Learn how CRM data migration helps businesses transfer customer records, maintain data accuracy, reduce operational disruptions, and prepare for better business management.",
         "date" => "November 12, 2026",
         "category" => "Technology",
-        "img" => "assets/image/crm-data-migration-services-dubai-hero.png",
+        "img" => "assets/image/blog-banners/crm-data-migration-services-dubai.jpg?v=20261118b",
         "link" => "crm-data-migration-services-dubai",
     ],
     [
@@ -32,7 +40,7 @@ $blogs = [
         "excerpt" => "Choosing the right software can significantly influence how efficiently a business operates and grows. While off-the-shelf software offers ready-to-use functionality, custom software provides solutions designed around specific business requirements. Explore their differences, advantages, limitations, and how to choose the right option for your organization.",
         "date" => "November 7, 2026",
         "category" => "Technology",
-        "img" => "assets/image/custom-software-vs-off-the-shelf-software-hero.jpg",
+        "img" => "assets/image/blog-banners/custom-software-vs-off-the-shelf-software.jpg?v=20261118b",
         "link" => "custom-software-vs-off-the-shelf-software",
     ],
     [
@@ -40,7 +48,7 @@ $blogs = [
         "excerpt" => "Managing inventory manually can lead to stock shortages, excess inventory, misplaced products, and costly errors. Discover how custom inventory management software helps businesses track stock, automate operations, improve accuracy, and make better purchasing decisions.",
         "date" => "November 5, 2026",
         "category" => "Technology",
-        "img" => "assets/image/inventory-management-software-development-services-hero.jpg",
+        "img" => "assets/image/blog-banners/inventory-management-software-development-services.jpg?v=20261118b",
         "link" => "inventory-management-software-development-services",
     ],
     [
@@ -48,7 +56,7 @@ $blogs = [
         "excerpt" => "Discover how a custom B2B marketplace can help businesses in Dubai connect with suppliers, attract business buyers, simplify transactions, and unlock new revenue opportunities through scalable digital technology.",
         "date" => "November 2, 2026",
         "category" => "Technology",
-        "img" => "assets/image/b2b-marketplace-development-dubai-hero.png",
+        "img" => "assets/image/blog-banners/b2b-marketplace-development-dubai.jpg?v=20261118b",
         "link" => "b2b-marketplace-development-dubai",
     ],
     [
@@ -56,7 +64,7 @@ $blogs = [
         "excerpt" => "Spreadsheets are useful for starting a business, but growing operations often need something more reliable. Discover the signs that your company needs custom software to manage data, teams, customers, and daily workflows more efficiently.",
         "date" => "October 30, 2026",
         "category" => "Technology",
-        "img" => "assets/image/when-to-invest-in-custom-business-software-hero.png",
+        "img" => "assets/image/blog-banners/when-to-invest-in-custom-business-software.jpg?v=20261118b",
         "link" => "when-to-invest-in-custom-business-software",
     ],
     [
@@ -64,7 +72,7 @@ $blogs = [
         "excerpt" => "Looking to grow your business with technology? Learn how to choose the right software development partner in Dubai to streamline operations, improve productivity, and build scalable digital solutions.",
         "date" => "October 27, 2026",
         "category" => "Technology",
-        "img" => "assets/image/best-software-development-company-dubai-hero.png",
+        "img" => "assets/image/blog-banners/best-software-development-company-dubai.jpg?v=20261118b",
         "link" => "best-software-development-company-dubai",
     ],
     [
@@ -72,7 +80,7 @@ $blogs = [
         "excerpt" => "Customers expect a simple and convenient buying experience. A well-designed customer portal helps businesses share product information, manage enquiries, simplify ordering, and improve customer satisfaction. Discover how custom portal development can remove buying barriers and support sales growth.",
         "date" => "October 24, 2026",
         "category" => "Technology",
-        "img" => "assets/image/customer-portal-sales-growth-hero.png",
+        "img" => "assets/image/blog-banners/customer-portal-development-for-sales-growth.jpg?v=20261118b",
         "link" => "customer-portal-development-for-sales-growth",
     ],
     [
@@ -80,7 +88,7 @@ $blogs = [
         "excerpt" => "Choosing the wrong software can increase costs, slow down employees, and create unnecessary complexity. Learn how to identify your business needs, evaluate software solutions, and invest in technology that improves productivity and supports long-term growth.",
         "date" => "October 22, 2026",
         "category" => "Technology",
-        "img" => "assets/image/how-to-choose-software-for-business-growth-hero-new.png?v=20261023",
+        "img" => "assets/image/blog-banners/how-to-choose-software-for-business-growth.jpg?v=20261118b",
         "link" => "how-to-choose-software-for-business-growth",
     ],
     [
@@ -88,7 +96,7 @@ $blogs = [
         "excerpt" => "Discover how business system integration links existing software, eliminates double entry, unifies reporting, and cuts costs without expensive replacements.",
         "date" => "October 17, 2026",
         "category" => "Technology",
-        "img" => "assets/image/business-system-integration-hero-new.png?v=20261021",
+        "img" => "assets/image/blog-banners/business-system-integration-guide.jpg?v=20261118b",
         "link" => "business-system-integration-guide",
     ],
     [
@@ -96,7 +104,7 @@ $blogs = [
         "excerpt" => "Software projects often exceed budgets due to vague requirements, scope creep, integration bottlenecks, and deferred testing. Discover seven practical solutions to keep development on track.",
         "date" => "October 15, 2026",
         "category" => "Technology",
-        "img" => "assets/image/software-project-budget-hero-new.png?v=20261021",
+        "img" => "assets/image/blog-banners/software-project-budget-management.jpg?v=20261118b",
         "link" => "software-project-budget-management",
     ],
     [
@@ -104,7 +112,7 @@ $blogs = [
         "excerpt" => "Software bugs can lead to failed transactions, frustrated customers, security risks, and expensive repairs. Learn how software testing services help businesses identify problems before launch, improve application performance, and deliver reliable digital products.",
         "date" => "October 13, 2026",
         "category" => "Technology",
-        "img" => "assets/image/software-testing-services-hero-banner.png?v=20261013",
+        "img" => "assets/image/blog-banners/software-testing-services-prevent-costly-business-errors.jpg?v=20261118b",
         "link" => "software-testing-services-prevent-costly-business-errors",
     ],
     [
@@ -112,7 +120,7 @@ $blogs = [
         "excerpt" => "Is your business software creating more work instead of saving time? Learn how disconnected tools, manual data entry, and inefficient workflows affect productivity and how practical software improvements can help.",
         "date" => "October 9, 2026",
         "category" => "Technology",
-        "img" => "assets/image/business-software-workflow-problems-hero-banner.png?v=20261009",
+        "img" => "assets/image/blog-banners/business-software-workflow-problems-solutions.jpg?v=20261118b",
         "link" => "business-software-workflow-problems-solutions",
         "wide" => true,
         "thumb_bg" => "#ffffff",
@@ -122,7 +130,7 @@ $blogs = [
         "excerpt" => "Discover how custom software development services can help businesses streamline operations, automate processes, improve productivity, and build scalable digital solutions tailored to their specific requirements.",
         "date" => "October 6, 2026",
         "category" => "Technology",
-        "img" => "assets/image/custom-software-development-services-banner.jpg?v=20261009",
+        "img" => "assets/image/blog-banners/custom-software-development-services.jpg?v=20261118b",
         "link" => "custom-software-development-services",
     ],
     [
@@ -130,7 +138,7 @@ $blogs = [
         "excerpt" => "Learn how businesses can reduce manual data entry errors, improve productivity, and streamline workflows with business automation software.",
         "date" => "October 8, 2026",
         "category" => "Technology",
-        "img" => "assets/image/reduce-manual-data-entry-errors-hero-banner.jpg?v=20261009",
+        "img" => "assets/image/blog-banners/reduce-manual-data-entry-errors-business-automation.jpg?v=20261118b",
         "link" => "reduce-manual-data-entry-errors-business-automation",
     ],
     [
@@ -138,7 +146,7 @@ $blogs = [
         "excerpt" => "Discover how custom app development can solve business problems like manual processes, poor customer engagement, slow communication, and inefficient operations.",
         "date" => "October 3, 2026",
         "category" => "Mobile Development",
-        "img" => "assets/image/how-app-development-solves-business-problems-hero-banner.jpg",
+        "img" => "assets/image/blog-banners/how-app-development-solves-business-problems.jpg?v=20261118b",
         "link" => "how-app-development-solves-business-problems",
     ],
     [
@@ -146,7 +154,7 @@ $blogs = [
         "excerpt" => "Learn how to choose CRM software that improves lead management, customer communication, sales tracking, automation, and business efficiency.",
         "date" => "October 2, 2026",
         "category" => "Technology",
-        "img" => "assets/image/how-to-choose-right-crm-software-hero-banner.jpg",
+        "img" => "assets/image/blog-banners/how-to-choose-right-crm-software-for-business.jpg?v=20261118b",
         "link" => "how-to-choose-right-crm-software-for-business",
     ],
     [
@@ -154,7 +162,7 @@ $blogs = [
         "excerpt" => "Learn how businesses can reduce software maintenance costs through code audits, automation, integrations, monitoring, and smarter technology upgrades.",
         "date" => "September 29, 2026",
         "category" => "Technology",
-        "img" => "assets/image/reduce-software-maintenance-costs-hero-banner.jpg",
+        "img" => "assets/image/blog-banners/reduce-software-maintenance-costs.jpg?v=20261118b",
         "link" => "reduce-software-maintenance-costs",
     ],
     [
@@ -162,7 +170,7 @@ $blogs = [
         "excerpt" => "Discover how custom mobile app development can help businesses solve customer engagement, automation, sales, and operational challenges.",
         "date" => "September 26, 2026",
         "category" => "Mobile Development",
-        "img" => "assets/image/custom-mobile-app-development-hero-banner.jpg",
+        "img" => "assets/image/blog-banners/custom-mobile-app-development-business-solutions.jpg?v=20261118b",
         "link" => "custom-mobile-app-development-business-solutions",
     ],
     [
@@ -170,7 +178,7 @@ $blogs = [
         "excerpt" => "Learn how website development in Canada can solve common business problems like poor mobile experience, slow loading, weak conversions, and difficult navigation.",
         "date" => "September 25, 2026",
         "category" => "Web Development",
-        "img" => "assets/image/website-development-canada-hero-banner.jpg",
+        "img" => "assets/image/blog-banners/website-development-canada-business-problems.jpg?v=20261118b",
         "link" => "website-development-canada-business-problems",
     ],
     [
@@ -178,7 +186,7 @@ $blogs = [
         "excerpt" => "Improve your online visibility with voice search optimization services, featured snippet optimization, and AI content optimization for better search performance.",
         "date" => "September 22, 2026",
         "category" => "Digital Marketing",
-        "img" => "assets/image/voice-search-ai-optimization-hero-banner.jpg",
+        "img" => "assets/image/blog-banners/voice-search-featured-snippet-ai-content-optimization.jpg?v=20261118b",
         "link" => "voice-search-featured-snippet-ai-content-optimization",
     ],
     [
@@ -186,7 +194,7 @@ $blogs = [
         "excerpt" => "Looking for an AI search optimization company? Learn how AI-ready SEO, web development and custom software solutions can help businesses grow online.",
         "date" => "September 19, 2026",
         "category" => "Technology",
-        "img" => "assets/image/aisearchera.png",
+        "img" => "assets/image/blog-banners/ai-search-optimization-web-development-custom-software.jpg?v=20261118b",
         "link" => "ai-search-optimization-web-development-custom-software",
     ],
     [
@@ -194,7 +202,7 @@ $blogs = [
         "excerpt" => "Is your website getting visitors but not generating leads? Discover 9 common website problems and practical solutions to turn traffic into business enquiries.",
         "date" => "September 17, 2026",
         "category" => "Web Design",
-        "img" => "assets/image/website-development-seo-services.jpeg",
+        "img" => "assets/image/blog-banners/website-gets-traffic-but-no-leads.jpg?v=20261118b",
         "link" => "website-gets-traffic-but-no-leads",
     ],
     [
@@ -202,7 +210,7 @@ $blogs = [
         "excerpt" => "Discover the best marketing services in Dubai, including SEO, social media, Google Ads and content marketing to increase visibility and leads.",
         "date" => "September 15, 2026",
         "category" => "Digital Marketing",
-        "img" => "assets/image/best-marketing-services-in-dubai.jpg",
+        "img" => "assets/image/blog-banners/best-marketing-services-in-dubai.jpg?v=20261118b",
         "link" => "best-marketing-services-in-dubai",
     ],
     [
@@ -210,7 +218,7 @@ $blogs = [
         "excerpt" => "Looking for the best custom software agency in Dubai? Discover how tailored software development solutions can help businesses improve operations, automate processes, and build scalable digital platforms.",
         "date" => "September 12, 2026",
         "category" => "Technology",
-        "img" => "assets/image/bestsoftwaredubai.jpeg",
+        "img" => "assets/image/blog-banners/best-custom-software-agency-dubai.jpg?v=20261118b",
         "link" => "best-custom-software-agency-dubai",
     ],
     [
@@ -218,7 +226,7 @@ $blogs = [
         "excerpt" => "Looking for professional app development services in USA? Mithila Softech delivers custom mobile applications for businesses, startups, and enterprises with scalable technology, intuitive UI/UX, and reliable development solutions.",
         "date" => "September 11, 2026",
         "category" => "Mobile Development",
-        "img" => "assets/image/bestmarketingusa.jpeg",
+        "img" => "assets/image/blog-banners/app-development-services-usa.jpg?v=20261118b",
         "link" => "app-development-services-usa",
     ],
     [
@@ -226,7 +234,7 @@ $blogs = [
         "excerpt" => "Finding the best marketing company in Dubai can help businesses improve online visibility, attract qualified customers, and increase conversions. Learn what to look for when choosing a digital marketing partner in Dubai.",
         "date" => "September 8, 2026",
         "category" => "Digital Marketing",
-        "img" => "assets/image/bestmarketingdubai.jpeg",
+        "img" => "assets/image/blog-banners/best-marketing-company-in-dubai.jpg?v=20261118b",
         "link" => "best-marketing-company-in-dubai",
     ],
     [
@@ -234,7 +242,7 @@ $blogs = [
         "excerpt" => "A professional website is essential for businesses competing in Dubai's highly competitive digital market. Discover how the best website development services in Dubai can help improve your online presence, attract customers, generate leads, and support long-term business growth.",
         "date" => "September 5, 2026",
         "category" => "Web Development",
-        "img" => "assets/image/best-website-development-services-dubai.jpg",
+        "img" => "assets/image/blog-banners/best-website-development-services-dubai.jpg?v=20261118b",
         "link" => "best-website-development-services-dubai",
     ],
     [
@@ -242,7 +250,7 @@ $blogs = [
         "excerpt" => "Looking for the best digital marketing agency in India? Discover how SEO, Google Ads, social media, content marketing, and analytics can help grow your business online.",
         "date" => "September 3, 2026",
         "category" => "Digital Marketing",
-        "img" => "assets/image/best-digital-marketing-agency-in-india.jpg",
+        "img" => "assets/image/blog-banners/best-digital-marketing-agency-in-india.jpg?v=20261118b",
         "link" => "best-digital-marketing-agency-in-india",
     ],
     [
@@ -250,7 +258,7 @@ $blogs = [
         "excerpt" => "Looking for the best website designing company in India? Learn what makes a professional web design company different and how a well-designed, responsive, and SEO-friendly website can help your business attract visitors, build trust, and generate more leads.",
         "date" => "September 1, 2026",
         "category" => "Web Design",
-        "img" => "assets/image/best-website-designing-company-in-india.jpg",
+        "img" => "assets/image/blog-banners/best-website-designing-company-in-india.jpg?v=20261118b",
         "link" => "best-website-designing-company-in-india",
     ],
     [
@@ -258,7 +266,7 @@ $blogs = [
         "excerpt" => "Explore the top web development services in the USA that help businesses build fast, secure, responsive, and user-friendly websites designed for long-term growth.",
         "date" => "August 29, 2026",
         "category" => "Web Development",
-        "img" => "assets/image/top-web-dev-services-usa-hero.jpg",
+        "img" => "assets/image/blog-banners/top-web-development-services-in-usa.jpg?v=20261118b",
         "link" => "top-web-development-services-in-usa",
     ],
     [
@@ -266,7 +274,7 @@ $blogs = [
         "excerpt" => "Custom software helps businesses automate repetitive tasks, analyze data, improve decision-making, and deliver smarter customer experiences. Discover how tailored software solutions can support business growth.",
         "date" => "August 29, 2026",
         "category" => "Technology",
-        "img" => "assets/image/custom-software-services-usa-hero.jpg",
+        "img" => "assets/image/blog-banners/custom-software-services-usa.jpg?v=20261118b",
         "link" => "custom-software-services-usa",
     ],
     [
@@ -274,7 +282,7 @@ $blogs = [
         "excerpt" => "Discover why businesses looking for the best IT services company in Canada need a technology partner that combines software development, web solutions, mobile apps, digital transformation, and business-focused IT services.",
         "date" => "August 25, 2026",
         "category" => "Technology",
-        "img" => "assets/image/new_blog25_0.png",
+        "img" => "assets/image/blog-banners/best-it-services-company-in-canada.jpg?v=20261118b",
         "link" => "best-it-services-company-in-canada",
     ],
     [
@@ -282,7 +290,7 @@ $blogs = [
         "excerpt" => "Choosing the right web development partner can have a major impact on your online visibility, customer experience, and business growth. Explore the key web development services Australian businesses need and learn how Mithila Softech can help create responsive, scalable, secure, and business-focused digital solutions.",
         "date" => "August 22, 2026",
         "category" => "Web Development",
-        "img" => "assets/image/blog_image_2.png",
+        "img" => "assets/image/blog-banners/best-web-development-services-in-australia.jpg?v=20261118b",
         "link" => "best-web-development-services-in-australia",
     ],
     [
@@ -290,7 +298,7 @@ $blogs = [
         "excerpt" => "Finding the best custom IT solution services in Canada can help businesses replace inefficient processes, automate operations, improve customer experiences, and build scalable digital systems. Learn how to choose the right technology partner and why customized IT solutions can be a better fit than one-size-fits-all software.",
         "date" => "August 20, 2026",
         "category" => "Technology",
-        "img" => "assets/image/blog_image_0.png",
+        "img" => "assets/image/blog-banners/best-custom-it-solution-services-in-canada.jpg?v=20261118b",
         "link" => "best-custom-it-solution-services-in-canada",
     ],
     [
@@ -298,7 +306,7 @@ $blogs = [
         "excerpt" => "Choosing the best web development company in the UK can significantly impact your online growth. Learn what to look for in a web development partner and how the right team can build a secure, scalable, and SEO-friendly website.",
         "date" => "August 18, 2026",
         "category" => "Web Development",
-        "img" => "assets/image/best-web-dev-uk-2.png",
+        "img" => "assets/image/blog-banners/best-web-development-company-in-uk.jpg?v=20261118b",
         "link" => "best-web-development-company-in-uk",
     ],
     [
@@ -306,7 +314,7 @@ $blogs = [
         "excerpt" => "Looking for reliable mobile app development services in Australia? Discover how custom Android, iOS, and cross-platform apps can help businesses improve customer engagement, automate processes, and support long-term growth.",
         "date" => "August 14, 2026",
         "category" => "Technology",
-        "img" => "assets/image/australia-app-hero.png",
+        "img" => "assets/image/blog-banners/best-mobile-app-development-services-australia.jpg?v=20261118b",
         "link" => "best-mobile-app-development-services-australia",
     ],
     [
@@ -314,7 +322,7 @@ $blogs = [
         "excerpt" => "Looking for the best custom software development company in Canada? Learn how the right development partner can help businesses build secure, scalable, and customized software solutions.",
         "date" => "August 13, 2026",
         "category" => "Technology",
-        "img" => "assets/image/canada-software-hero-2026.png",
+        "img" => "assets/image/blog-banners/best-custom-software-development-company-canada.jpg?v=20261118b",
         "link" => "best-custom-software-development-company-canada",
     ],
     [
@@ -322,7 +330,7 @@ $blogs = [
         "excerpt" => "Discover why custom software development is becoming essential for UK businesses in 2026 and how the right software development partner can improve efficiency, security, automation, and long-term growth.",
         "date" => "August 11, 2026",
         "category" => "Technology",
-        "img" => "assets/image/uk-software-hero-2026.png",
+        "img" => "assets/image/blog-banners/best-software-development-company-2026.jpg?v=20261118b",
         "link" => "best-software-development-company-2026",
     ],
     [
@@ -330,7 +338,7 @@ $blogs = [
         "excerpt" => "Looking for the best app development company in 2026? Discover the key factors businesses should consider when choosing a reliable mobile app development company for secure, scalable, and user-friendly applications.",
         "date" => "August 8, 2026",
         "category" => "App Development",
-        "img" => "assets/image/app-dev-2026-img1.png",
+        "img" => "assets/image/blog-banners/best-app-development-company-in-2026.jpg?v=20261118b",
         "link" => "best-app-development-company-in-2026",
     ],
     [
@@ -338,7 +346,7 @@ $blogs = [
         "excerpt" => "Searching for the best website development services in UK? Discover how Mithila Softech creates high-performance, SEO-friendly, and custom websites designed to increase traffic, improve user experience, and generate more business leads.",
         "date" => "August 6, 2026",
         "category" => "Web Development",
-        "img" => "assets/image/web-dev-uk-img1.png",
+        "img" => "assets/image/blog-banners/best-website-development-services-in-uk.jpg?v=20261118b",
         "link" => "best-website-development-services-in-uk",
     ],
     [
@@ -346,7 +354,7 @@ $blogs = [
         "excerpt" => "Want to increase likes, comments, shares, and conversions? Learn the best social media engagement strategies that help businesses build stronger relationships, improve brand visibility, and achieve sustainable growth.",
         "date" => "August 4, 2026",
         "category" => "Social Media",
-        "img" => "assets/image/social-media-engagement-hero-new.jpg",
+        "img" => "assets/image/blog-banners/tips-to-improve-social-media-engagement.jpg?v=20261118b",
         "link" => "tips-to-improve-social-media-engagement",
     ],
     [
@@ -354,7 +362,7 @@ $blogs = [
         "excerpt" => "Looking for the best custom software development company in 2026? Explore our list of the top 10 software development companies that deliver innovative, scalable, and secure software solutions for businesses across industries.",
         "date" => "1st August 2026",
         "category" => "Technology",
-        "img" => "assets/image/top-10-custom-software-2026-hero.jpg",
+        "img" => "assets/image/blog-banners/top-10-custom-software-development-companies-in-2026.jpg?v=20261118b",
         "link" => "top-10-custom-software-development-companies-in-2026",
     ],
     [
@@ -362,7 +370,7 @@ $blogs = [
         "excerpt" => "Discover how AI development services help businesses automate operations, improve customer experiences, and drive growth. Learn how Mithila Softech builds AI-powered business solutions.",
         "date" => "July 30, 2026",
         "category" => "Technology",
-        "img" => "assets/image/blog30july.png",
+        "img" => "assets/image/blog-banners/ai-development-services.jpg?v=20261118b",
         "link" => "ai-development-services",
     ],
     [
@@ -370,7 +378,7 @@ $blogs = [
         "excerpt" => "Choosing the right ERP software development company can transform your business operations by integrating departments, automating workflows, and improving decision-making. Learn how Mithila Softech develops scalable, secure, and customized ERP solutions for businesses across industries.",
         "date" => "July 28, 2026",
         "category" => "Technology",
-        "img" => "assets/image/blog28july.jpg",
+        "img" => "assets/image/blog-banners/erp-software-development-company.jpg?v=20261118b",
         "link" => "erp-software-development-company",
     ],
     [
@@ -378,7 +386,7 @@ $blogs = [
         "excerpt" => "A successful SEO marketing campaign in 2026 requires much more than keyword optimization. Discover the seven essential elements that improve search rankings, user experience, and conversions while leveraging AI-powered digital marketing and modern SEO strategies.",
         "date" => "July 25, 2026",
         "category" => "Digital Marketing",
-        "img" => "assets/image/blog25july.jpg",
+        "img" => "assets/image/blog-banners/7-integral-elements-successful-seo-marketing-campaign-2026.jpg?v=20261118b",
         "link" => "7-integral-elements-successful-seo-marketing-campaign-2026",
     ],
     [
@@ -386,7 +394,7 @@ $blogs = [
         "excerpt" => "Discover how a Technical SEO agency combines AI powered digital marketing, voice search optimization services, featured snippet optimization, and AI content optimization to improve website performance, increase organic rankings, and drive sustainable business growth in 2026.",
         "date" => "July 23, 2026",
         "category" => "Technical SEO",
-        "img" => "assets/image/twentythirdblog.png",
+        "img" => "assets/image/blog-banners/technical-seo-agency-ai-powered-digital-marketing.jpg?v=20261118b",
         "link" => "technical-seo-agency-ai-powered-digital-marketing",
     ],
     [
@@ -394,7 +402,7 @@ $blogs = [
         "excerpt" => "Artificial Intelligence is reshaping digital marketing by helping businesses improve SEO, create optimized content, and capture more organic traffic. Learn how AI-powered digital marketing, voice search optimization, and featured snippet optimization can help your business grow online.",
         "date" => "July 21, 2026",
         "category" => "Digital Marketing",
-        "img" => "assets/image/twentyoneblog.png",
+        "img" => "assets/image/blog-banners/ai-powered-digital-marketing-featured-snippet-optimization.jpg?v=20261118b",
         "link" => "ai-powered-digital-marketing-featured-snippet-optimization",
     ],
     [
@@ -402,7 +410,7 @@ $blogs = [
         "excerpt" => "Discover how AI integration services help businesses automate operations, improve customer experience, and increase productivity. Learn how Mithila Softech develops custom AI-powered business solutions.",
         "date" => "July 18, 2026",
         "category" => "Technology",
-        "img" => "assets/image/custom-ai.png",
+        "img" => "assets/image/blog-banners/ai-integration-services-for-businesses.jpg?v=20261118b",
         "link" => "ai-integration-services-for-businesses",
     ],
     [
@@ -410,7 +418,7 @@ $blogs = [
         "excerpt" => "Discover how API development and integration services help businesses connect applications, automate workflows, improve efficiency, and enable seamless data exchange. Learn why custom API solutions are essential for modern enterprises.",
         "date" => "July 16, 2026",
         "category" => "Technology",
-        "img" => "assets/image/api-development-and-integration-services-for-businesses.png",
+        "img" => "assets/image/blog-banners/api-development-integration-services.jpg?v=20261118b",
         "link" => "api-development-integration-services",
     ],
     [
@@ -418,7 +426,7 @@ $blogs = [
         "excerpt" => "Discover how Progressive Web Applications (PWAs) combine the speed of mobile apps with the accessibility of websites. Learn why businesses are investing in PWA development to improve customer experience, boost conversions, and reduce development costs.",
         "date" => "July 13, 2026",
         "category" => "Technology",
-        "img" => "assets/image/progressive-web-app-development-company-india.png",
+        "img" => "assets/image/blog-banners/progressive-web-app-development-company-india.jpg?v=20261118b",
         "link" => "progressive-web-app-development-company-india",
     ],
     [
@@ -426,7 +434,7 @@ $blogs = [
         "excerpt" => "A strong digital presence is essential for business success in 2026. Learn how a Digital Marketing Company in India can help you attract customers, improve search rankings, and maximize your marketing ROI with customized strategies.",
         "date" => "July 10, 2026",
         "category" => "Digital Marketing",
-        "img" => "assets/image/digital-marketing-company-in-india-can-transform-your-business-in-2026.png",
+        "img" => "assets/image/blog-banners/digital-marketing-company-india.jpg?v=20261118b",
         "link" => "digital-marketing-company-india",
     ],
     [
@@ -434,7 +442,7 @@ $blogs = [
         "excerpt" => "Artificial Intelligence is revolutionizing digital marketing by making campaigns smarter, faster, and more personalized. Learn how businesses can use AI to improve SEO, content creation, advertising, customer engagement, and overall marketing performance.",
         "date" => "July 8, 2026",
         "category" => "Digital Marketing",
-        "img" => "assets/image/how-ai-is-transforming-digital-marketing-10-strategies-every-business-should-adopt-in-2026.png",
+        "img" => "assets/image/blog-banners/ai-in-digital-marketing.jpg?v=20261118b",
         "link" => "ai-in-digital-marketing",
     ],
     [
@@ -442,7 +450,7 @@ $blogs = [
         "excerpt" => "Should your business focus on Local SEO or Traditional SEO? This guide explains the key differences, benefits, and best use cases to help you make the right decision and grow your online presence.",
         "date" => "July 6, 2026",
         "category" => "Digital Marketing",
-        "img" => "assets/image/local-seo-vs-traditional-seo-which-strategy-is-best-for-your-business-in-2026.jpg",
+        "img" => "assets/image/blog-banners/local-seo-vs-traditional-seo.jpg?v=20261118b",
         "link" => "local-seo-vs-traditional-seo",
     ],
     [
@@ -450,7 +458,7 @@ $blogs = [
         "excerpt" => "Businesses today need more than a standard website. They need powerful web applications that automate operations, improve customer experiences, and support business growth. Learn how a professional web application development company builds secure, scalable, and custom web applications.",
         "date" => "July 4, 2026",
         "category" => "Technology",
-        "img" => local_blog_image("assets/image/web-application-development-company.png", "assets/image/web.jpg?v=20260704"),
+        "img" => "assets/image/blog-banners/web-application-development-company.jpg?v=20261118b",
         "link" => "web-application-development-company",
     ],
     [
@@ -458,7 +466,7 @@ $blogs = [
         "excerpt" => "Customer relationships are the foundation of every successful business, but managing leads, sales, follow-ups, and customer interactions manually can become overwhelming. Custom CRM software development centralizes customer data, automates tasks, improves communication, and increases sales efficiency.",
         "date" => "July 3, 2026",
         "category" => "Technology",
-        "img" => local_blog_image("assets/image/custom-crm-software-development-services.png", "assets/image/crm-software-app-development.png?v=20260703"),
+        "img" => "assets/image/blog-banners/custom-crm-software-development-services.jpg?v=20261118b",
         "link" => "custom-crm-software-development-services",
     ],
     [
@@ -466,7 +474,7 @@ $blogs = [
         "excerpt" => "Managing business operations with separate software leads to inefficiencies, data duplication, and communication gaps. A custom ERP system integrates finance, inventory, HR, CRM, sales, and operations into one centralized platform for automation, productivity, and growth.",
         "date" => "July 2, 2026",
         "category" => "Technology",
-        "img" => local_blog_image("assets/image/erp-software-development-company-india.png", "assets/image/customit.png?v=20260702"),
+        "img" => "assets/image/blog-banners/erp-software-development-company-india.jpg?v=20261118b",
         "link" => "erp-software-development-company-india",
     ],
     [
@@ -474,7 +482,7 @@ $blogs = [
         "excerpt" => "Customer relationships are the foundation of every successful business. Learn how custom CRM software can centralize customer data, automate repetitive tasks, improve collaboration, and help your sales team close more deals while increasing overall productivity.",
         "date" => "June 27, 2026",
         "category" => "Technology",
-        "img" => "assets/image/custom-crm-software-sales-productivity.jpg?v=20260627-1458",
+        "img" => "assets/image/blog-banners/custom-crm-software-increase-sales-productivity.jpg?v=20261118b",
         "link" => "custom-crm-software-increase-sales-productivity",
     ],
     [
@@ -482,22 +490,22 @@ $blogs = [
         "excerpt" => "Looking for the best software development services in UK? Discover key factors, benefits, and how custom software solutions can help businesses achieve digital transformation and growth.",
         "date" => "June 25, 2026",
         "category" => "Technology",
-        "img" => "assets/image/best-software-development-services-in-uk.jpeg?v=20260626-1135",
+        "img" => "assets/image/blog-banners/best-software-development-services-in-uk.jpg?v=20261118b",
         "link" => "best-software-development-services-in-uk",
     ],    [
         "title" => "What Is AI SEO? How It Works and Why It Matters in 2026",
         "excerpt" => "AI SEO is the future of search optimization where artificial intelligence is used to improve rankings, content relevance, and visibility across Google and AI-powered search engines.",
         "date" => "June 22, 2026",
         "category" => "Digital Marketing",
-        "img" => "assets/image/what-is-ai-seo-2026.jpg?v=20260622-1659x948",
-        "link" => "what-is-ai-seo-2026.php",
+        "img" => "assets/image/blog-banners/what-is-ai-seo-2026.jpg?v=20261118b",
+        "link" => "what-is-ai-seo-2026",
     ],
     [
         "title" => "AI Powered Digital Marketing: How AI, Voice Search, and Technical SEO Are Transforming Business Growth",
         "excerpt" => "Artificial Intelligence is revolutionizing digital marketing by helping businesses automate campaigns, personalize customer experiences, and make smarter decisions. Combined with voice search, technical SEO, and AI content optimization, companies can achieve sustainable growth.",
         "date" => "June 20, 2026",
         "category" => "Digital Marketing",
-        "img" => "assets/image/ai-powered-digital-marketing.jpg?v=20260622-1659x948",
+        "img" => "assets/image/blog-banners/ai-powered-digital-marketing-voice-search-technical-seo-guide.jpg?v=20261118b",
         "link" => "ai-powered-digital-marketing-voice-search-technical-seo-guide",
     ],
     [
@@ -505,7 +513,7 @@ $blogs = [
         "excerpt" => "A well-designed website and an effective SEO strategy are essential for business success in today's digital landscape. Learn how website development and affordable SEO solutions can help businesses attract customers, build credibility, and achieve sustainable growth.",
         "date" => "June 16, 2026",
         "category" => "Digital Marketing",
-        "img" => "assets/image/website-development-seo-services.jpeg?v=20260619-1246",
+        "img" => "assets/image/blog-banners/website-development-services-affordable-seo-services-india.jpg?v=20261118b",
         "link" => "website-development-services-affordable-seo-services-india",
     ],
     [
@@ -513,7 +521,7 @@ $blogs = [
         "excerpt" => "Businesses today need smarter ways to engage customers and stay competitive. Learn how CRM software and mobile applications can streamline operations, enhance customer experiences, and support long-term growth.",
         "date" => "June 16, 2026",
         "category" => "Technology",
-        "img" => "assets/image/crm-software-app-development.png?v=20260619-1215",
+        "img" => "assets/image/blog-banners/crm-software-development-company-app-development-company-india.jpg?v=20261118b",
         "link" => "crm-software-development-company-app-development-company-india",
     ],
     [
@@ -521,7 +529,7 @@ $blogs = [
         "excerpt" => "Choosing the best digital marketing company in Canada is about more than rankings and ads. Businesses that combine strategic marketing with custom technology solutions often achieve better efficiency, stronger customer relationships, and sustainable growth.",
         "date" => "June 10, 2026",
         "category" => "Digital Marketing",
-        "img" => "assets/image/canadadigital.png?v=20260610-1659",
+        "img" => "assets/image/blog-banners/best-digital-marketing-company-canada-integrated-business-growth.jpg?v=20261118b",
         "link" => "best-digital-marketing-company-canada-integrated-business-growth",
     ],
     [
@@ -529,7 +537,7 @@ $blogs = [
         "excerpt" => "Small businesses are increasingly hearing about AI SEO, but many are unsure how it differs from traditional SEO. This guide explains the key differences, benefits, and why AI-powered optimization is becoming an important part of modern digital marketing strategies.",
         "date" => "June 8, 2026",
         "category" => "Digital Marketing",
-        "img" => "assets/image/seovsai.png?v=20260610-1659",
+        "img" => "assets/image/blog-banners/seo-vs-ai-seo-services-for-small-businesses.jpg?v=20261118b",
         "link" => "seo-vs-ai-seo-services-for-small-businesses",
     ],
     [
@@ -537,7 +545,7 @@ $blogs = [
         "excerpt" => "Modern businesses need specialized digital marketing strategies to compete in crowded online markets. From SEO and content marketing to eCommerce optimization and SaaS growth campaigns, choosing the right expertise can significantly improve visibility, lead generation, and long-term revenue growth.",
         "date" => "June 5, 2026",
         "category" => "Digital Marketing",
-        "img" => "assets/image/businessgrowth.png?v=20260610-1659",
+        "img" => "assets/image/blog-banners/specialized-digital-marketing-services-for-business-growth.jpg?v=20261118b",
         "link" => "specialized-digital-marketing-services-for-business-growth",
     ],
     [
@@ -545,7 +553,7 @@ $blogs = [
         "excerpt" => "Explore how a logistics and transportation company streamlined operations, improved customer communication, and accelerated business growth through custom software, ERP integration, CRM systems, mobile app development, and website optimization.",
         "date" => "May 27, 2026",
         "category" => "Case Study",
-        "img" => "assets/image/digitallogistics.png?v=20260610-1659",
+        "img" => "assets/image/blog-banners/custom-software-development-logistics-business-case-study.jpg?v=20261118b",
         "link" => "custom-software-development-logistics-business-case-study",
     ],
     [
@@ -553,7 +561,7 @@ $blogs = [
         "excerpt" => "Businesses today need more than traditional SEO to stay competitive. By combining technical optimization, AI-driven strategies, and answer-focused content, companies can improve search visibility, attract qualified leads, and drive sustainable business growth.",
         "date" => "June 2, 2026",
         "category" => "Digital Marketing",
-        "img" => "assets/image/aisearchera.png?v=20260610-1659",
+        "img" => "assets/image/blog-banners/business-growth-through-modern-search-optimization.jpg?v=20261118b",
         "link" => "business-growth-through-modern-search-optimization",
     ],
     [
@@ -561,7 +569,7 @@ $blogs = [
         "excerpt" => "Discover how Nike transformed into a digital-first global brand using SEO, social media storytelling, influencer marketing, mobile engagement, and personalized campaigns. Learn actionable digital growth strategies businesses can apply for long-term online success.",
         "date" => "April 24, 2026",
         "category" => "Case Study",
-        "img" => "assets/image/nikecase.png?v=20260610-1659",
+        "img" => "assets/image/blog-banners/nike-digital-marketing-case-study.jpg?v=20261118b",
         "link" => "nike-digital-marketing-case-study",
     ],
     [
@@ -569,7 +577,7 @@ $blogs = [
         "excerpt" => "Learn how Mithila Softech helped a real estate developer generate Rs. 3.2 crore in property sales through SEO, AEO, social media campaigns, and performance marketing strategies designed for high-quality property lead generation.",
         "date" => "January 24, 2026",
         "category" => "Case Study",
-        "img" => "assets/image/realestateblog.png?v=20260610-1659",
+        "img" => "assets/image/blog-banners/real-estate-digital-marketing-case-study-property-sales.jpg?v=20261118b",
         "link" => "real-estate-digital-marketing-case-study-property-sales",
     ],
     [
@@ -577,7 +585,7 @@ $blogs = [
         "excerpt" => "Mithila SoftWch is a leading SEO company in Delhi offering AI SEO services, digital marketing strategies, and affordable SEO services for small businesses across India to improve rankings, traffic, and online visibility.",
         "date" => "February 1, 2026",
         "category" => "Digital Marketing",
-        "img" => "assets/image/seoindelhi.png?v=20260610-1659",
+        "img" => "assets/image/blog-banners/seo-company-in-delhi-ai-seo-services-india.jpg?v=20261118b",
         "link" => "seo-company-in-delhi-ai-seo-services-india",
     ],
     [
@@ -585,7 +593,7 @@ $blogs = [
         "excerpt" => "Digital marketing has become essential for every local business that wants to grow in today's competitive market. From SEO and social media marketing to website development and lead generation, businesses can now reach more customers online and build a stronger brand presence.",
         "date" => "May 25, 2026",
         "category" => "Digital Marketing",
-        "img" => "assets/image/blog6.png?v=20260610-1659",
+        "img" => "assets/image/blog-banners/how-digital-marketing-helps-local-businesses-grow-faster-in-2026.jpg?v=20261118b",
         "link" => "how-digital-marketing-helps-local-businesses-grow-faster-in-2026",
     ],
     [
@@ -593,7 +601,7 @@ $blogs = [
         "excerpt" => "Learn how professional SEO services help small businesses improve search rankings, attract targeted customers, increase website traffic, and achieve long-term business growth.",
         "date" => "March 20, 2026",
         "category" => "Digital Marketing",
-        "img" => "assets/image/blog5.png?v=20260610-1659",
+        "img" => "assets/image/blog-banners/seo-services-for-small-business-2026.jpg?v=20261118b",
         "link" => "seo-services-for-small-business-2026",
     ],
     [
@@ -601,7 +609,7 @@ $blogs = [
         "excerpt" => "Explore how custom software development helps businesses streamline operations, improve productivity, automate workflows, and achieve long-term growth in the digital era.",
         "date" => "February 15, 2026",
         "category" => "Technology",
-        "img" => "assets/image/whycustom.png?v=20260610-1659",
+        "img" => "assets/image/blog-banners/why-custom-software-development-is-essential-for-business-growth-in-2026.jpg?v=20261118b",
         "link" => "why-custom-software-development-is-essential-for-business-growth-in-2026",
     ],
     [
@@ -609,7 +617,7 @@ $blogs = [
         "excerpt" => "Discover how digital transformation is helping businesses modernize operations, improve productivity, and achieve long-term growth through automation, software development, and digital technologies.",
         "date" => "May 10, 2026",
         "category" => "Business",
-        "img" => "assets/image/theultimateguide.png?v=20260610-1659",
+        "img" => "assets/image/blog-banners/the-ultimate-guide-to-digital-transformation-for-modern-businesses.jpg?v=20261118b",
         "link" => "the-ultimate-guide-to-digital-transformation-for-modern-businesses",
     ],
     [
@@ -617,7 +625,7 @@ $blogs = [
         "excerpt" => "Explore the top mobile app development trends businesses should follow in 2026, including AI-powered apps, cross-platform development, IoT integration, super apps, and advanced user experiences.",
         "date" => "January 1, 2026",
         "category" => "Mobile Development",
-        "img" => "assets/image/mobileapp-development.png?v=20260610-1659",
+        "img" => "assets/image/blog-banners/mobile-app-development-trends-every-business-should-know-in-2026.jpg?v=20261118b",
         "link" => "mobile-app-development-trends-every-business-should-know-in-2026",
     ],
 ];

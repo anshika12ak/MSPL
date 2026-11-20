@@ -1,4 +1,5 @@
 <?php
+$activePage = 'blog';
 $title = "Best Website Development Services in UK | Custom Web Development Company | Mithila Softech";
 $meta_description = "Looking for the best website development services in UK? Mithila Softech builds responsive, SEO-friendly, secure, and custom websites that help businesses grow online. Get a free consultation today.";
 $meta_keywords = "Best Website Development Services in UK, Website Development Company UK, Custom Website Development UK, Web Development Services UK, Professional Website Developers UK, Responsive Website Development, Ecommerce Website Development UK, WordPress Website Development UK, Business Website Development, SEO Friendly Website Development";
@@ -6,12 +7,17 @@ $canonical = "https://mithilasoftech.com/best-website-development-services-in-uk
 $hero_title = "Best Website Development Services in UK";
 $hero_subtext = "Searching for the best website development services in UK? Discover how Mithila Softech creates high-performance, SEO-friendly, and custom websites designed to increase traffic, improve user experience, and generate more business leads.";
 $category = "Web Development";
-$hero_bg_image = "assets/image/web-dev-uk-img1.png";
+$hero_bg_image = 'assets/image/blog-banners/best-website-development-services-in-uk.jpg?v=' . (file_exists(__DIR__ . '/assets/image/blog-banners/best-website-development-services-in-uk.jpg') ? filemtime(__DIR__ . '/assets/image/blog-banners/best-website-development-services-in-uk.jpg') : '20261118');
+$hero_image_only = true;
+$hero_alt = 'Best Website Development Services in UK | Custom Web Development Company | Mithila Softech';
+$featured_image = false;
+$fallbackImg = 'https://placehold.co/600x400/e5e7eb/6b7280?text=Image+Unavailable';
 
 $content_blocks = [
     ['type' => 'p', 'html' => "In today's digital-first world, your website is more than just an online presence - it's the foundation of your business. Whether you're a startup, a growing enterprise, or an established company, having a professionally designed website is essential to building credibility, attracting customers, and increasing revenue."],
     ['type' => 'p', 'html' => "If you're searching for the best website development services in UK, choosing the right development partner can make all the difference. A well-built website doesn't just look great; it delivers exceptional performance, ranks well on search engines, and converts visitors into loyal customers."],
     ['type' => 'p', 'html' => "At <a href='https://mithilasoftech.com/' style='color: var(--blue-dark); text-decoration: underline; font-weight: 600;'>Mithila Softech</a>, we specialize in creating custom, responsive, and SEO-friendly websites that help businesses across the UK achieve sustainable online growth."],
+    ['type' => 'img', 'max_width' => 450, 'src' => 'assets/image/web-dev-uk-img2.png', 'alt' => 'Best Website Development Services in UK'],
 
     ['type' => 'h2', 'text' => "Why Professional Website Development Matters"],
     ['type' => 'p', 'html' => "Your website often creates the first impression of your business. Research shows that users decide within seconds whether to stay on a website or leave. A slow, outdated, or poorly designed website can result in lost customers and lower search engine rankings."],
