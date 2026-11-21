@@ -12,6 +12,14 @@ if (!function_exists('local_blog_image')) {
 
 $blogs = [
     [
+        "title" => "How Australian Businesses Can Modernise Legacy Software for Better Performance",
+        "excerpt" => "Outdated software can slow business growth. Discover how Australian companies can modernise legacy systems, improve workflows and build more efficient digital operations.",
+        "date" => "November 21, 2026",
+        "category" => "Technology",
+        "img" => "assets/image/blog-banners/software-modernisation-services-australia.jpg",
+        "link" => "software-modernisation-services-australia",
+    ],
+    [
         "title" => "How Australian Businesses Can Choose the Right Software Development Partner for Digital Growth",
         "excerpt" => "Australian businesses need reliable software solutions to improve operations, manage data and deliver better customer experiences. Discover how to choose the right software development partner, evaluate technical capabilities and build applications that support long-term business growth.",
         "date" => "November 19, 2026",
